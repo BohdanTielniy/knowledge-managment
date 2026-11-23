@@ -1,0 +1,10 @@
+id,claim,type,source,verification_level,status,comment
+C001,"Пороги правил з ЛР 7 (ураження >10 %, T>30 °C, вологість <30 %, >=7 діб без опадів, вік >=81, NDVI <0.65) перенесено в запити без змін",fact,"ЛР 7 розд. 4, 6.1",V1,verified,"Звірено з текстом ЛР 7; еталонні значення порахував scripts/check_data.py"
+C002,"CSV містять 166 вузлів, 333 зв'язки, 10 міток і 14 типів зв'язків; усі кінці зв'язків існують, id унікальні",fact,"scripts/check_data.py",V2,verified,"Перевірено виконанням; кількості у Neo4j треба підтвердити виводом 03_verify_counts"
+C003,"Унікальне обмеження в Neo4j 5 автоматично створює індекс для властивості",fact,"Neo4j Cypher Manual: Constraints",V1,pending,"Звірити з документацією та SHOW INDEXES після імпорту"
+C004,"MERGE за шаблоном (a)-[:T]->(b) не створює дублікатів при повторному LOAD CSV",rule,"Neo4j Cypher Manual: MERGE",V2,pending,"Підтвердити порівнянням 03_counts_after_first/second_import"
+C005,"Neo4j Community Edition не підтримує користувацьких ролей (CREATE ROLE), потрібен Enterprise",fact,"Neo4j Operations Manual: Authentication and authorization",V1,pending,"Перевірити в документації для вибраної версії 5.x"
+C006,"Плагін GDS (NEO4J_PLUGINS=graph-data-science) у Docker підбирає версію, сумісну з образом Neo4j",hypothesis,"Neo4j Docker документація",V2,pending,"Підтвердити CALL gds.version() після запуску контейнера"
+C007,"GDS Community Edition містить gds.pageRank та gds.louvain",fact,"Neo4j GDS Manual",V1,pending,"Підтвердити CALL gds.list() у Результаті 4"
+C008,"Значення NEO4J_ACCEPT_LICENSE_AGREEMENT=eval дозволяє запуск Enterprise-образу в оцінювальному режимі",hypothesis,"Neo4j Docker документація",V1,pending,"Не використовувати, поки не підтверджено умови ліцензії для навчального використання"
+C009,"Синтетичне розширення даних (140 вузлів, origin=synthetic) відповідає типовим співвідношенням ЛР 7 (запас/га ~250-340 м³, приріст 8.5-12 % запасу)",hypothesis,"gen_data.py за прикладами V-012, V-003, V-008",V1,pending,"Це модельні дані, не фактичний облік; задекларувати у звіті"
