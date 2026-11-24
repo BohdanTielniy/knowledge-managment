@@ -1,0 +1,9 @@
+id,subtype,origin,name,latinName
+Species_PiceaAbies,ConiferousSpecies,lab7-8,Ялина європейська,Picea abies
+Species_PinusSylvestris,ConiferousSpecies,lab7-8,Сосна звичайна,Pinus sylvestris
+Species_FagusSylvatica,DeciduousSpecies,lab7-8,Бук лісовий,Fagus sylvatica
+Species_AbiesAlba,ConiferousSpecies,synthetic,Ялиця біла,Abies alba
+Species_LarixDecidua,ConiferousSpecies,synthetic,Модрина європейська,Larix decidua
+Species_QuercusRobur,DeciduousSpecies,synthetic,Дуб звичайний,Quercus robur
+Species_CarpinusBetulus,DeciduousSpecies,synthetic,Граб звичайний,Carpinus betulus
+Species_BetulaPendula,DeciduousSpecies,synthetic,Береза повисла,Betula pendula

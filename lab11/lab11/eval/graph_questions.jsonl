@@ -1,0 +1,12 @@
+{"id": "GQ01", "query": "Яка загроза, санітарна рубка та лісник пов'язані з виділом V-012?", "expected_entities": ["Compartment_V012", "Threat_IpsTypographus", "SanitaryFelling_2026_V012", "Forester_F104"]}
+{"id": "GQ02", "query": "Що зачепить перевищення квоти на виділі V-102 і квиток ЛК-2026-047?", "expected_entities": ["Compartment_V102", "Ticket_LK2026_047", "MainFelling_2026_V102", "Quota_2026_V102_620m3"]}
+{"id": "GQ03", "query": "Які виділи та процеси контролює лісник Фомін О.В. (F-104)?", "expected_entities": ["Forester_F104", "Compartment_V012", "Forestry_LS01"]}
+{"id": "GQ04", "query": "Яка порода, продукція та загроза закріплені за виділом V-008?", "expected_entities": ["Compartment_V008", "Species_FagusSylvatica", "Threat_Windthrow2026"]}
+{"id": "GQ05", "query": "Який ліміт збору обмежує білі гриби та чорницю?", "expected_entities": ["Product_BoletusMushrooms", "Product_Blueberries", "Quota_2026_NonTimber_800kg"]}
+{"id": "GQ06", "query": "Які рубки виконує Бригада №1 та на яких виділах?", "expected_entities": ["Brigade_01", "MainFelling_2026_V003", "MainFelling_2026_V204"]}
+{"id": "GQ07", "query": "Яка служба ДСНС отримує сповіщення при пожежному патрулі в лісництві Карпатське LS-01?", "expected_entities": ["Forestry_LS01", "FireService_DSNS_Lviv"]}
+{"id": "GQ08", "query": "Яка загроза та процес санітарної рубки прив'язані до виділу V-207 у LS-03?", "expected_entities": ["Compartment_V207", "Forestry_LS03", "SanitaryFelling_2026_V207"]}
+{"id": "GQ09", "query": "Яке лісовідновлення слідує за санітарною рубкою на виділі V-014?", "expected_entities": ["Compartment_V014", "SanitaryFelling_2026_V014", "Planting_Spring2027_V014"]}
+{"id": "GQ10", "query": "Який дозвільний квиток та квота прив'язані до рубки на виділі V-003?", "expected_entities": ["Compartment_V003", "MainFelling_2026_V003", "Ticket_LK2026_039"]}
+{"id": "GQ11", "query": "Які загрози та процеси стосуються виділу V-302 у лісництві LS-04?", "expected_entities": ["Compartment_V302", "Forestry_LS04", "SanitaryFelling_2026_V302"]}
+{"id": "GQ12", "query": "Які виділи та квота пов'язані з Бригадою №3 і модриною?", "expected_entities": ["Brigade_03", "Species_LarixDecidua", "MainFelling_2026_V102"]}

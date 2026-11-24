@@ -1,0 +1,12 @@
+start_label,start_id,end_label,end_id,source,confidence,validFrom
+Threat,Threat_IpsTypographus,Process,SanitaryFelling_2026_V012,lab7-8-abox,1.0,2026-09-01
+Threat,Threat_IpsTypographus_LS02,Process,SanitaryFelling_2026_V107,synthetic-gen-seed42,0.8,2026-11-23
+Threat,Threat_RootRot_LS04,Process,SanitaryFelling_2026_V302,synthetic-gen-seed42,0.8,2026-11-04
+Threat,Threat_RootRot_LS01,Process,SanitaryFelling_2026_V014,synthetic-gen-seed42,0.8,2026-11-21
+Threat,Threat_RootRot_LS01,Process,SanitaryFelling_2026_V009,synthetic-gen-seed42,0.8,2026-11-20
+Threat,Threat_IpsTypographus_LS03,Process,SanitaryFelling_2026_V207,synthetic-gen-seed42,0.8,2026-11-29
+Threat,Threat_IpsTypographus_LS03,Process,SanitaryFelling_2026_V203,synthetic-gen-seed42,0.8,2026-11-13
+MeteoObservation,MeteoObs_2026_09_05_LS01,Process,FirePatrol_Sept2026_LS01,lab7-8-abox,1.0,2026-09-05
+MeteoObservation,MeteoObs_2026_09_04_LS02,Process,FirePatrol_2026_09_04_LS02,synthetic-gen-seed42,0.8,2026-09-04
+MeteoObservation,MeteoObs_2026_09_11_LS03,Process,FirePatrol_2026_09_11_LS03,synthetic-gen-seed42,0.8,2026-09-11
+MeteoObservation,MeteoObs_2026_09_16_LS04,Process,FirePatrol_2026_09_16_LS04,synthetic-gen-seed42,0.8,2026-09-16

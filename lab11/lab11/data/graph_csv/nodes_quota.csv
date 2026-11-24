@@ -1,0 +1,17 @@
+id,subtype,origin,name,limitValue,unit,period
+Quota_2026_NonTimber_800kg,NonTimberCollectionLimit,lab7-8,Ліміт збору грибів і чорниці,800.0,кг/сезон,2026
+Quota_2026_Raspberries_500kg,NonTimberCollectionLimit,synthetic,Ліміт збору малини,500.0,кг/сезон,2026
+Quota_2026_Herbs_150kg,NonTimberCollectionLimit,synthetic,Ліміт збору лікарських трав,150.0,кг/сезон,2026
+Quota_2026_V012_450m3,HarvestQuota,lab7-8,"Квота заготівлі деревини, виділ V-012",450.0,м³/рік,2026
+Quota_2026_V003_300m3,HarvestQuota,lab7-8,"Квота заготівлі деревини, виділ V-003",300.0,м³/рік,2026
+Quota_2026_V107_280m3,HarvestQuota,synthetic,"Квота заготівлі деревини, виділ V-107",280.0,м³/рік,2026
+Quota_2026_V302_230m3,HarvestQuota,synthetic,"Квота заготівлі деревини, виділ V-302",230.0,м³/рік,2026
+Quota_2026_V014_270m3,HarvestQuota,synthetic,"Квота заготівлі деревини, виділ V-014",270.0,м³/рік,2026
+Quota_2026_V009_260m3,HarvestQuota,synthetic,"Квота заготівлі деревини, виділ V-009",260.0,м³/рік,2026
+Quota_2026_V207_150m3,HarvestQuota,synthetic,"Квота заготівлі деревини, виділ V-207",150.0,м³/рік,2026
+Quota_2026_V203_150m3,HarvestQuota,synthetic,"Квота заготівлі деревини, виділ V-203",150.0,м³/рік,2026
+Quota_2026_V102_620m3,HarvestQuota,synthetic,"Квота заготівлі деревини, виділ V-102",620.0,м³/рік,2026
+Quota_2026_V208_370m3,HarvestQuota,synthetic,"Квота заготівлі деревини, виділ V-208",370.0,м³/рік,2026
+Quota_2026_V204_660m3,HarvestQuota,synthetic,"Квота заготівлі деревини, виділ V-204",660.0,м³/рік,2026
+Quota_2026_V206_320m3,HarvestQuota,synthetic,"Квота заготівлі деревини, виділ V-206",320.0,м³/рік,2026
+Quota_2026_V013_430m3,HarvestQuota,synthetic,"Квота заготівлі деревини, виділ V-013",430.0,м³/рік,2026

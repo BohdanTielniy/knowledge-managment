@@ -1,0 +1,5 @@
+start_label,start_id,end_label,end_id,source,confidence,validFrom
+ForestProduct,Product_BoletusMushrooms,Quota,Quota_2026_NonTimber_800kg,lab7-8-abox,1.0,2026-09-01
+ForestProduct,Product_Blueberries,Quota,Quota_2026_NonTimber_800kg,lab7-8-abox,1.0,2026-09-01
+ForestProduct,Product_Raspberries,Quota,Quota_2026_Raspberries_500kg,synthetic-gen-seed42,0.8,2026-09-01
+ForestProduct,Product_StJohnsWort,Quota,Quota_2026_Herbs_150kg,synthetic-gen-seed42,0.8,2026-09-01

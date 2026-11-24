@@ -1,0 +1,14 @@
+start_label,start_id,end_label,end_id,source,confidence,validFrom
+Process,SanitaryFelling_2026_V012,Permit,Ticket_LK2026_042,lab7-8-abox,1.0,2026-09-01
+Process,MainFelling_2026_V003,Permit,Ticket_LK2026_039,lab7-8-abox,1.0,2026-09-01
+Process,SanitaryFelling_2026_V107,Permit,Ticket_LK2026_040,synthetic-gen-seed42,0.8,2026-11-23
+Process,SanitaryFelling_2026_V302,Permit,Ticket_LK2026_041,synthetic-gen-seed42,0.8,2026-11-04
+Process,SanitaryFelling_2026_V014,Permit,Ticket_LK2026_043,synthetic-gen-seed42,0.8,2026-11-21
+Process,SanitaryFelling_2026_V009,Permit,Ticket_LK2026_044,synthetic-gen-seed42,0.8,2026-11-20
+Process,SanitaryFelling_2026_V207,Permit,Ticket_LK2026_045,synthetic-gen-seed42,0.8,2026-11-29
+Process,SanitaryFelling_2026_V203,Permit,Ticket_LK2026_046,synthetic-gen-seed42,0.8,2026-11-13
+Process,MainFelling_2026_V102,Permit,Ticket_LK2026_047,synthetic-gen-seed42,0.8,2026-12-31
+Process,MainFelling_2026_V208,Permit,Ticket_LK2026_048,synthetic-gen-seed42,0.8,2027-01-09
+Process,MainFelling_2026_V204,Permit,Ticket_LK2026_049,synthetic-gen-seed42,0.8,2026-11-09
+Process,MainFelling_2026_V206,Permit,Ticket_LK2026_050,synthetic-gen-seed42,0.8,2026-11-26
+Process,MainFelling_2026_V013,Permit,Ticket_LK2026_051,synthetic-gen-seed42,0.8,2026-12-31

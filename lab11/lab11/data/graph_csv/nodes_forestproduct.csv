@@ -1,0 +1,12 @@
+id,subtype,origin,name,category
+Product_SpruceTimber,TimberProduct,lab7-8,Деревина ялини,Timber
+Product_FirTimber,TimberProduct,synthetic,Деревина ялиці,Timber
+Product_PineTimber,TimberProduct,synthetic,Деревина сосни,Timber
+Product_LarchTimber,TimberProduct,synthetic,Деревина модрини,Timber
+Product_BeechTimber,TimberProduct,synthetic,Деревина бука,Timber
+Product_OakTimber,TimberProduct,synthetic,Деревина дуба,Timber
+Product_HardwoodFirewood,TimberProduct,synthetic,Дрова твердолистяних,Timber
+Product_BoletusMushrooms,NonTimberProduct,lab7-8,Білі гриби,Mushrooms
+Product_Blueberries,NonTimberProduct,lab7-8,Чорниця,Berries
+Product_Raspberries,NonTimberProduct,synthetic,Малина лісова,Berries
+Product_StJohnsWort,NonTimberProduct,synthetic,Звіробій,MedicinalHerbs

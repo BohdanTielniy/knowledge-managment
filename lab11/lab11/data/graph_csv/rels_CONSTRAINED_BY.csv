@@ -1,0 +1,14 @@
+start_label,start_id,end_label,end_id,source,confidence,validFrom
+Process,SanitaryFelling_2026_V012,Quota,Quota_2026_V012_450m3,lab7-8-abox,1.0,2026-09-01
+Process,MainFelling_2026_V003,Quota,Quota_2026_V003_300m3,lab7-8-abox,1.0,2026-09-01
+Process,SanitaryFelling_2026_V107,Quota,Quota_2026_V107_280m3,synthetic-gen-seed42,0.8,2026-11-23
+Process,SanitaryFelling_2026_V302,Quota,Quota_2026_V302_230m3,synthetic-gen-seed42,0.8,2026-11-04
+Process,SanitaryFelling_2026_V014,Quota,Quota_2026_V014_270m3,synthetic-gen-seed42,0.8,2026-11-21
+Process,SanitaryFelling_2026_V009,Quota,Quota_2026_V009_260m3,synthetic-gen-seed42,0.8,2026-11-20
+Process,SanitaryFelling_2026_V207,Quota,Quota_2026_V207_150m3,synthetic-gen-seed42,0.8,2026-11-29
+Process,SanitaryFelling_2026_V203,Quota,Quota_2026_V203_150m3,synthetic-gen-seed42,0.8,2026-11-13
+Process,MainFelling_2026_V102,Quota,Quota_2026_V102_620m3,synthetic-gen-seed42,0.8,2026-12-31
+Process,MainFelling_2026_V208,Quota,Quota_2026_V208_370m3,synthetic-gen-seed42,0.8,2027-01-09
+Process,MainFelling_2026_V204,Quota,Quota_2026_V204_660m3,synthetic-gen-seed42,0.8,2026-11-09
+Process,MainFelling_2026_V206,Quota,Quota_2026_V206_320m3,synthetic-gen-seed42,0.8,2026-11-26
+Process,MainFelling_2026_V013,Quota,Quota_2026_V013_430m3,synthetic-gen-seed42,0.8,2026-12-31

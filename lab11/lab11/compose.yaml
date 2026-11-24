@@ -1,0 +1,34 @@
+services:
+  api:
+    build: .
+    image: lab11-rag-chatbot:latest
+    container_name: lab11-rag-api
+    ports:
+      - "8000:8000"
+    environment:
+      RETRIEVER_BACKEND: ${RETRIEVER_BACKEND:-local}
+      LLM_PROVIDER: ${LLM_PROVIDER:-local}
+      LLM_MODEL: ${LLM_MODEL:-local-extractive-v1}
+      LLM_BASE_URL: ${LLM_BASE_URL:-https://api.openai.com/v1}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      API_KEY_PUBLIC: ${API_KEY_PUBLIC:-demo-public-key}
+      API_KEY_ADMIN: ${API_KEY_ADMIN:-demo-admin-key}
+      RATE_LIMIT_PER_MIN: ${RATE_LIMIT_PER_MIN:-10}
+    volumes:
+      - ./outputs:/app/outputs
+      - ./docs:/app/docs
+
+  eval:
+    build: .
+    image: lab11-rag-chatbot:latest
+    container_name: lab11-rag-eval
+    command: ["bash", "scripts/run_all.sh"]
+    environment:
+      RETRIEVER_BACKEND: ${RETRIEVER_BACKEND:-local}
+      LLM_PROVIDER: ${LLM_PROVIDER:-local}
+      LLM_MODEL: ${LLM_MODEL:-local-extractive-v1}
+      LLM_BASE_URL: ${LLM_BASE_URL:-https://api.openai.com/v1}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+    volumes:
+      - ./outputs:/app/outputs
+      - ./docs:/app/docs

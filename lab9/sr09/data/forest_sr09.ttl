@@ -1,0 +1,2153 @@
+@prefix fm: <http://lnu.edu.ua/ontologies/2026/forest-sr09#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+fm:Forestry_LS01 a fm:Forestry ; fm:unitCode "LS-01" ; fm:name "Лісництво №01" .
+fm:Forestry_LS02 a fm:Forestry ; fm:unitCode "LS-02" ; fm:name "Лісництво №02" .
+fm:Forestry_LS03 a fm:Forestry ; fm:unitCode "LS-03" ; fm:name "Лісництво №03" .
+fm:Forestry_LS04 a fm:Forestry ; fm:unitCode "LS-04" ; fm:name "Лісництво №04" .
+fm:Forestry_LS05 a fm:Forestry ; fm:unitCode "LS-05" ; fm:name "Лісництво №05" .
+fm:Forestry_LS06 a fm:Forestry ; fm:unitCode "LS-06" ; fm:name "Лісництво №06" .
+fm:Forestry_LS07 a fm:Forestry ; fm:unitCode "LS-07" ; fm:name "Лісництво №07" .
+fm:Forestry_LS08 a fm:Forestry ; fm:unitCode "LS-08" ; fm:name "Лісництво №08" .
+fm:Forestry_LS09 a fm:Forestry ; fm:unitCode "LS-09" ; fm:name "Лісництво №09" .
+fm:Forestry_LS10 a fm:Forestry ; fm:unitCode "LS-10" ; fm:name "Лісництво №10" .
+fm:Species_PiceaAbies a fm:TreeSpecies, fm:ConiferousSpecies ; fm:name "Ялина європейська" .
+fm:Species_PinusSylvestris a fm:TreeSpecies, fm:ConiferousSpecies ; fm:name "Сосна звичайна" .
+fm:Species_AbiesAlba a fm:TreeSpecies, fm:ConiferousSpecies ; fm:name "Ялиця біла" .
+fm:Species_LarixDecidua a fm:TreeSpecies, fm:ConiferousSpecies ; fm:name "Модрина європейська" .
+fm:Species_FagusSylvatica a fm:TreeSpecies, fm:DeciduousSpecies ; fm:name "Бук лісовий" .
+fm:Species_QuercusRobur a fm:TreeSpecies, fm:DeciduousSpecies ; fm:name "Дуб звичайний" .
+fm:Threat_Ips_01 a fm:Threat ; fm:name "Короїд-типограф" ; fm:kind "Biotic" .
+fm:Threat_Ips_02 a fm:Threat ; fm:name "Короїд-типограф" ; fm:kind "Biotic" .
+fm:Threat_Ips_03 a fm:Threat ; fm:name "Короїд-типограф" ; fm:kind "Biotic" .
+fm:Threat_Ips_04 a fm:Threat ; fm:name "Короїд-типограф" ; fm:kind "Biotic" .
+fm:Threat_Rot_01 a fm:Threat ; fm:name "Кореневе гниття" ; fm:kind "Biotic" .
+fm:Threat_Rot_02 a fm:Threat ; fm:name "Кореневе гниття" ; fm:kind "Biotic" .
+fm:Threat_Rot_03 a fm:Threat ; fm:name "Кореневе гниття" ; fm:kind "Biotic" .
+fm:Threat_Rot_04 a fm:Threat ; fm:name "Кореневе гниття" ; fm:kind "Biotic" .
+fm:Threat_Wind_01 a fm:Threat ; fm:name "Вітровал" ; fm:kind "Abiotic" .
+fm:Threat_Wind_02 a fm:Threat ; fm:name "Вітровал" ; fm:kind "Abiotic" .
+fm:Threat_Wind_03 a fm:Threat ; fm:name "Вітровал" ; fm:kind "Abiotic" .
+fm:Threat_Wind_04 a fm:Threat ; fm:name "Вітровал" ; fm:kind "Abiotic" .
+fm:Forester_F101 a fm:Forester ; fm:staffCode "F-101" ; fm:name "Лісник F-101" .
+fm:Forester_F102 a fm:Forester ; fm:staffCode "F-102" ; fm:name "Лісник F-102" .
+fm:Forester_F103 a fm:Forester ; fm:staffCode "F-103" ; fm:name "Лісник F-103" .
+fm:Forester_F104 a fm:Forester ; fm:staffCode "F-104" ; fm:name "Лісник F-104" .
+fm:Forester_F105 a fm:Forester ; fm:staffCode "F-105" ; fm:name "Лісник F-105" .
+fm:Forester_F106 a fm:Forester ; fm:staffCode "F-106" ; fm:name "Лісник F-106" .
+fm:Forester_F107 a fm:Forester ; fm:staffCode "F-107" ; fm:name "Лісник F-107" .
+fm:Forester_F108 a fm:Forester ; fm:staffCode "F-108" ; fm:name "Лісник F-108" .
+fm:Forester_F109 a fm:Forester ; fm:staffCode "F-109" ; fm:name "Лісник F-109" .
+fm:Forester_F110 a fm:Forester ; fm:staffCode "F-110" ; fm:name "Лісник F-110" .
+fm:Forester_F111 a fm:Forester ; fm:staffCode "F-111" ; fm:name "Лісник F-111" .
+fm:Forester_F112 a fm:Forester ; fm:staffCode "F-112" ; fm:name "Лісник F-112" .
+fm:Forester_F113 a fm:Forester ; fm:staffCode "F-113" ; fm:name "Лісник F-113" .
+fm:Forester_F114 a fm:Forester ; fm:staffCode "F-114" ; fm:name "Лісник F-114" .
+fm:Forester_F115 a fm:Forester ; fm:staffCode "F-115" ; fm:name "Лісник F-115" .
+fm:Forester_F116 a fm:Forester ; fm:staffCode "F-116" ; fm:name "Лісник F-116" .
+fm:Forester_F117 a fm:Forester ; fm:staffCode "F-117" ; fm:name "Лісник F-117" .
+fm:Forester_F118 a fm:Forester ; fm:staffCode "F-118" ; fm:name "Лісник F-118" .
+fm:Forester_F119 a fm:Forester ; fm:staffCode "F-119" ; fm:name "Лісник F-119" .
+fm:Forester_F120 a fm:Forester ; fm:staffCode "F-120" ; fm:name "Лісник F-120" .
+fm:Forester_F121 a fm:Forester ; fm:staffCode "F-121" ; fm:name "Лісник F-121" .
+fm:Forester_F122 a fm:Forester ; fm:staffCode "F-122" ; fm:name "Лісник F-122" .
+fm:Forester_F123 a fm:Forester ; fm:staffCode "F-123" ; fm:name "Лісник F-123" .
+fm:Forester_F124 a fm:Forester ; fm:staffCode "F-124" ; fm:name "Лісник F-124" .
+fm:Forester_F125 a fm:Forester ; fm:staffCode "F-125" ; fm:name "Лісник F-125" .
+fm:Forester_F126 a fm:Forester ; fm:staffCode "F-126" ; fm:name "Лісник F-126" .
+fm:Forester_F127 a fm:Forester ; fm:staffCode "F-127" ; fm:name "Лісник F-127" .
+fm:Forester_F128 a fm:Forester ; fm:staffCode "F-128" ; fm:name "Лісник F-128" .
+fm:Forester_F129 a fm:Forester ; fm:staffCode "F-129" ; fm:name "Лісник F-129" .
+fm:Forester_F130 a fm:Forester ; fm:staffCode "F-130" ; fm:name "Лісник F-130" .
+fm:Compartment_V001 a fm:Compartment ; fm:unitCode "V-001" ; fm:areaHectares 14.4 ; fm:standAgeYears 28 ; fm:timberStockM3 3808.6 ; fm:damagedTreesShare 1.7 ; fm:ndviValue 0.69 .
+fm:Compartment_V002 a fm:Compartment ; fm:unitCode "V-002" ; fm:areaHectares 5.2 ; fm:standAgeYears 94 ; fm:timberStockM3 1467.4 ; fm:damagedTreesShare 0.8 ; fm:ndviValue 0.72 .
+fm:Compartment_V003 a fm:Compartment ; fm:unitCode "V-003" ; fm:areaHectares 11.9 ; fm:standAgeYears 28 ; fm:timberStockM3 3708.1 ; fm:damagedTreesShare 6.5 ; fm:ndviValue 0.76 .
+fm:Compartment_V004 a fm:Compartment ; fm:unitCode "V-004" ; fm:areaHectares 15.3 ; fm:standAgeYears 60 ; fm:timberStockM3 3681.9 ; fm:damagedTreesShare 7.3 ; fm:ndviValue 0.82 .
+fm:Compartment_V005 a fm:Compartment ; fm:unitCode "V-005" ; fm:areaHectares 7.0 ; fm:standAgeYears 44 ; fm:timberStockM3 2214.4 ; fm:damagedTreesShare 1.4 ; fm:ndviValue 0.75 .
+fm:Compartment_V006 a fm:Compartment ; fm:unitCode "V-006" ; fm:areaHectares 12.5 ; fm:standAgeYears 69 ; fm:timberStockM3 4008.9 ; fm:damagedTreesShare 6.7 ; fm:ndviValue 0.78 .
+fm:Compartment_V007 a fm:Compartment ; fm:unitCode "V-007" ; fm:areaHectares 5.1 ; fm:standAgeYears 73 ; fm:timberStockM3 1373.5 ; fm:damagedTreesShare 24.2 ; fm:ndviValue 0.61 .
+fm:Compartment_V008 a fm:Compartment ; fm:unitCode "V-008" ; fm:areaHectares 13.9 ; fm:standAgeYears 49 ; fm:timberStockM3 3399.7 ; fm:damagedTreesShare 2.4 ; fm:ndviValue 0.73 .
+fm:Compartment_V009 a fm:Compartment ; fm:unitCode "V-009" ; fm:areaHectares 16.1 ; fm:standAgeYears 54 ; fm:timberStockM3 4476.0 ; fm:damagedTreesShare 4.4 ; fm:ndviValue 0.85 .
+fm:Compartment_V010 a fm:Compartment ; fm:unitCode "V-010" ; fm:areaHectares 6.9 ; fm:standAgeYears 70 ; fm:timberStockM3 1840.2 ; fm:damagedTreesShare 8.5 ; fm:ndviValue 0.81 .
+fm:Compartment_V011 a fm:Compartment ; fm:unitCode "V-011" ; fm:areaHectares 11.5 ; fm:standAgeYears 46 ; fm:timberStockM3 3041.5 ; fm:damagedTreesShare 4.4 ; fm:ndviValue 0.73 .
+fm:Compartment_V012 a fm:Compartment ; fm:unitCode "V-012" ; fm:areaHectares 11.8 ; fm:standAgeYears 113 ; fm:timberStockM3 3639.8 ; fm:damagedTreesShare 7.7 ; fm:ndviValue 0.83 .
+fm:Compartment_V013 a fm:Compartment ; fm:unitCode "V-013" ; fm:areaHectares 15.3 ; fm:standAgeYears 29 ; fm:timberStockM3 4285.8 ; fm:damagedTreesShare 1.1 ; fm:ndviValue 0.86 .
+fm:Compartment_V014 a fm:Compartment ; fm:unitCode "V-014" ; fm:areaHectares 8.4 ; fm:standAgeYears 116 ; fm:timberStockM3 2566.6 ; fm:damagedTreesShare 19.3 ; fm:ndviValue 0.62 .
+fm:Compartment_V015 a fm:Compartment ; fm:unitCode "V-015" ; fm:areaHectares 6.0 ; fm:standAgeYears 58 ; fm:timberStockM3 1887.0 ; fm:damagedTreesShare 5.1 ; fm:ndviValue 0.83 .
+fm:Compartment_V016 a fm:Compartment ; fm:unitCode "V-016" ; fm:areaHectares 9.6 ; fm:standAgeYears 99 ; fm:timberStockM3 2514.5 ; fm:damagedTreesShare 9.0 ; fm:ndviValue 0.78 .
+fm:Compartment_V017 a fm:Compartment ; fm:unitCode "V-017" ; fm:areaHectares 16.1 ; fm:standAgeYears 31 ; fm:timberStockM3 4110.1 ; fm:damagedTreesShare 1.9 ; fm:ndviValue 0.81 .
+fm:Compartment_V018 a fm:Compartment ; fm:unitCode "V-018" ; fm:areaHectares 9.3 ; fm:standAgeYears 74 ; fm:timberStockM3 3158.4 ; fm:damagedTreesShare 5.0 ; fm:ndviValue 0.87 .
+fm:Compartment_V019 a fm:Compartment ; fm:unitCode "V-019" ; fm:areaHectares 13.5 ; fm:standAgeYears 26 ; fm:timberStockM3 3394.6 ; fm:damagedTreesShare 8.0 ; fm:ndviValue 0.83 .
+fm:Compartment_V020 a fm:Compartment ; fm:unitCode "V-020" ; fm:areaHectares 5.6 ; fm:standAgeYears 68 ; fm:timberStockM3 1587.5 ; fm:damagedTreesShare 4.4 ; fm:ndviValue 0.87 .
+fm:Compartment_V021 a fm:Compartment ; fm:unitCode "V-021" ; fm:areaHectares 17.6 ; fm:standAgeYears 58 ; fm:timberStockM3 5565.1 ; fm:damagedTreesShare 21.7 ; fm:ndviValue 0.5 .
+fm:Compartment_V022 a fm:Compartment ; fm:unitCode "V-022" ; fm:areaHectares 12.9 ; fm:standAgeYears 132 ; fm:timberStockM3 3881.6 ; fm:damagedTreesShare 1.8 ; fm:ndviValue 0.83 .
+fm:Compartment_V023 a fm:Compartment ; fm:unitCode "V-023" ; fm:areaHectares 16.9 ; fm:standAgeYears 124 ; fm:timberStockM3 5608.3 ; fm:damagedTreesShare 5.6 ; fm:ndviValue 0.77 .
+fm:Compartment_V024 a fm:Compartment ; fm:unitCode "V-024" ; fm:areaHectares 16.3 ; fm:standAgeYears 71 ; fm:timberStockM3 5267.6 ; fm:damagedTreesShare 3.1 ; fm:ndviValue 0.68 .
+fm:Compartment_V025 a fm:Compartment ; fm:unitCode "V-025" ; fm:areaHectares 5.2 ; fm:standAgeYears 35 ; fm:timberStockM3 1500.7 ; fm:damagedTreesShare 1.1 ; fm:ndviValue 0.83 .
+fm:Compartment_V026 a fm:Compartment ; fm:unitCode "V-026" ; fm:areaHectares 13.2 ; fm:standAgeYears 41 ; fm:timberStockM3 4417.8 ; fm:damagedTreesShare 1.9 ; fm:ndviValue 0.78 .
+fm:Compartment_V027 a fm:Compartment ; fm:unitCode "V-027" ; fm:areaHectares 17.0 ; fm:standAgeYears 52 ; fm:timberStockM3 5364.0 ; fm:damagedTreesShare 6.4 ; fm:ndviValue 0.82 .
+fm:Compartment_V028 a fm:Compartment ; fm:unitCode "V-028" ; fm:areaHectares 13.1 ; fm:standAgeYears 110 ; fm:timberStockM3 3717.9 ; fm:damagedTreesShare 21.9 ; fm:ndviValue 0.5 .
+fm:Compartment_V029 a fm:Compartment ; fm:unitCode "V-029" ; fm:areaHectares 4.3 ; fm:standAgeYears 68 ; fm:timberStockM3 1270.2 ; fm:damagedTreesShare 5.5 ; fm:ndviValue 0.63 .
+fm:Compartment_V030 a fm:Compartment ; fm:unitCode "V-030" ; fm:areaHectares 16.7 ; fm:standAgeYears 33 ; fm:timberStockM3 5443.6 ; fm:damagedTreesShare 1.1 ; fm:ndviValue 0.72 .
+fm:Compartment_V031 a fm:Compartment ; fm:unitCode "V-031" ; fm:areaHectares 11.5 ; fm:standAgeYears 52 ; fm:timberStockM3 3591.9 ; fm:damagedTreesShare 8.0 ; fm:ndviValue 0.79 .
+fm:Compartment_V032 a fm:Compartment ; fm:unitCode "V-032" ; fm:areaHectares 15.3 ; fm:standAgeYears 85 ; fm:timberStockM3 3963.3 ; fm:damagedTreesShare 1.3 ; fm:ndviValue 0.76 .
+fm:Compartment_V033 a fm:Compartment ; fm:unitCode "V-033" ; fm:areaHectares 16.1 ; fm:standAgeYears 84 ; fm:timberStockM3 3951.2 ; fm:damagedTreesShare 6.1 ; fm:ndviValue 0.81 .
+fm:Compartment_V034 a fm:Compartment ; fm:unitCode "V-034" ; fm:areaHectares 8.8 ; fm:standAgeYears 118 ; fm:timberStockM3 2870.3 ; fm:damagedTreesShare 2.6 ; fm:ndviValue 0.71 .
+fm:Compartment_V035 a fm:Compartment ; fm:unitCode "V-035" ; fm:areaHectares 6.6 ; fm:standAgeYears 79 ; fm:timberStockM3 1889.3 ; fm:damagedTreesShare 29.4 ; fm:ndviValue 0.49 .
+fm:Compartment_V036 a fm:Compartment ; fm:unitCode "V-036" ; fm:areaHectares 11.7 ; fm:standAgeYears 134 ; fm:timberStockM3 2867.2 ; fm:damagedTreesShare 9.0 ; fm:ndviValue 0.85 .
+fm:Compartment_V037 a fm:Compartment ; fm:unitCode "V-037" ; fm:areaHectares 15.9 ; fm:standAgeYears 121 ; fm:timberStockM3 4080.4 ; fm:damagedTreesShare 4.6 ; fm:ndviValue 0.71 .
+fm:Compartment_V038 a fm:Compartment ; fm:unitCode "V-038" ; fm:areaHectares 6.3 ; fm:standAgeYears 32 ; fm:timberStockM3 1513.4 ; fm:damagedTreesShare 3.8 ; fm:ndviValue 0.86 .
+fm:Compartment_V039 a fm:Compartment ; fm:unitCode "V-039" ; fm:areaHectares 9.9 ; fm:standAgeYears 61 ; fm:timberStockM3 3323.7 ; fm:damagedTreesShare 9.0 ; fm:ndviValue 0.79 .
+fm:Compartment_V040 a fm:Compartment ; fm:unitCode "V-040" ; fm:areaHectares 6.7 ; fm:standAgeYears 44 ; fm:timberStockM3 1753.9 ; fm:damagedTreesShare 1.0 ; fm:ndviValue 0.82 .
+fm:Compartment_V041 a fm:Compartment ; fm:unitCode "V-041" ; fm:areaHectares 4.8 ; fm:standAgeYears 65 ; fm:timberStockM3 1432.4 ; fm:damagedTreesShare 4.8 ; fm:ndviValue 0.85 .
+fm:Compartment_V042 a fm:Compartment ; fm:unitCode "V-042" ; fm:areaHectares 5.1 ; fm:standAgeYears 90 ; fm:timberStockM3 1318.8 ; fm:damagedTreesShare 23.5 ; fm:ndviValue 0.58 .
+fm:Compartment_V043 a fm:Compartment ; fm:unitCode "V-043" ; fm:areaHectares 17.2 ; fm:standAgeYears 40 ; fm:timberStockM3 5107.8 ; fm:damagedTreesShare 5.4 ; fm:ndviValue 0.68 .
+fm:Compartment_V044 a fm:Compartment ; fm:unitCode "V-044" ; fm:areaHectares 12.2 ; fm:standAgeYears 109 ; fm:timberStockM3 3565.8 ; fm:damagedTreesShare 8.4 ; fm:ndviValue 0.71 .
+fm:Compartment_V045 a fm:Compartment ; fm:unitCode "V-045" ; fm:areaHectares 7.7 ; fm:standAgeYears 55 ; fm:timberStockM3 1948.8 ; fm:damagedTreesShare 6.0 ; fm:ndviValue 0.77 .
+fm:Compartment_V046 a fm:Compartment ; fm:unitCode "V-046" ; fm:areaHectares 4.1 ; fm:standAgeYears 34 ; fm:timberStockM3 1238.7 ; fm:damagedTreesShare 5.3 ; fm:ndviValue 0.69 .
+fm:Compartment_V047 a fm:Compartment ; fm:unitCode "V-047" ; fm:areaHectares 7.7 ; fm:standAgeYears 89 ; fm:timberStockM3 2566.6 ; fm:damagedTreesShare 8.0 ; fm:ndviValue 0.85 .
+fm:Compartment_V048 a fm:Compartment ; fm:unitCode "V-048" ; fm:areaHectares 10.1 ; fm:standAgeYears 45 ; fm:timberStockM3 2972.7 ; fm:damagedTreesShare 3.1 ; fm:ndviValue 0.88 .
+fm:Compartment_V049 a fm:Compartment ; fm:unitCode "V-049" ; fm:areaHectares 4.1 ; fm:standAgeYears 92 ; fm:timberStockM3 1319.0 ; fm:damagedTreesShare 17.3 ; fm:ndviValue 0.58 .
+fm:Compartment_V050 a fm:Compartment ; fm:unitCode "V-050" ; fm:areaHectares 7.7 ; fm:standAgeYears 42 ; fm:timberStockM3 2533.1 ; fm:damagedTreesShare 6.8 ; fm:ndviValue 0.7 .
+fm:Compartment_V051 a fm:Compartment ; fm:unitCode "V-051" ; fm:areaHectares 14.0 ; fm:standAgeYears 51 ; fm:timberStockM3 3645.0 ; fm:damagedTreesShare 5.9 ; fm:ndviValue 0.73 .
+fm:Compartment_V052 a fm:Compartment ; fm:unitCode "V-052" ; fm:areaHectares 4.7 ; fm:standAgeYears 133 ; fm:timberStockM3 1426.1 ; fm:damagedTreesShare 7.5 ; fm:ndviValue 0.68 .
+fm:Compartment_V053 a fm:Compartment ; fm:unitCode "V-053" ; fm:areaHectares 12.9 ; fm:standAgeYears 41 ; fm:timberStockM3 3433.9 ; fm:damagedTreesShare 6.8 ; fm:ndviValue 0.79 .
+fm:Compartment_V054 a fm:Compartment ; fm:unitCode "V-054" ; fm:areaHectares 5.6 ; fm:standAgeYears 26 ; fm:timberStockM3 1873.2 ; fm:damagedTreesShare 6.4 ; fm:ndviValue 0.7 .
+fm:Compartment_V055 a fm:Compartment ; fm:unitCode "V-055" ; fm:areaHectares 12.2 ; fm:standAgeYears 72 ; fm:timberStockM3 3108.7 ; fm:damagedTreesShare 1.6 ; fm:ndviValue 0.73 .
+fm:Compartment_V056 a fm:Compartment ; fm:unitCode "V-056" ; fm:areaHectares 17.6 ; fm:standAgeYears 126 ; fm:timberStockM3 4294.2 ; fm:damagedTreesShare 18.5 ; fm:ndviValue 0.58 .
+fm:Compartment_V057 a fm:Compartment ; fm:unitCode "V-057" ; fm:areaHectares 14.9 ; fm:standAgeYears 70 ; fm:timberStockM3 4893.4 ; fm:damagedTreesShare 4.0 ; fm:ndviValue 0.8 .
+fm:Compartment_V058 a fm:Compartment ; fm:unitCode "V-058" ; fm:areaHectares 16.1 ; fm:standAgeYears 55 ; fm:timberStockM3 5435.7 ; fm:damagedTreesShare 7.4 ; fm:ndviValue 0.6 .
+fm:Compartment_V059 a fm:Compartment ; fm:unitCode "V-059" ; fm:areaHectares 15.0 ; fm:standAgeYears 67 ; fm:timberStockM3 4217.6 ; fm:damagedTreesShare 6.2 ; fm:ndviValue 0.82 .
+fm:Compartment_V060 a fm:Compartment ; fm:unitCode "V-060" ; fm:areaHectares 15.0 ; fm:standAgeYears 45 ; fm:timberStockM3 3762.1 ; fm:damagedTreesShare 7.9 ; fm:ndviValue 0.85 .
+fm:Compartment_V061 a fm:Compartment ; fm:unitCode "V-061" ; fm:areaHectares 16.9 ; fm:standAgeYears 129 ; fm:timberStockM3 4646.9 ; fm:damagedTreesShare 7.5 ; fm:ndviValue 0.85 .
+fm:Compartment_V062 a fm:Compartment ; fm:unitCode "V-062" ; fm:areaHectares 6.7 ; fm:standAgeYears 109 ; fm:timberStockM3 1827.9 ; fm:damagedTreesShare 7.8 ; fm:ndviValue 0.87 .
+fm:Compartment_V063 a fm:Compartment ; fm:unitCode "V-063" ; fm:areaHectares 11.1 ; fm:standAgeYears 107 ; fm:timberStockM3 3418.3 ; fm:damagedTreesShare 28.7 ; fm:ndviValue 0.53 .
+fm:Compartment_V064 a fm:Compartment ; fm:unitCode "V-064" ; fm:areaHectares 6.5 ; fm:standAgeYears 58 ; fm:timberStockM3 2185.6 ; fm:damagedTreesShare 2.8 ; fm:ndviValue 0.69 .
+fm:Compartment_V065 a fm:Compartment ; fm:unitCode "V-065" ; fm:areaHectares 15.0 ; fm:standAgeYears 118 ; fm:timberStockM3 4254.6 ; fm:damagedTreesShare 8.9 ; fm:ndviValue 0.69 .
+fm:Compartment_V066 a fm:Compartment ; fm:unitCode "V-066" ; fm:areaHectares 7.6 ; fm:standAgeYears 49 ; fm:timberStockM3 2362.7 ; fm:damagedTreesShare 0.5 ; fm:ndviValue 0.86 .
+fm:Compartment_V067 a fm:Compartment ; fm:unitCode "V-067" ; fm:areaHectares 17.2 ; fm:standAgeYears 117 ; fm:timberStockM3 5395.7 ; fm:damagedTreesShare 2.2 ; fm:ndviValue 0.76 .
+fm:Compartment_V068 a fm:Compartment ; fm:unitCode "V-068" ; fm:areaHectares 12.7 ; fm:standAgeYears 67 ; fm:timberStockM3 3890.5 ; fm:damagedTreesShare 1.6 ; fm:ndviValue 0.86 .
+fm:Compartment_V069 a fm:Compartment ; fm:unitCode "V-069" ; fm:areaHectares 9.7 ; fm:standAgeYears 110 ; fm:timberStockM3 2718.3 ; fm:damagedTreesShare 3.0 ; fm:ndviValue 0.7 .
+fm:Compartment_V070 a fm:Compartment ; fm:unitCode "V-070" ; fm:areaHectares 13.5 ; fm:standAgeYears 73 ; fm:timberStockM3 4458.8 ; fm:damagedTreesShare 23.9 ; fm:ndviValue 0.53 .
+fm:Compartment_V071 a fm:Compartment ; fm:unitCode "V-071" ; fm:areaHectares 8.3 ; fm:standAgeYears 25 ; fm:timberStockM3 2166.5 ; fm:damagedTreesShare 7.2 ; fm:ndviValue 0.8 .
+fm:Compartment_V072 a fm:Compartment ; fm:unitCode "V-072" ; fm:areaHectares 10.2 ; fm:standAgeYears 81 ; fm:timberStockM3 2666.0 ; fm:damagedTreesShare 4.5 ; fm:ndviValue 0.86 .
+fm:Compartment_V073 a fm:Compartment ; fm:unitCode "V-073" ; fm:areaHectares 13.2 ; fm:standAgeYears 46 ; fm:timberStockM3 3542.6 ; fm:damagedTreesShare 6.1 ; fm:ndviValue 0.8 .
+fm:Compartment_V074 a fm:Compartment ; fm:unitCode "V-074" ; fm:areaHectares 7.3 ; fm:standAgeYears 121 ; fm:timberStockM3 1978.6 ; fm:damagedTreesShare 7.4 ; fm:ndviValue 0.7 .
+fm:Compartment_V075 a fm:Compartment ; fm:unitCode "V-075" ; fm:areaHectares 12.6 ; fm:standAgeYears 85 ; fm:timberStockM3 3992.3 ; fm:damagedTreesShare 4.4 ; fm:ndviValue 0.86 .
+fm:Compartment_V076 a fm:Compartment ; fm:unitCode "V-076" ; fm:areaHectares 13.7 ; fm:standAgeYears 116 ; fm:timberStockM3 3965.3 ; fm:damagedTreesShare 2.6 ; fm:ndviValue 0.81 .
+fm:Compartment_V077 a fm:Compartment ; fm:unitCode "V-077" ; fm:areaHectares 16.0 ; fm:standAgeYears 121 ; fm:timberStockM3 5256.7 ; fm:damagedTreesShare 27.3 ; fm:ndviValue 0.51 .
+fm:Compartment_V078 a fm:Compartment ; fm:unitCode "V-078" ; fm:areaHectares 11.3 ; fm:standAgeYears 114 ; fm:timberStockM3 2768.7 ; fm:damagedTreesShare 2.6 ; fm:ndviValue 0.85 .
+fm:Compartment_V079 a fm:Compartment ; fm:unitCode "V-079" ; fm:areaHectares 10.5 ; fm:standAgeYears 127 ; fm:timberStockM3 3077.7 ; fm:damagedTreesShare 5.3 ; fm:ndviValue 0.74 .
+fm:Compartment_V080 a fm:Compartment ; fm:unitCode "V-080" ; fm:areaHectares 12.6 ; fm:standAgeYears 81 ; fm:timberStockM3 3930.3 ; fm:damagedTreesShare 4.8 ; fm:ndviValue 0.84 .
+fm:Compartment_V081 a fm:Compartment ; fm:unitCode "V-081" ; fm:areaHectares 14.4 ; fm:standAgeYears 45 ; fm:timberStockM3 4139.5 ; fm:damagedTreesShare 2.7 ; fm:ndviValue 0.72 .
+fm:Compartment_V082 a fm:Compartment ; fm:unitCode "V-082" ; fm:areaHectares 14.9 ; fm:standAgeYears 123 ; fm:timberStockM3 4298.0 ; fm:damagedTreesShare 2.5 ; fm:ndviValue 0.76 .
+fm:Compartment_V083 a fm:Compartment ; fm:unitCode "V-083" ; fm:areaHectares 7.8 ; fm:standAgeYears 55 ; fm:timberStockM3 2121.4 ; fm:damagedTreesShare 5.1 ; fm:ndviValue 0.7 .
+fm:Compartment_V084 a fm:Compartment ; fm:unitCode "V-084" ; fm:areaHectares 6.1 ; fm:standAgeYears 113 ; fm:timberStockM3 1594.5 ; fm:damagedTreesShare 19.7 ; fm:ndviValue 0.53 .
+fm:Compartment_V085 a fm:Compartment ; fm:unitCode "V-085" ; fm:areaHectares 6.9 ; fm:standAgeYears 32 ; fm:timberStockM3 1945.9 ; fm:damagedTreesShare 8.2 ; fm:ndviValue 0.79 .
+fm:Compartment_V086 a fm:Compartment ; fm:unitCode "V-086" ; fm:areaHectares 16.3 ; fm:standAgeYears 134 ; fm:timberStockM3 4850.4 ; fm:damagedTreesShare 4.6 ; fm:ndviValue 0.87 .
+fm:Compartment_V087 a fm:Compartment ; fm:unitCode "V-087" ; fm:areaHectares 15.9 ; fm:standAgeYears 74 ; fm:timberStockM3 5332.0 ; fm:damagedTreesShare 4.1 ; fm:ndviValue 0.62 .
+fm:Compartment_V088 a fm:Compartment ; fm:unitCode "V-088" ; fm:areaHectares 10.8 ; fm:standAgeYears 53 ; fm:timberStockM3 2886.8 ; fm:damagedTreesShare 4.6 ; fm:ndviValue 0.75 .
+fm:Compartment_V089 a fm:Compartment ; fm:unitCode "V-089" ; fm:areaHectares 9.7 ; fm:standAgeYears 127 ; fm:timberStockM3 2488.1 ; fm:damagedTreesShare 4.5 ; fm:ndviValue 0.7 .
+fm:Compartment_V090 a fm:Compartment ; fm:unitCode "V-090" ; fm:areaHectares 16.7 ; fm:standAgeYears 28 ; fm:timberStockM3 4996.5 ; fm:damagedTreesShare 6.1 ; fm:ndviValue 0.69 .
+fm:Compartment_V091 a fm:Compartment ; fm:unitCode "V-091" ; fm:areaHectares 10.5 ; fm:standAgeYears 135 ; fm:timberStockM3 2572.8 ; fm:damagedTreesShare 19.0 ; fm:ndviValue 0.51 .
+fm:Compartment_V092 a fm:Compartment ; fm:unitCode "V-092" ; fm:areaHectares 16.3 ; fm:standAgeYears 122 ; fm:timberStockM3 4365.6 ; fm:damagedTreesShare 8.6 ; fm:ndviValue 0.76 .
+fm:Compartment_V093 a fm:Compartment ; fm:unitCode "V-093" ; fm:areaHectares 4.3 ; fm:standAgeYears 85 ; fm:timberStockM3 1264.0 ; fm:damagedTreesShare 9.0 ; fm:ndviValue 0.74 .
+fm:Compartment_V094 a fm:Compartment ; fm:unitCode "V-094" ; fm:areaHectares 17.4 ; fm:standAgeYears 124 ; fm:timberStockM3 4246.0 ; fm:damagedTreesShare 0.8 ; fm:ndviValue 0.72 .
+fm:Compartment_V095 a fm:Compartment ; fm:unitCode "V-095" ; fm:areaHectares 6.1 ; fm:standAgeYears 104 ; fm:timberStockM3 1541.0 ; fm:damagedTreesShare 6.2 ; fm:ndviValue 0.79 .
+fm:Compartment_V096 a fm:Compartment ; fm:unitCode "V-096" ; fm:areaHectares 7.6 ; fm:standAgeYears 114 ; fm:timberStockM3 2104.4 ; fm:damagedTreesShare 5.7 ; fm:ndviValue 0.87 .
+fm:Compartment_V097 a fm:Compartment ; fm:unitCode "V-097" ; fm:areaHectares 15.5 ; fm:standAgeYears 124 ; fm:timberStockM3 5215.3 ; fm:damagedTreesShare 1.4 ; fm:ndviValue 0.68 .
+fm:Compartment_V098 a fm:Compartment ; fm:unitCode "V-098" ; fm:areaHectares 16.7 ; fm:standAgeYears 111 ; fm:timberStockM3 4634.8 ; fm:damagedTreesShare 30.8 ; fm:ndviValue 0.51 .
+fm:Compartment_V099 a fm:Compartment ; fm:unitCode "V-099" ; fm:areaHectares 12.8 ; fm:standAgeYears 131 ; fm:timberStockM3 3202.4 ; fm:damagedTreesShare 7.1 ; fm:ndviValue 0.85 .
+fm:Compartment_V100 a fm:Compartment ; fm:unitCode "V-100" ; fm:areaHectares 15.1 ; fm:standAgeYears 40 ; fm:timberStockM3 4478.6 ; fm:damagedTreesShare 0.8 ; fm:ndviValue 0.78 .
+fm:Compartment_V101 a fm:Compartment ; fm:unitCode "V-101" ; fm:areaHectares 11.1 ; fm:standAgeYears 33 ; fm:timberStockM3 3042.8 ; fm:damagedTreesShare 7.7 ; fm:ndviValue 0.84 .
+fm:Compartment_V102 a fm:Compartment ; fm:unitCode "V-102" ; fm:areaHectares 12.9 ; fm:standAgeYears 71 ; fm:timberStockM3 4165.0 ; fm:damagedTreesShare 6.5 ; fm:ndviValue 0.76 .
+fm:Compartment_V103 a fm:Compartment ; fm:unitCode "V-103" ; fm:areaHectares 7.8 ; fm:standAgeYears 108 ; fm:timberStockM3 2502.4 ; fm:damagedTreesShare 5.1 ; fm:ndviValue 0.77 .
+fm:Compartment_V104 a fm:Compartment ; fm:unitCode "V-104" ; fm:areaHectares 12.3 ; fm:standAgeYears 118 ; fm:timberStockM3 3348.4 ; fm:damagedTreesShare 2.6 ; fm:ndviValue 0.87 .
+fm:Compartment_V105 a fm:Compartment ; fm:unitCode "V-105" ; fm:areaHectares 7.4 ; fm:standAgeYears 82 ; fm:timberStockM3 2119.9 ; fm:damagedTreesShare 23.8 ; fm:ndviValue 0.54 .
+fm:Compartment_V106 a fm:Compartment ; fm:unitCode "V-106" ; fm:areaHectares 8.6 ; fm:standAgeYears 133 ; fm:timberStockM3 2483.3 ; fm:damagedTreesShare 3.5 ; fm:ndviValue 0.72 .
+fm:Compartment_V107 a fm:Compartment ; fm:unitCode "V-107" ; fm:areaHectares 13.8 ; fm:standAgeYears 101 ; fm:timberStockM3 3693.3 ; fm:damagedTreesShare 0.6 ; fm:ndviValue 0.87 .
+fm:Compartment_V108 a fm:Compartment ; fm:unitCode "V-108" ; fm:areaHectares 9.7 ; fm:standAgeYears 117 ; fm:timberStockM3 2866.5 ; fm:damagedTreesShare 2.5 ; fm:ndviValue 0.77 .
+fm:Compartment_V109 a fm:Compartment ; fm:unitCode "V-109" ; fm:areaHectares 15.1 ; fm:standAgeYears 82 ; fm:timberStockM3 3764.5 ; fm:damagedTreesShare 2.4 ; fm:ndviValue 0.82 .
+fm:Compartment_V110 a fm:Compartment ; fm:unitCode "V-110" ; fm:areaHectares 9.2 ; fm:standAgeYears 99 ; fm:timberStockM3 2717.2 ; fm:damagedTreesShare 3.4 ; fm:ndviValue 0.88 .
+fm:Compartment_V111 a fm:Compartment ; fm:unitCode "V-111" ; fm:areaHectares 13.8 ; fm:standAgeYears 70 ; fm:timberStockM3 3685.9 ; fm:damagedTreesShare 2.6 ; fm:ndviValue 0.7 .
+fm:Compartment_V112 a fm:Compartment ; fm:unitCode "V-112" ; fm:areaHectares 14.4 ; fm:standAgeYears 40 ; fm:timberStockM3 4825.3 ; fm:damagedTreesShare 25.5 ; fm:ndviValue 0.51 .
+fm:Compartment_V113 a fm:Compartment ; fm:unitCode "V-113" ; fm:areaHectares 14.1 ; fm:standAgeYears 60 ; fm:timberStockM3 4761.0 ; fm:damagedTreesShare 5.0 ; fm:ndviValue 0.73 .
+fm:Compartment_V114 a fm:Compartment ; fm:unitCode "V-114" ; fm:areaHectares 8.1 ; fm:standAgeYears 49 ; fm:timberStockM3 2236.3 ; fm:damagedTreesShare 3.1 ; fm:ndviValue 0.82 .
+fm:Compartment_V115 a fm:Compartment ; fm:unitCode "V-115" ; fm:areaHectares 17.6 ; fm:standAgeYears 30 ; fm:timberStockM3 5197.9 ; fm:damagedTreesShare 6.4 ; fm:ndviValue 0.7 .
+fm:Compartment_V116 a fm:Compartment ; fm:unitCode "V-116" ; fm:areaHectares 5.4 ; fm:standAgeYears 87 ; fm:timberStockM3 1302.6 ; fm:damagedTreesShare 2.9 ; fm:ndviValue 0.61 .
+fm:Compartment_V117 a fm:Compartment ; fm:unitCode "V-117" ; fm:areaHectares 17.2 ; fm:standAgeYears 57 ; fm:timberStockM3 4949.7 ; fm:damagedTreesShare 7.5 ; fm:ndviValue 0.75 .
+fm:Compartment_V118 a fm:Compartment ; fm:unitCode "V-118" ; fm:areaHectares 13.6 ; fm:standAgeYears 105 ; fm:timberStockM3 3470.3 ; fm:damagedTreesShare 7.4 ; fm:ndviValue 0.87 .
+fm:Compartment_V119 a fm:Compartment ; fm:unitCode "V-119" ; fm:areaHectares 5.7 ; fm:standAgeYears 56 ; fm:timberStockM3 1803.7 ; fm:damagedTreesShare 23.7 ; fm:ndviValue 0.6 .
+fm:Compartment_V120 a fm:Compartment ; fm:unitCode "V-120" ; fm:areaHectares 9.3 ; fm:standAgeYears 91 ; fm:timberStockM3 3076.9 ; fm:damagedTreesShare 3.0 ; fm:ndviValue 0.79 .
+fm:Compartment_V121 a fm:Compartment ; fm:unitCode "V-121" ; fm:areaHectares 12.7 ; fm:standAgeYears 97 ; fm:timberStockM3 3822.2 ; fm:damagedTreesShare 6.8 ; fm:ndviValue 0.87 .
+fm:Compartment_V122 a fm:Compartment ; fm:unitCode "V-122" ; fm:areaHectares 7.7 ; fm:standAgeYears 52 ; fm:timberStockM3 1910.5 ; fm:damagedTreesShare 2.5 ; fm:ndviValue 0.79 .
+fm:Compartment_V123 a fm:Compartment ; fm:unitCode "V-123" ; fm:areaHectares 10.3 ; fm:standAgeYears 77 ; fm:timberStockM3 3083.6 ; fm:damagedTreesShare 3.0 ; fm:ndviValue 0.72 .
+fm:Compartment_V124 a fm:Compartment ; fm:unitCode "V-124" ; fm:areaHectares 16.0 ; fm:standAgeYears 114 ; fm:timberStockM3 3953.9 ; fm:damagedTreesShare 2.5 ; fm:ndviValue 0.73 .
+fm:Compartment_V125 a fm:Compartment ; fm:unitCode "V-125" ; fm:areaHectares 13.3 ; fm:standAgeYears 100 ; fm:timberStockM3 4433.8 ; fm:damagedTreesShare 4.1 ; fm:ndviValue 0.78 .
+fm:Compartment_V126 a fm:Compartment ; fm:unitCode "V-126" ; fm:areaHectares 15.6 ; fm:standAgeYears 59 ; fm:timberStockM3 3855.4 ; fm:damagedTreesShare 14.5 ; fm:ndviValue 0.53 .
+fm:Compartment_V127 a fm:Compartment ; fm:unitCode "V-127" ; fm:areaHectares 16.9 ; fm:standAgeYears 97 ; fm:timberStockM3 4798.2 ; fm:damagedTreesShare 4.5 ; fm:ndviValue 0.73 .
+fm:Compartment_V128 a fm:Compartment ; fm:unitCode "V-128" ; fm:areaHectares 11.0 ; fm:standAgeYears 59 ; fm:timberStockM3 3183.2 ; fm:damagedTreesShare 1.2 ; fm:ndviValue 0.68 .
+fm:Compartment_V129 a fm:Compartment ; fm:unitCode "V-129" ; fm:areaHectares 12.5 ; fm:standAgeYears 66 ; fm:timberStockM3 3032.3 ; fm:damagedTreesShare 2.4 ; fm:ndviValue 0.81 .
+fm:Compartment_V130 a fm:Compartment ; fm:unitCode "V-130" ; fm:areaHectares 17.3 ; fm:standAgeYears 100 ; fm:timberStockM3 5881.3 ; fm:damagedTreesShare 6.2 ; fm:ndviValue 0.73 .
+fm:Compartment_V131 a fm:Compartment ; fm:unitCode "V-131" ; fm:areaHectares 6.5 ; fm:standAgeYears 121 ; fm:timberStockM3 1897.3 ; fm:damagedTreesShare 4.3 ; fm:ndviValue 0.73 .
+fm:Compartment_V132 a fm:Compartment ; fm:unitCode "V-132" ; fm:areaHectares 12.9 ; fm:standAgeYears 80 ; fm:timberStockM3 3730.3 ; fm:damagedTreesShare 1.3 ; fm:ndviValue 0.74 .
+fm:Compartment_V133 a fm:Compartment ; fm:unitCode "V-133" ; fm:areaHectares 5.5 ; fm:standAgeYears 110 ; fm:timberStockM3 1408.5 ; fm:damagedTreesShare 19.6 ; fm:ndviValue 0.55 .
+fm:Compartment_V134 a fm:Compartment ; fm:unitCode "V-134" ; fm:areaHectares 15.4 ; fm:standAgeYears 76 ; fm:timberStockM3 4543.1 ; fm:damagedTreesShare 4.4 ; fm:ndviValue 0.74 .
+fm:Compartment_V135 a fm:Compartment ; fm:unitCode "V-135" ; fm:areaHectares 9.7 ; fm:standAgeYears 123 ; fm:timberStockM3 2827.2 ; fm:damagedTreesShare 8.9 ; fm:ndviValue 0.81 .
+fm:Compartment_V136 a fm:Compartment ; fm:unitCode "V-136" ; fm:areaHectares 4.8 ; fm:standAgeYears 77 ; fm:timberStockM3 1400.9 ; fm:damagedTreesShare 5.8 ; fm:ndviValue 0.77 .
+fm:Compartment_V137 a fm:Compartment ; fm:unitCode "V-137" ; fm:areaHectares 6.8 ; fm:standAgeYears 31 ; fm:timberStockM3 2005.5 ; fm:damagedTreesShare 8.4 ; fm:ndviValue 0.76 .
+fm:Compartment_V138 a fm:Compartment ; fm:unitCode "V-138" ; fm:areaHectares 4.4 ; fm:standAgeYears 40 ; fm:timberStockM3 1333.2 ; fm:damagedTreesShare 7.3 ; fm:ndviValue 0.82 .
+fm:Compartment_V139 a fm:Compartment ; fm:unitCode "V-139" ; fm:areaHectares 11.7 ; fm:standAgeYears 26 ; fm:timberStockM3 2917.1 ; fm:damagedTreesShare 8.9 ; fm:ndviValue 0.86 .
+fm:Compartment_V140 a fm:Compartment ; fm:unitCode "V-140" ; fm:areaHectares 13.1 ; fm:standAgeYears 40 ; fm:timberStockM3 3345.7 ; fm:damagedTreesShare 30.6 ; fm:ndviValue 0.52 .
+fm:Compartment_V141 a fm:Compartment ; fm:unitCode "V-141" ; fm:areaHectares 15.7 ; fm:standAgeYears 78 ; fm:timberStockM3 5307.0 ; fm:damagedTreesShare 2.6 ; fm:ndviValue 0.79 .
+fm:Compartment_V142 a fm:Compartment ; fm:unitCode "V-142" ; fm:areaHectares 11.1 ; fm:standAgeYears 101 ; fm:timberStockM3 3640.1 ; fm:damagedTreesShare 7.8 ; fm:ndviValue 0.73 .
+fm:Compartment_V143 a fm:Compartment ; fm:unitCode "V-143" ; fm:areaHectares 8.8 ; fm:standAgeYears 78 ; fm:timberStockM3 2805.2 ; fm:damagedTreesShare 2.8 ; fm:ndviValue 0.67 .
+fm:Compartment_V144 a fm:Compartment ; fm:unitCode "V-144" ; fm:areaHectares 12.2 ; fm:standAgeYears 132 ; fm:timberStockM3 4146.7 ; fm:damagedTreesShare 4.7 ; fm:ndviValue 0.7 .
+fm:Compartment_V145 a fm:Compartment ; fm:unitCode "V-145" ; fm:areaHectares 8.7 ; fm:standAgeYears 69 ; fm:timberStockM3 2751.7 ; fm:damagedTreesShare 3.7 ; fm:ndviValue 0.63 .
+fm:Compartment_V146 a fm:Compartment ; fm:unitCode "V-146" ; fm:areaHectares 12.0 ; fm:standAgeYears 55 ; fm:timberStockM3 3160.3 ; fm:damagedTreesShare 7.1 ; fm:ndviValue 0.68 .
+fm:Compartment_V147 a fm:Compartment ; fm:unitCode "V-147" ; fm:areaHectares 16.8 ; fm:standAgeYears 115 ; fm:timberStockM3 4672.5 ; fm:damagedTreesShare 31.8 ; fm:ndviValue 0.6 .
+fm:Compartment_V148 a fm:Compartment ; fm:unitCode "V-148" ; fm:areaHectares 10.9 ; fm:standAgeYears 44 ; fm:timberStockM3 2656.4 ; fm:damagedTreesShare 4.8 ; fm:ndviValue 0.79 .
+fm:Compartment_V149 a fm:Compartment ; fm:unitCode "V-149" ; fm:areaHectares 10.2 ; fm:standAgeYears 133 ; fm:timberStockM3 2984.5 ; fm:damagedTreesShare 4.4 ; fm:ndviValue 0.82 .
+fm:Compartment_V150 a fm:Compartment ; fm:unitCode "V-150" ; fm:areaHectares 17.6 ; fm:standAgeYears 108 ; fm:timberStockM3 4355.7 ; fm:damagedTreesShare 7.1 ; fm:ndviValue 0.73 .
+fm:Compartment_V151 a fm:Compartment ; fm:unitCode "V-151" ; fm:areaHectares 13.1 ; fm:standAgeYears 75 ; fm:timberStockM3 4259.8 ; fm:damagedTreesShare 7.7 ; fm:ndviValue 0.85 .
+fm:Compartment_V152 a fm:Compartment ; fm:unitCode "V-152" ; fm:areaHectares 12.8 ; fm:standAgeYears 65 ; fm:timberStockM3 4207.9 ; fm:damagedTreesShare 4.6 ; fm:ndviValue 0.78 .
+fm:Compartment_V153 a fm:Compartment ; fm:unitCode "V-153" ; fm:areaHectares 12.8 ; fm:standAgeYears 55 ; fm:timberStockM3 4250.8 ; fm:damagedTreesShare 9.0 ; fm:ndviValue 0.83 .
+fm:Compartment_V154 a fm:Compartment ; fm:unitCode "V-154" ; fm:areaHectares 14.6 ; fm:standAgeYears 37 ; fm:timberStockM3 4531.7 ; fm:damagedTreesShare 13.1 ; fm:ndviValue 0.5 .
+fm:Compartment_V155 a fm:Compartment ; fm:unitCode "V-155" ; fm:areaHectares 4.6 ; fm:standAgeYears 28 ; fm:timberStockM3 1470.2 ; fm:damagedTreesShare 3.0 ; fm:ndviValue 0.75 .
+fm:Compartment_V156 a fm:Compartment ; fm:unitCode "V-156" ; fm:areaHectares 9.8 ; fm:standAgeYears 92 ; fm:timberStockM3 3020.2 ; fm:damagedTreesShare 2.0 ; fm:ndviValue 0.71 .
+fm:Compartment_V157 a fm:Compartment ; fm:unitCode "V-157" ; fm:areaHectares 12.7 ; fm:standAgeYears 73 ; fm:timberStockM3 3353.9 ; fm:damagedTreesShare 8.3 ; fm:ndviValue 0.7 .
+fm:Compartment_V158 a fm:Compartment ; fm:unitCode "V-158" ; fm:areaHectares 10.4 ; fm:standAgeYears 57 ; fm:timberStockM3 3189.5 ; fm:damagedTreesShare 8.1 ; fm:ndviValue 0.77 .
+fm:Compartment_V159 a fm:Compartment ; fm:unitCode "V-159" ; fm:areaHectares 6.2 ; fm:standAgeYears 94 ; fm:timberStockM3 1761.9 ; fm:damagedTreesShare 3.4 ; fm:ndviValue 0.79 .
+fm:Compartment_V160 a fm:Compartment ; fm:unitCode "V-160" ; fm:areaHectares 13.7 ; fm:standAgeYears 79 ; fm:timberStockM3 3913.9 ; fm:damagedTreesShare 3.1 ; fm:ndviValue 0.88 .
+fm:Compartment_V161 a fm:Compartment ; fm:unitCode "V-161" ; fm:areaHectares 7.3 ; fm:standAgeYears 38 ; fm:timberStockM3 2169.5 ; fm:damagedTreesShare 23.1 ; fm:ndviValue 0.63 .
+fm:Compartment_V162 a fm:Compartment ; fm:unitCode "V-162" ; fm:areaHectares 13.2 ; fm:standAgeYears 131 ; fm:timberStockM3 3530.3 ; fm:damagedTreesShare 5.3 ; fm:ndviValue 0.81 .
+fm:Compartment_V163 a fm:Compartment ; fm:unitCode "V-163" ; fm:areaHectares 16.7 ; fm:standAgeYears 31 ; fm:timberStockM3 5252.4 ; fm:damagedTreesShare 7.6 ; fm:ndviValue 0.86 .
+fm:Compartment_V164 a fm:Compartment ; fm:unitCode "V-164" ; fm:areaHectares 12.5 ; fm:standAgeYears 54 ; fm:timberStockM3 3440.4 ; fm:damagedTreesShare 5.9 ; fm:ndviValue 0.8 .
+fm:Compartment_V165 a fm:Compartment ; fm:unitCode "V-165" ; fm:areaHectares 14.7 ; fm:standAgeYears 117 ; fm:timberStockM3 4528.9 ; fm:damagedTreesShare 1.7 ; fm:ndviValue 0.69 .
+fm:Compartment_V166 a fm:Compartment ; fm:unitCode "V-166" ; fm:areaHectares 8.3 ; fm:standAgeYears 30 ; fm:timberStockM3 2357.9 ; fm:damagedTreesShare 5.4 ; fm:ndviValue 0.82 .
+fm:Compartment_V167 a fm:Compartment ; fm:unitCode "V-167" ; fm:areaHectares 8.6 ; fm:standAgeYears 62 ; fm:timberStockM3 2421.3 ; fm:damagedTreesShare 2.2 ; fm:ndviValue 0.84 .
+fm:Compartment_V168 a fm:Compartment ; fm:unitCode "V-168" ; fm:areaHectares 11.4 ; fm:standAgeYears 71 ; fm:timberStockM3 3777.4 ; fm:damagedTreesShare 28.4 ; fm:ndviValue 0.52 .
+fm:Compartment_V169 a fm:Compartment ; fm:unitCode "V-169" ; fm:areaHectares 17.5 ; fm:standAgeYears 86 ; fm:timberStockM3 4716.5 ; fm:damagedTreesShare 7.9 ; fm:ndviValue 0.84 .
+fm:Compartment_V170 a fm:Compartment ; fm:unitCode "V-170" ; fm:areaHectares 6.0 ; fm:standAgeYears 34 ; fm:timberStockM3 2019.9 ; fm:damagedTreesShare 7.8 ; fm:ndviValue 0.82 .
+fm:Compartment_V171 a fm:Compartment ; fm:unitCode "V-171" ; fm:areaHectares 15.3 ; fm:standAgeYears 133 ; fm:timberStockM3 4231.6 ; fm:damagedTreesShare 7.2 ; fm:ndviValue 0.67 .
+fm:Compartment_V172 a fm:Compartment ; fm:unitCode "V-172" ; fm:areaHectares 9.2 ; fm:standAgeYears 83 ; fm:timberStockM3 2897.1 ; fm:damagedTreesShare 2.7 ; fm:ndviValue 0.75 .
+fm:Compartment_V173 a fm:Compartment ; fm:unitCode "V-173" ; fm:areaHectares 5.5 ; fm:standAgeYears 72 ; fm:timberStockM3 1448.6 ; fm:damagedTreesShare 0.7 ; fm:ndviValue 0.86 .
+fm:Compartment_V174 a fm:Compartment ; fm:unitCode "V-174" ; fm:areaHectares 7.1 ; fm:standAgeYears 103 ; fm:timberStockM3 1748.9 ; fm:damagedTreesShare 7.5 ; fm:ndviValue 0.61 .
+fm:Compartment_V175 a fm:Compartment ; fm:unitCode "V-175" ; fm:areaHectares 4.6 ; fm:standAgeYears 42 ; fm:timberStockM3 1121.1 ; fm:damagedTreesShare 31.9 ; fm:ndviValue 0.5 .
+fm:Compartment_V176 a fm:Compartment ; fm:unitCode "V-176" ; fm:areaHectares 5.9 ; fm:standAgeYears 93 ; fm:timberStockM3 1683.6 ; fm:damagedTreesShare 6.2 ; fm:ndviValue 0.83 .
+fm:Compartment_V177 a fm:Compartment ; fm:unitCode "V-177" ; fm:areaHectares 12.2 ; fm:standAgeYears 78 ; fm:timberStockM3 3814.5 ; fm:damagedTreesShare 8.0 ; fm:ndviValue 0.81 .
+fm:Compartment_V178 a fm:Compartment ; fm:unitCode "V-178" ; fm:areaHectares 9.7 ; fm:standAgeYears 103 ; fm:timberStockM3 3251.0 ; fm:damagedTreesShare 0.8 ; fm:ndviValue 0.75 .
+fm:Compartment_V179 a fm:Compartment ; fm:unitCode "V-179" ; fm:areaHectares 16.0 ; fm:standAgeYears 55 ; fm:timberStockM3 3999.0 ; fm:damagedTreesShare 6.3 ; fm:ndviValue 0.78 .
+fm:Compartment_V180 a fm:Compartment ; fm:unitCode "V-180" ; fm:areaHectares 4.8 ; fm:standAgeYears 70 ; fm:timberStockM3 1284.4 ; fm:damagedTreesShare 8.7 ; fm:ndviValue 0.87 .
+fm:Compartment_V181 a fm:Compartment ; fm:unitCode "V-181" ; fm:areaHectares 13.3 ; fm:standAgeYears 36 ; fm:timberStockM3 4045.5 ; fm:damagedTreesShare 5.6 ; fm:ndviValue 0.67 .
+fm:Compartment_V182 a fm:Compartment ; fm:unitCode "V-182" ; fm:areaHectares 17.8 ; fm:standAgeYears 56 ; fm:timberStockM3 5672.8 ; fm:damagedTreesShare 15.3 ; fm:ndviValue 0.6 .
+fm:Compartment_V183 a fm:Compartment ; fm:unitCode "V-183" ; fm:areaHectares 7.0 ; fm:standAgeYears 100 ; fm:timberStockM3 2288.8 ; fm:damagedTreesShare 3.3 ; fm:ndviValue 0.7 .
+fm:Compartment_V184 a fm:Compartment ; fm:unitCode "V-184" ; fm:areaHectares 7.9 ; fm:standAgeYears 25 ; fm:timberStockM3 2673.4 ; fm:damagedTreesShare 8.9 ; fm:ndviValue 0.78 .
+fm:Compartment_V185 a fm:Compartment ; fm:unitCode "V-185" ; fm:areaHectares 13.3 ; fm:standAgeYears 39 ; fm:timberStockM3 3226.3 ; fm:damagedTreesShare 0.6 ; fm:ndviValue 0.84 .
+fm:Compartment_V186 a fm:Compartment ; fm:unitCode "V-186" ; fm:areaHectares 4.2 ; fm:standAgeYears 66 ; fm:timberStockM3 1119.5 ; fm:damagedTreesShare 1.6 ; fm:ndviValue 0.76 .
+fm:Compartment_V187 a fm:Compartment ; fm:unitCode "V-187" ; fm:areaHectares 10.7 ; fm:standAgeYears 33 ; fm:timberStockM3 3400.5 ; fm:damagedTreesShare 4.9 ; fm:ndviValue 0.69 .
+fm:Compartment_V188 a fm:Compartment ; fm:unitCode "V-188" ; fm:areaHectares 4.6 ; fm:standAgeYears 103 ; fm:timberStockM3 1464.3 ; fm:damagedTreesShare 7.9 ; fm:ndviValue 0.78 .
+fm:Compartment_V189 a fm:Compartment ; fm:unitCode "V-189" ; fm:areaHectares 4.9 ; fm:standAgeYears 28 ; fm:timberStockM3 1410.7 ; fm:damagedTreesShare 19.4 ; fm:ndviValue 0.58 .
+fm:Compartment_V190 a fm:Compartment ; fm:unitCode "V-190" ; fm:areaHectares 5.0 ; fm:standAgeYears 81 ; fm:timberStockM3 1240.4 ; fm:damagedTreesShare 5.7 ; fm:ndviValue 0.68 .
+fm:Compartment_V191 a fm:Compartment ; fm:unitCode "V-191" ; fm:areaHectares 12.2 ; fm:standAgeYears 106 ; fm:timberStockM3 3796.8 ; fm:damagedTreesShare 3.7 ; fm:ndviValue 0.8 .
+fm:Compartment_V192 a fm:Compartment ; fm:unitCode "V-192" ; fm:areaHectares 12.5 ; fm:standAgeYears 89 ; fm:timberStockM3 3124.0 ; fm:damagedTreesShare 6.5 ; fm:ndviValue 0.85 .
+fm:Compartment_V193 a fm:Compartment ; fm:unitCode "V-193" ; fm:areaHectares 11.7 ; fm:standAgeYears 123 ; fm:timberStockM3 3820.6 ; fm:damagedTreesShare 4.2 ; fm:ndviValue 0.86 .
+fm:Compartment_V194 a fm:Compartment ; fm:unitCode "V-194" ; fm:areaHectares 10.3 ; fm:standAgeYears 130 ; fm:timberStockM3 2900.5 ; fm:damagedTreesShare 1.3 ; fm:ndviValue 0.76 .
+fm:Compartment_V195 a fm:Compartment ; fm:unitCode "V-195" ; fm:areaHectares 17.4 ; fm:standAgeYears 72 ; fm:timberStockM3 5371.1 ; fm:damagedTreesShare 4.5 ; fm:ndviValue 0.69 .
+fm:Compartment_V196 a fm:Compartment ; fm:unitCode "V-196" ; fm:areaHectares 5.4 ; fm:standAgeYears 80 ; fm:timberStockM3 1694.9 ; fm:damagedTreesShare 28.0 ; fm:ndviValue 0.56 .
+fm:Compartment_V197 a fm:Compartment ; fm:unitCode "V-197" ; fm:areaHectares 11.9 ; fm:standAgeYears 96 ; fm:timberStockM3 3653.3 ; fm:damagedTreesShare 4.0 ; fm:ndviValue 0.85 .
+fm:Compartment_V198 a fm:Compartment ; fm:unitCode "V-198" ; fm:areaHectares 16.2 ; fm:standAgeYears 79 ; fm:timberStockM3 5056.1 ; fm:damagedTreesShare 8.7 ; fm:ndviValue 0.8 .
+fm:Compartment_V199 a fm:Compartment ; fm:unitCode "V-199" ; fm:areaHectares 11.1 ; fm:standAgeYears 98 ; fm:timberStockM3 2835.8 ; fm:damagedTreesShare 4.6 ; fm:ndviValue 0.85 .
+fm:Compartment_V200 a fm:Compartment ; fm:unitCode "V-200" ; fm:areaHectares 9.1 ; fm:standAgeYears 96 ; fm:timberStockM3 2878.0 ; fm:damagedTreesShare 5.4 ; fm:ndviValue 0.84 .
+fm:Compartment_V201 a fm:Compartment ; fm:unitCode "V-201" ; fm:areaHectares 15.5 ; fm:standAgeYears 123 ; fm:timberStockM3 4671.0 ; fm:damagedTreesShare 6.0 ; fm:ndviValue 0.68 .
+fm:Compartment_V202 a fm:Compartment ; fm:unitCode "V-202" ; fm:areaHectares 13.7 ; fm:standAgeYears 131 ; fm:timberStockM3 3327.7 ; fm:damagedTreesShare 2.8 ; fm:ndviValue 0.83 .
+fm:Compartment_V203 a fm:Compartment ; fm:unitCode "V-203" ; fm:areaHectares 4.1 ; fm:standAgeYears 69 ; fm:timberStockM3 1340.6 ; fm:damagedTreesShare 22.9 ; fm:ndviValue 0.54 .
+fm:Compartment_V204 a fm:Compartment ; fm:unitCode "V-204" ; fm:areaHectares 17.6 ; fm:standAgeYears 106 ; fm:timberStockM3 4385.5 ; fm:damagedTreesShare 5.0 ; fm:ndviValue 0.75 .
+fm:Compartment_V205 a fm:Compartment ; fm:unitCode "V-205" ; fm:areaHectares 9.2 ; fm:standAgeYears 45 ; fm:timberStockM3 2871.9 ; fm:damagedTreesShare 7.1 ; fm:ndviValue 0.79 .
+fm:Compartment_V206 a fm:Compartment ; fm:unitCode "V-206" ; fm:areaHectares 6.2 ; fm:standAgeYears 31 ; fm:timberStockM3 1955.8 ; fm:damagedTreesShare 0.9 ; fm:ndviValue 0.69 .
+fm:Compartment_V207 a fm:Compartment ; fm:unitCode "V-207" ; fm:areaHectares 10.8 ; fm:standAgeYears 79 ; fm:timberStockM3 3069.4 ; fm:damagedTreesShare 2.8 ; fm:ndviValue 0.83 .
+fm:Compartment_V208 a fm:Compartment ; fm:unitCode "V-208" ; fm:areaHectares 5.6 ; fm:standAgeYears 80 ; fm:timberStockM3 1723.8 ; fm:damagedTreesShare 5.5 ; fm:ndviValue 0.78 .
+fm:Compartment_V209 a fm:Compartment ; fm:unitCode "V-209" ; fm:areaHectares 9.5 ; fm:standAgeYears 53 ; fm:timberStockM3 2849.4 ; fm:damagedTreesShare 0.6 ; fm:ndviValue 0.73 .
+fm:Compartment_V210 a fm:Compartment ; fm:unitCode "V-210" ; fm:areaHectares 14.7 ; fm:standAgeYears 42 ; fm:timberStockM3 3953.5 ; fm:damagedTreesShare 13.5 ; fm:ndviValue 0.55 .
+fm:Compartment_V211 a fm:Compartment ; fm:unitCode "V-211" ; fm:areaHectares 9.3 ; fm:standAgeYears 41 ; fm:timberStockM3 2886.4 ; fm:damagedTreesShare 4.8 ; fm:ndviValue 0.85 .
+fm:Compartment_V212 a fm:Compartment ; fm:unitCode "V-212" ; fm:areaHectares 9.6 ; fm:standAgeYears 34 ; fm:timberStockM3 3016.4 ; fm:damagedTreesShare 4.2 ; fm:ndviValue 0.77 .
+fm:Compartment_V213 a fm:Compartment ; fm:unitCode "V-213" ; fm:areaHectares 12.1 ; fm:standAgeYears 65 ; fm:timberStockM3 3597.8 ; fm:damagedTreesShare 6.5 ; fm:ndviValue 0.76 .
+fm:Compartment_V214 a fm:Compartment ; fm:unitCode "V-214" ; fm:areaHectares 17.5 ; fm:standAgeYears 27 ; fm:timberStockM3 4500.8 ; fm:damagedTreesShare 8.6 ; fm:ndviValue 0.77 .
+fm:Compartment_V215 a fm:Compartment ; fm:unitCode "V-215" ; fm:areaHectares 5.2 ; fm:standAgeYears 71 ; fm:timberStockM3 1687.1 ; fm:damagedTreesShare 2.6 ; fm:ndviValue 0.79 .
+fm:Compartment_V216 a fm:Compartment ; fm:unitCode "V-216" ; fm:areaHectares 16.2 ; fm:standAgeYears 75 ; fm:timberStockM3 5096.2 ; fm:damagedTreesShare 2.4 ; fm:ndviValue 0.83 .
+fm:Compartment_V217 a fm:Compartment ; fm:unitCode "V-217" ; fm:areaHectares 5.6 ; fm:standAgeYears 106 ; fm:timberStockM3 1629.6 ; fm:damagedTreesShare 30.0 ; fm:ndviValue 0.53 .
+fm:Compartment_V218 a fm:Compartment ; fm:unitCode "V-218" ; fm:areaHectares 13.0 ; fm:standAgeYears 129 ; fm:timberStockM3 3312.0 ; fm:damagedTreesShare 1.4 ; fm:ndviValue 0.72 .
+fm:Compartment_V219 a fm:Compartment ; fm:unitCode "V-219" ; fm:areaHectares 14.6 ; fm:standAgeYears 44 ; fm:timberStockM3 4461.0 ; fm:damagedTreesShare 2.0 ; fm:ndviValue 0.83 .
+fm:Compartment_V220 a fm:Compartment ; fm:unitCode "V-220" ; fm:areaHectares 11.9 ; fm:standAgeYears 121 ; fm:timberStockM3 3545.6 ; fm:damagedTreesShare 6.3 ; fm:ndviValue 0.86 .
+fm:Compartment_V221 a fm:Compartment ; fm:unitCode "V-221" ; fm:areaHectares 8.5 ; fm:standAgeYears 104 ; fm:timberStockM3 2865.3 ; fm:damagedTreesShare 3.2 ; fm:ndviValue 0.76 .
+fm:Compartment_V222 a fm:Compartment ; fm:unitCode "V-222" ; fm:areaHectares 8.2 ; fm:standAgeYears 105 ; fm:timberStockM3 2193.2 ; fm:damagedTreesShare 1.0 ; fm:ndviValue 0.78 .
+fm:Compartment_V223 a fm:Compartment ; fm:unitCode "V-223" ; fm:areaHectares 4.5 ; fm:standAgeYears 82 ; fm:timberStockM3 1245.9 ; fm:damagedTreesShare 2.9 ; fm:ndviValue 0.81 .
+fm:Compartment_V224 a fm:Compartment ; fm:unitCode "V-224" ; fm:areaHectares 12.6 ; fm:standAgeYears 36 ; fm:timberStockM3 3662.9 ; fm:damagedTreesShare 20.7 ; fm:ndviValue 0.56 .
+fm:Compartment_V225 a fm:Compartment ; fm:unitCode "V-225" ; fm:areaHectares 10.3 ; fm:standAgeYears 30 ; fm:timberStockM3 3306.1 ; fm:damagedTreesShare 6.0 ; fm:ndviValue 0.74 .
+fm:Compartment_V226 a fm:Compartment ; fm:unitCode "V-226" ; fm:areaHectares 17.4 ; fm:standAgeYears 44 ; fm:timberStockM3 4959.9 ; fm:damagedTreesShare 7.4 ; fm:ndviValue 0.85 .
+fm:Compartment_V227 a fm:Compartment ; fm:unitCode "V-227" ; fm:areaHectares 11.1 ; fm:standAgeYears 35 ; fm:timberStockM3 2855.5 ; fm:damagedTreesShare 2.6 ; fm:ndviValue 0.76 .
+fm:Compartment_V228 a fm:Compartment ; fm:unitCode "V-228" ; fm:areaHectares 12.5 ; fm:standAgeYears 91 ; fm:timberStockM3 3454.9 ; fm:damagedTreesShare 8.3 ; fm:ndviValue 0.75 .
+fm:Compartment_V229 a fm:Compartment ; fm:unitCode "V-229" ; fm:areaHectares 12.4 ; fm:standAgeYears 111 ; fm:timberStockM3 3954.6 ; fm:damagedTreesShare 6.0 ; fm:ndviValue 0.68 .
+fm:Compartment_V230 a fm:Compartment ; fm:unitCode "V-230" ; fm:areaHectares 9.4 ; fm:standAgeYears 111 ; fm:timberStockM3 2492.9 ; fm:damagedTreesShare 7.7 ; fm:ndviValue 0.87 .
+fm:Compartment_V231 a fm:Compartment ; fm:unitCode "V-231" ; fm:areaHectares 8.7 ; fm:standAgeYears 44 ; fm:timberStockM3 2595.0 ; fm:damagedTreesShare 14.0 ; fm:ndviValue 0.53 .
+fm:Compartment_V232 a fm:Compartment ; fm:unitCode "V-232" ; fm:areaHectares 13.3 ; fm:standAgeYears 114 ; fm:timberStockM3 3363.5 ; fm:damagedTreesShare 6.5 ; fm:ndviValue 0.62 .
+fm:Compartment_V233 a fm:Compartment ; fm:unitCode "V-233" ; fm:areaHectares 15.4 ; fm:standAgeYears 67 ; fm:timberStockM3 4728.0 ; fm:damagedTreesShare 7.5 ; fm:ndviValue 0.83 .
+fm:Compartment_V234 a fm:Compartment ; fm:unitCode "V-234" ; fm:areaHectares 5.3 ; fm:standAgeYears 92 ; fm:timberStockM3 1627.3 ; fm:damagedTreesShare 4.8 ; fm:ndviValue 0.67 .
+fm:Compartment_V235 a fm:Compartment ; fm:unitCode "V-235" ; fm:areaHectares 8.8 ; fm:standAgeYears 52 ; fm:timberStockM3 2786.2 ; fm:damagedTreesShare 2.1 ; fm:ndviValue 0.88 .
+fm:Compartment_V236 a fm:Compartment ; fm:unitCode "V-236" ; fm:areaHectares 15.8 ; fm:standAgeYears 62 ; fm:timberStockM3 3951.8 ; fm:damagedTreesShare 7.1 ; fm:ndviValue 0.85 .
+fm:Compartment_V237 a fm:Compartment ; fm:unitCode "V-237" ; fm:areaHectares 13.3 ; fm:standAgeYears 29 ; fm:timberStockM3 4357.6 ; fm:damagedTreesShare 5.8 ; fm:ndviValue 0.8 .
+fm:Compartment_V238 a fm:Compartment ; fm:unitCode "V-238" ; fm:areaHectares 15.6 ; fm:standAgeYears 48 ; fm:timberStockM3 4946.9 ; fm:damagedTreesShare 28.0 ; fm:ndviValue 0.5 .
+fm:Compartment_V239 a fm:Compartment ; fm:unitCode "V-239" ; fm:areaHectares 9.1 ; fm:standAgeYears 77 ; fm:timberStockM3 2838.8 ; fm:damagedTreesShare 8.7 ; fm:ndviValue 0.8 .
+fm:Compartment_V240 a fm:Compartment ; fm:unitCode "V-240" ; fm:areaHectares 10.3 ; fm:standAgeYears 125 ; fm:timberStockM3 3022.0 ; fm:damagedTreesShare 3.1 ; fm:ndviValue 0.84 .
+fm:Compartment_V241 a fm:Compartment ; fm:unitCode "V-241" ; fm:areaHectares 6.7 ; fm:standAgeYears 131 ; fm:timberStockM3 2062.5 ; fm:damagedTreesShare 5.3 ; fm:ndviValue 0.76 .
+fm:Compartment_V242 a fm:Compartment ; fm:unitCode "V-242" ; fm:areaHectares 9.3 ; fm:standAgeYears 124 ; fm:timberStockM3 2722.5 ; fm:damagedTreesShare 8.7 ; fm:ndviValue 0.84 .
+fm:Compartment_V243 a fm:Compartment ; fm:unitCode "V-243" ; fm:areaHectares 16.2 ; fm:standAgeYears 42 ; fm:timberStockM3 3972.5 ; fm:damagedTreesShare 4.6 ; fm:ndviValue 0.75 .
+fm:Compartment_V244 a fm:Compartment ; fm:unitCode "V-244" ; fm:areaHectares 15.8 ; fm:standAgeYears 116 ; fm:timberStockM3 5136.8 ; fm:damagedTreesShare 2.9 ; fm:ndviValue 0.83 .
+fm:Compartment_V245 a fm:Compartment ; fm:unitCode "V-245" ; fm:areaHectares 6.1 ; fm:standAgeYears 90 ; fm:timberStockM3 1730.9 ; fm:damagedTreesShare 30.9 ; fm:ndviValue 0.51 .
+fm:Compartment_V246 a fm:Compartment ; fm:unitCode "V-246" ; fm:areaHectares 17.0 ; fm:standAgeYears 69 ; fm:timberStockM3 4785.3 ; fm:damagedTreesShare 3.9 ; fm:ndviValue 0.75 .
+fm:Compartment_V247 a fm:Compartment ; fm:unitCode "V-247" ; fm:areaHectares 9.2 ; fm:standAgeYears 35 ; fm:timberStockM3 2233.9 ; fm:damagedTreesShare 8.4 ; fm:ndviValue 0.85 .
+fm:Compartment_V248 a fm:Compartment ; fm:unitCode "V-248" ; fm:areaHectares 6.0 ; fm:standAgeYears 126 ; fm:timberStockM3 1463.0 ; fm:damagedTreesShare 8.3 ; fm:ndviValue 0.77 .
+fm:Compartment_V249 a fm:Compartment ; fm:unitCode "V-249" ; fm:areaHectares 13.9 ; fm:standAgeYears 122 ; fm:timberStockM3 3959.6 ; fm:damagedTreesShare 0.5 ; fm:ndviValue 0.69 .
+fm:Compartment_V250 a fm:Compartment ; fm:unitCode "V-250" ; fm:areaHectares 6.1 ; fm:standAgeYears 131 ; fm:timberStockM3 2037.5 ; fm:damagedTreesShare 5.7 ; fm:ndviValue 0.76 .
+fm:Compartment_V251 a fm:Compartment ; fm:unitCode "V-251" ; fm:areaHectares 8.2 ; fm:standAgeYears 55 ; fm:timberStockM3 2007.2 ; fm:damagedTreesShare 4.1 ; fm:ndviValue 0.84 .
+fm:Compartment_V252 a fm:Compartment ; fm:unitCode "V-252" ; fm:areaHectares 15.7 ; fm:standAgeYears 39 ; fm:timberStockM3 4552.7 ; fm:damagedTreesShare 22.3 ; fm:ndviValue 0.57 .
+fm:Compartment_V253 a fm:Compartment ; fm:unitCode "V-253" ; fm:areaHectares 6.0 ; fm:standAgeYears 116 ; fm:timberStockM3 1697.5 ; fm:damagedTreesShare 5.7 ; fm:ndviValue 0.72 .
+fm:Compartment_V254 a fm:Compartment ; fm:unitCode "V-254" ; fm:areaHectares 13.4 ; fm:standAgeYears 110 ; fm:timberStockM3 3917.5 ; fm:damagedTreesShare 3.6 ; fm:ndviValue 0.87 .
+fm:Compartment_V255 a fm:Compartment ; fm:unitCode "V-255" ; fm:areaHectares 17.8 ; fm:standAgeYears 125 ; fm:timberStockM3 5258.4 ; fm:damagedTreesShare 3.8 ; fm:ndviValue 0.77 .
+fm:Compartment_V256 a fm:Compartment ; fm:unitCode "V-256" ; fm:areaHectares 7.6 ; fm:standAgeYears 72 ; fm:timberStockM3 1836.3 ; fm:damagedTreesShare 7.2 ; fm:ndviValue 0.74 .
+fm:Compartment_V257 a fm:Compartment ; fm:unitCode "V-257" ; fm:areaHectares 5.5 ; fm:standAgeYears 105 ; fm:timberStockM3 1640.0 ; fm:damagedTreesShare 6.9 ; fm:ndviValue 0.7 .
+fm:Compartment_V258 a fm:Compartment ; fm:unitCode "V-258" ; fm:areaHectares 15.4 ; fm:standAgeYears 68 ; fm:timberStockM3 3965.6 ; fm:damagedTreesShare 7.1 ; fm:ndviValue 0.77 .
+fm:Compartment_V259 a fm:Compartment ; fm:unitCode "V-259" ; fm:areaHectares 6.6 ; fm:standAgeYears 105 ; fm:timberStockM3 1673.0 ; fm:damagedTreesShare 26.0 ; fm:ndviValue 0.62 .
+fm:Compartment_V260 a fm:Compartment ; fm:unitCode "V-260" ; fm:areaHectares 4.6 ; fm:standAgeYears 50 ; fm:timberStockM3 1195.8 ; fm:damagedTreesShare 0.9 ; fm:ndviValue 0.87 .
+fm:Compartment_V261 a fm:Compartment ; fm:unitCode "V-261" ; fm:areaHectares 11.6 ; fm:standAgeYears 129 ; fm:timberStockM3 3077.8 ; fm:damagedTreesShare 6.9 ; fm:ndviValue 0.61 .
+fm:Compartment_V262 a fm:Compartment ; fm:unitCode "V-262" ; fm:areaHectares 13.2 ; fm:standAgeYears 135 ; fm:timberStockM3 3528.6 ; fm:damagedTreesShare 7.3 ; fm:ndviValue 0.76 .
+fm:Compartment_V263 a fm:Compartment ; fm:unitCode "V-263" ; fm:areaHectares 16.5 ; fm:standAgeYears 81 ; fm:timberStockM3 4598.0 ; fm:damagedTreesShare 8.8 ; fm:ndviValue 0.77 .
+fm:Compartment_V264 a fm:Compartment ; fm:unitCode "V-264" ; fm:areaHectares 11.3 ; fm:standAgeYears 127 ; fm:timberStockM3 3617.3 ; fm:damagedTreesShare 6.7 ; fm:ndviValue 0.69 .
+fm:Compartment_V265 a fm:Compartment ; fm:unitCode "V-265" ; fm:areaHectares 6.5 ; fm:standAgeYears 130 ; fm:timberStockM3 1750.9 ; fm:damagedTreesShare 1.4 ; fm:ndviValue 0.74 .
+fm:Compartment_V266 a fm:Compartment ; fm:unitCode "V-266" ; fm:areaHectares 12.4 ; fm:standAgeYears 82 ; fm:timberStockM3 3504.4 ; fm:damagedTreesShare 25.5 ; fm:ndviValue 0.53 .
+fm:Compartment_V267 a fm:Compartment ; fm:unitCode "V-267" ; fm:areaHectares 12.6 ; fm:standAgeYears 70 ; fm:timberStockM3 3572.0 ; fm:damagedTreesShare 5.9 ; fm:ndviValue 0.84 .
+fm:Compartment_V268 a fm:Compartment ; fm:unitCode "V-268" ; fm:areaHectares 12.9 ; fm:standAgeYears 110 ; fm:timberStockM3 3564.7 ; fm:damagedTreesShare 7.3 ; fm:ndviValue 0.81 .
+fm:Compartment_V269 a fm:Compartment ; fm:unitCode "V-269" ; fm:areaHectares 15.9 ; fm:standAgeYears 43 ; fm:timberStockM3 4894.2 ; fm:damagedTreesShare 4.2 ; fm:ndviValue 0.7 .
+fm:Compartment_V270 a fm:Compartment ; fm:unitCode "V-270" ; fm:areaHectares 9.1 ; fm:standAgeYears 107 ; fm:timberStockM3 2532.4 ; fm:damagedTreesShare 5.3 ; fm:ndviValue 0.8 .
+fm:Compartment_V271 a fm:Compartment ; fm:unitCode "V-271" ; fm:areaHectares 9.2 ; fm:standAgeYears 72 ; fm:timberStockM3 2910.0 ; fm:damagedTreesShare 5.4 ; fm:ndviValue 0.78 .
+fm:Compartment_V272 a fm:Compartment ; fm:unitCode "V-272" ; fm:areaHectares 7.9 ; fm:standAgeYears 108 ; fm:timberStockM3 2654.8 ; fm:damagedTreesShare 0.7 ; fm:ndviValue 0.71 .
+fm:Compartment_V273 a fm:Compartment ; fm:unitCode "V-273" ; fm:areaHectares 5.6 ; fm:standAgeYears 96 ; fm:timberStockM3 1778.0 ; fm:damagedTreesShare 25.8 ; fm:ndviValue 0.51 .
+fm:Compartment_V274 a fm:Compartment ; fm:unitCode "V-274" ; fm:areaHectares 16.8 ; fm:standAgeYears 113 ; fm:timberStockM3 4857.2 ; fm:damagedTreesShare 1.5 ; fm:ndviValue 0.85 .
+fm:Compartment_V275 a fm:Compartment ; fm:unitCode "V-275" ; fm:areaHectares 10.2 ; fm:standAgeYears 116 ; fm:timberStockM3 2537.5 ; fm:damagedTreesShare 6.3 ; fm:ndviValue 0.85 .
+fm:Compartment_V276 a fm:Compartment ; fm:unitCode "V-276" ; fm:areaHectares 13.9 ; fm:standAgeYears 69 ; fm:timberStockM3 4100.5 ; fm:damagedTreesShare 3.0 ; fm:ndviValue 0.73 .
+fm:Compartment_V277 a fm:Compartment ; fm:unitCode "V-277" ; fm:areaHectares 17.0 ; fm:standAgeYears 115 ; fm:timberStockM3 5164.1 ; fm:damagedTreesShare 7.2 ; fm:ndviValue 0.78 .
+fm:Compartment_V278 a fm:Compartment ; fm:unitCode "V-278" ; fm:areaHectares 15.1 ; fm:standAgeYears 50 ; fm:timberStockM3 3981.5 ; fm:damagedTreesShare 4.7 ; fm:ndviValue 0.75 .
+fm:Compartment_V279 a fm:Compartment ; fm:unitCode "V-279" ; fm:areaHectares 15.3 ; fm:standAgeYears 84 ; fm:timberStockM3 4516.0 ; fm:damagedTreesShare 5.7 ; fm:ndviValue 0.69 .
+fm:Compartment_V280 a fm:Compartment ; fm:unitCode "V-280" ; fm:areaHectares 14.1 ; fm:standAgeYears 116 ; fm:timberStockM3 4125.2 ; fm:damagedTreesShare 27.2 ; fm:ndviValue 0.6 .
+fm:Compartment_V281 a fm:Compartment ; fm:unitCode "V-281" ; fm:areaHectares 13.0 ; fm:standAgeYears 65 ; fm:timberStockM3 3705.0 ; fm:damagedTreesShare 6.3 ; fm:ndviValue 0.74 .
+fm:Compartment_V282 a fm:Compartment ; fm:unitCode "V-282" ; fm:areaHectares 11.7 ; fm:standAgeYears 124 ; fm:timberStockM3 3495.7 ; fm:damagedTreesShare 7.0 ; fm:ndviValue 0.7 .
+fm:Compartment_V283 a fm:Compartment ; fm:unitCode "V-283" ; fm:areaHectares 15.6 ; fm:standAgeYears 32 ; fm:timberStockM3 4552.2 ; fm:damagedTreesShare 3.1 ; fm:ndviValue 0.7 .
+fm:Compartment_V284 a fm:Compartment ; fm:unitCode "V-284" ; fm:areaHectares 8.8 ; fm:standAgeYears 53 ; fm:timberStockM3 2940.0 ; fm:damagedTreesShare 8.1 ; fm:ndviValue 0.85 .
+fm:Compartment_V285 a fm:Compartment ; fm:unitCode "V-285" ; fm:areaHectares 17.4 ; fm:standAgeYears 106 ; fm:timberStockM3 4653.5 ; fm:damagedTreesShare 5.8 ; fm:ndviValue 0.8 .
+fm:Compartment_V286 a fm:Compartment ; fm:unitCode "V-286" ; fm:areaHectares 6.4 ; fm:standAgeYears 107 ; fm:timberStockM3 2138.6 ; fm:damagedTreesShare 1.8 ; fm:ndviValue 0.81 .
+fm:Compartment_V287 a fm:Compartment ; fm:unitCode "V-287" ; fm:areaHectares 8.7 ; fm:standAgeYears 102 ; fm:timberStockM3 2891.8 ; fm:damagedTreesShare 11.9 ; fm:ndviValue 0.61 .
+fm:Compartment_V288 a fm:Compartment ; fm:unitCode "V-288" ; fm:areaHectares 14.8 ; fm:standAgeYears 107 ; fm:timberStockM3 3943.7 ; fm:damagedTreesShare 2.3 ; fm:ndviValue 0.79 .
+fm:Compartment_V289 a fm:Compartment ; fm:unitCode "V-289" ; fm:areaHectares 11.0 ; fm:standAgeYears 28 ; fm:timberStockM3 3329.9 ; fm:damagedTreesShare 3.0 ; fm:ndviValue 0.87 .
+fm:Compartment_V290 a fm:Compartment ; fm:unitCode "V-290" ; fm:areaHectares 15.3 ; fm:standAgeYears 128 ; fm:timberStockM3 4293.3 ; fm:damagedTreesShare 4.4 ; fm:ndviValue 0.61 .
+fm:Compartment_V291 a fm:Compartment ; fm:unitCode "V-291" ; fm:areaHectares 6.9 ; fm:standAgeYears 84 ; fm:timberStockM3 2074.6 ; fm:damagedTreesShare 3.2 ; fm:ndviValue 0.82 .
+fm:Compartment_V292 a fm:Compartment ; fm:unitCode "V-292" ; fm:areaHectares 8.8 ; fm:standAgeYears 135 ; fm:timberStockM3 2462.9 ; fm:damagedTreesShare 7.0 ; fm:ndviValue 0.78 .
+fm:Compartment_V293 a fm:Compartment ; fm:unitCode "V-293" ; fm:areaHectares 10.5 ; fm:standAgeYears 55 ; fm:timberStockM3 2800.8 ; fm:damagedTreesShare 2.6 ; fm:ndviValue 0.69 .
+fm:Compartment_V294 a fm:Compartment ; fm:unitCode "V-294" ; fm:areaHectares 16.1 ; fm:standAgeYears 74 ; fm:timberStockM3 4537.2 ; fm:damagedTreesShare 31.2 ; fm:ndviValue 0.62 .
+fm:Compartment_V295 a fm:Compartment ; fm:unitCode "V-295" ; fm:areaHectares 14.1 ; fm:standAgeYears 98 ; fm:timberStockM3 3651.7 ; fm:damagedTreesShare 1.9 ; fm:ndviValue 0.88 .
+fm:Compartment_V296 a fm:Compartment ; fm:unitCode "V-296" ; fm:areaHectares 11.0 ; fm:standAgeYears 64 ; fm:timberStockM3 2739.1 ; fm:damagedTreesShare 3.8 ; fm:ndviValue 0.77 .
+fm:Compartment_V297 a fm:Compartment ; fm:unitCode "V-297" ; fm:areaHectares 8.9 ; fm:standAgeYears 99 ; fm:timberStockM3 2181.0 ; fm:damagedTreesShare 4.7 ; fm:ndviValue 0.86 .
+fm:Compartment_V298 a fm:Compartment ; fm:unitCode "V-298" ; fm:areaHectares 8.0 ; fm:standAgeYears 85 ; fm:timberStockM3 1926.5 ; fm:damagedTreesShare 1.4 ; fm:ndviValue 0.7 .
+fm:Compartment_V299 a fm:Compartment ; fm:unitCode "V-299" ; fm:areaHectares 14.7 ; fm:standAgeYears 71 ; fm:timberStockM3 4065.9 ; fm:damagedTreesShare 3.9 ; fm:ndviValue 0.79 .
+fm:Compartment_V300 a fm:Compartment ; fm:unitCode "V-300" ; fm:areaHectares 8.0 ; fm:standAgeYears 95 ; fm:timberStockM3 2229.1 ; fm:damagedTreesShare 4.3 ; fm:ndviValue 0.79 .
+fm:Compartment_V301 a fm:Compartment ; fm:unitCode "V-301" ; fm:areaHectares 13.5 ; fm:standAgeYears 104 ; fm:timberStockM3 3400.4 ; fm:damagedTreesShare 31.5 ; fm:ndviValue 0.54 .
+fm:Compartment_V302 a fm:Compartment ; fm:unitCode "V-302" ; fm:areaHectares 11.8 ; fm:standAgeYears 68 ; fm:timberStockM3 3263.4 ; fm:damagedTreesShare 1.7 ; fm:ndviValue 0.8 .
+fm:Compartment_V303 a fm:Compartment ; fm:unitCode "V-303" ; fm:areaHectares 4.6 ; fm:standAgeYears 30 ; fm:timberStockM3 1167.0 ; fm:damagedTreesShare 3.3 ; fm:ndviValue 0.77 .
+fm:Compartment_V304 a fm:Compartment ; fm:unitCode "V-304" ; fm:areaHectares 16.5 ; fm:standAgeYears 102 ; fm:timberStockM3 4190.6 ; fm:damagedTreesShare 8.4 ; fm:ndviValue 0.74 .
+fm:Compartment_V305 a fm:Compartment ; fm:unitCode "V-305" ; fm:areaHectares 14.4 ; fm:standAgeYears 103 ; fm:timberStockM3 3886.9 ; fm:damagedTreesShare 3.4 ; fm:ndviValue 0.84 .
+fm:Compartment_V306 a fm:Compartment ; fm:unitCode "V-306" ; fm:areaHectares 11.9 ; fm:standAgeYears 115 ; fm:timberStockM3 3421.1 ; fm:damagedTreesShare 0.6 ; fm:ndviValue 0.74 .
+fm:Compartment_V307 a fm:Compartment ; fm:unitCode "V-307" ; fm:areaHectares 12.2 ; fm:standAgeYears 78 ; fm:timberStockM3 3900.0 ; fm:damagedTreesShare 6.7 ; fm:ndviValue 0.81 .
+fm:Compartment_V308 a fm:Compartment ; fm:unitCode "V-308" ; fm:areaHectares 7.7 ; fm:standAgeYears 85 ; fm:timberStockM3 2352.8 ; fm:damagedTreesShare 31.4 ; fm:ndviValue 0.57 .
+fm:Compartment_V309 a fm:Compartment ; fm:unitCode "V-309" ; fm:areaHectares 12.2 ; fm:standAgeYears 31 ; fm:timberStockM3 3136.0 ; fm:damagedTreesShare 5.8 ; fm:ndviValue 0.8 .
+fm:Compartment_V310 a fm:Compartment ; fm:unitCode "V-310" ; fm:areaHectares 15.5 ; fm:standAgeYears 43 ; fm:timberStockM3 4095.4 ; fm:damagedTreesShare 5.4 ; fm:ndviValue 0.82 .
+fm:Compartment_V311 a fm:Compartment ; fm:unitCode "V-311" ; fm:areaHectares 8.4 ; fm:standAgeYears 81 ; fm:timberStockM3 2143.2 ; fm:damagedTreesShare 6.4 ; fm:ndviValue 0.76 .
+fm:Compartment_V312 a fm:Compartment ; fm:unitCode "V-312" ; fm:areaHectares 16.2 ; fm:standAgeYears 85 ; fm:timberStockM3 5080.1 ; fm:damagedTreesShare 1.0 ; fm:ndviValue 0.7 .
+fm:Compartment_V313 a fm:Compartment ; fm:unitCode "V-313" ; fm:areaHectares 18.0 ; fm:standAgeYears 66 ; fm:timberStockM3 5181.1 ; fm:damagedTreesShare 3.7 ; fm:ndviValue 0.87 .
+fm:Compartment_V314 a fm:Compartment ; fm:unitCode "V-314" ; fm:areaHectares 8.8 ; fm:standAgeYears 93 ; fm:timberStockM3 2423.8 ; fm:damagedTreesShare 7.1 ; fm:ndviValue 0.82 .
+fm:Compartment_V315 a fm:Compartment ; fm:unitCode "V-315" ; fm:areaHectares 7.7 ; fm:standAgeYears 113 ; fm:timberStockM3 2220.8 ; fm:damagedTreesShare 31.1 ; fm:ndviValue 0.52 .
+fm:Compartment_V316 a fm:Compartment ; fm:unitCode "V-316" ; fm:areaHectares 14.8 ; fm:standAgeYears 63 ; fm:timberStockM3 4595.3 ; fm:damagedTreesShare 6.4 ; fm:ndviValue 0.77 .
+fm:Compartment_V317 a fm:Compartment ; fm:unitCode "V-317" ; fm:areaHectares 17.1 ; fm:standAgeYears 96 ; fm:timberStockM3 5464.1 ; fm:damagedTreesShare 2.8 ; fm:ndviValue 0.7 .
+fm:Compartment_V318 a fm:Compartment ; fm:unitCode "V-318" ; fm:areaHectares 16.5 ; fm:standAgeYears 73 ; fm:timberStockM3 4611.0 ; fm:damagedTreesShare 3.4 ; fm:ndviValue 0.83 .
+fm:Compartment_V319 a fm:Compartment ; fm:unitCode "V-319" ; fm:areaHectares 8.0 ; fm:standAgeYears 30 ; fm:timberStockM3 2491.3 ; fm:damagedTreesShare 3.4 ; fm:ndviValue 0.61 .
+fm:Compartment_V320 a fm:Compartment ; fm:unitCode "V-320" ; fm:areaHectares 15.6 ; fm:standAgeYears 50 ; fm:timberStockM3 4167.0 ; fm:damagedTreesShare 5.3 ; fm:ndviValue 0.73 .
+fm:Compartment_V321 a fm:Compartment ; fm:unitCode "V-321" ; fm:areaHectares 12.2 ; fm:standAgeYears 119 ; fm:timberStockM3 3223.8 ; fm:damagedTreesShare 6.2 ; fm:ndviValue 0.78 .
+fm:Compartment_V322 a fm:Compartment ; fm:unitCode "V-322" ; fm:areaHectares 5.4 ; fm:standAgeYears 31 ; fm:timberStockM3 1474.4 ; fm:damagedTreesShare 20.9 ; fm:ndviValue 0.58 .
+fm:Compartment_V323 a fm:Compartment ; fm:unitCode "V-323" ; fm:areaHectares 17.7 ; fm:standAgeYears 95 ; fm:timberStockM3 4527.6 ; fm:damagedTreesShare 6.0 ; fm:ndviValue 0.85 .
+fm:Compartment_V324 a fm:Compartment ; fm:unitCode "V-324" ; fm:areaHectares 6.8 ; fm:standAgeYears 108 ; fm:timberStockM3 2287.5 ; fm:damagedTreesShare 3.2 ; fm:ndviValue 0.81 .
+fm:Compartment_V325 a fm:Compartment ; fm:unitCode "V-325" ; fm:areaHectares 13.1 ; fm:standAgeYears 36 ; fm:timberStockM3 3448.2 ; fm:damagedTreesShare 6.8 ; fm:ndviValue 0.85 .
+fm:Compartment_V326 a fm:Compartment ; fm:unitCode "V-326" ; fm:areaHectares 9.9 ; fm:standAgeYears 47 ; fm:timberStockM3 3205.2 ; fm:damagedTreesShare 8.4 ; fm:ndviValue 0.68 .
+fm:Compartment_V327 a fm:Compartment ; fm:unitCode "V-327" ; fm:areaHectares 10.9 ; fm:standAgeYears 125 ; fm:timberStockM3 3636.9 ; fm:damagedTreesShare 8.7 ; fm:ndviValue 0.86 .
+fm:Compartment_V328 a fm:Compartment ; fm:unitCode "V-328" ; fm:areaHectares 8.2 ; fm:standAgeYears 26 ; fm:timberStockM3 2462.3 ; fm:damagedTreesShare 8.4 ; fm:ndviValue 0.74 .
+fm:Compartment_V329 a fm:Compartment ; fm:unitCode "V-329" ; fm:areaHectares 11.6 ; fm:standAgeYears 107 ; fm:timberStockM3 3356.9 ; fm:damagedTreesShare 30.7 ; fm:ndviValue 0.61 .
+fm:Compartment_V330 a fm:Compartment ; fm:unitCode "V-330" ; fm:areaHectares 15.3 ; fm:standAgeYears 49 ; fm:timberStockM3 4177.9 ; fm:damagedTreesShare 6.7 ; fm:ndviValue 0.81 .
+fm:Compartment_V331 a fm:Compartment ; fm:unitCode "V-331" ; fm:areaHectares 14.3 ; fm:standAgeYears 26 ; fm:timberStockM3 4562.8 ; fm:damagedTreesShare 5.3 ; fm:ndviValue 0.83 .
+fm:Compartment_V332 a fm:Compartment ; fm:unitCode "V-332" ; fm:areaHectares 12.9 ; fm:standAgeYears 134 ; fm:timberStockM3 3619.1 ; fm:damagedTreesShare 4.1 ; fm:ndviValue 0.74 .
+fm:Compartment_V333 a fm:Compartment ; fm:unitCode "V-333" ; fm:areaHectares 6.6 ; fm:standAgeYears 37 ; fm:timberStockM3 1676.8 ; fm:damagedTreesShare 3.3 ; fm:ndviValue 0.72 .
+fm:Compartment_V334 a fm:Compartment ; fm:unitCode "V-334" ; fm:areaHectares 10.3 ; fm:standAgeYears 55 ; fm:timberStockM3 2747.0 ; fm:damagedTreesShare 3.3 ; fm:ndviValue 0.79 .
+fm:Compartment_V335 a fm:Compartment ; fm:unitCode "V-335" ; fm:areaHectares 13.2 ; fm:standAgeYears 58 ; fm:timberStockM3 4082.5 ; fm:damagedTreesShare 1.0 ; fm:ndviValue 0.69 .
+fm:Compartment_V336 a fm:Compartment ; fm:unitCode "V-336" ; fm:areaHectares 13.6 ; fm:standAgeYears 76 ; fm:timberStockM3 4519.4 ; fm:damagedTreesShare 29.6 ; fm:ndviValue 0.6 .
+fm:Compartment_V337 a fm:Compartment ; fm:unitCode "V-337" ; fm:areaHectares 16.8 ; fm:standAgeYears 106 ; fm:timberStockM3 4527.7 ; fm:damagedTreesShare 5.7 ; fm:ndviValue 0.72 .
+fm:Compartment_V338 a fm:Compartment ; fm:unitCode "V-338" ; fm:areaHectares 10.4 ; fm:standAgeYears 44 ; fm:timberStockM3 3524.4 ; fm:damagedTreesShare 3.7 ; fm:ndviValue 0.82 .
+fm:Compartment_V339 a fm:Compartment ; fm:unitCode "V-339" ; fm:areaHectares 11.5 ; fm:standAgeYears 121 ; fm:timberStockM3 3523.7 ; fm:damagedTreesShare 2.4 ; fm:ndviValue 0.72 .
+fm:Compartment_V340 a fm:Compartment ; fm:unitCode "V-340" ; fm:areaHectares 5.1 ; fm:standAgeYears 125 ; fm:timberStockM3 1451.8 ; fm:damagedTreesShare 6.5 ; fm:ndviValue 0.69 .
+fm:Compartment_V341 a fm:Compartment ; fm:unitCode "V-341" ; fm:areaHectares 15.6 ; fm:standAgeYears 32 ; fm:timberStockM3 5152.5 ; fm:damagedTreesShare 2.2 ; fm:ndviValue 0.78 .
+fm:Compartment_V342 a fm:Compartment ; fm:unitCode "V-342" ; fm:areaHectares 11.3 ; fm:standAgeYears 134 ; fm:timberStockM3 2843.4 ; fm:damagedTreesShare 2.2 ; fm:ndviValue 0.79 .
+fm:Compartment_V343 a fm:Compartment ; fm:unitCode "V-343" ; fm:areaHectares 10.2 ; fm:standAgeYears 90 ; fm:timberStockM3 2504.7 ; fm:damagedTreesShare 13.8 ; fm:ndviValue 0.54 .
+fm:Compartment_V344 a fm:Compartment ; fm:unitCode "V-344" ; fm:areaHectares 10.5 ; fm:standAgeYears 96 ; fm:timberStockM3 3367.3 ; fm:damagedTreesShare 6.6 ; fm:ndviValue 0.75 .
+fm:Compartment_V345 a fm:Compartment ; fm:unitCode "V-345" ; fm:areaHectares 7.1 ; fm:standAgeYears 120 ; fm:timberStockM3 1755.9 ; fm:damagedTreesShare 4.1 ; fm:ndviValue 0.82 .
+fm:Compartment_V346 a fm:Compartment ; fm:unitCode "V-346" ; fm:areaHectares 17.1 ; fm:standAgeYears 32 ; fm:timberStockM3 4222.0 ; fm:damagedTreesShare 8.4 ; fm:ndviValue 0.68 .
+fm:Compartment_V347 a fm:Compartment ; fm:unitCode "V-347" ; fm:areaHectares 5.9 ; fm:standAgeYears 123 ; fm:timberStockM3 1794.5 ; fm:damagedTreesShare 6.7 ; fm:ndviValue 0.87 .
+fm:Compartment_V348 a fm:Compartment ; fm:unitCode "V-348" ; fm:areaHectares 10.3 ; fm:standAgeYears 73 ; fm:timberStockM3 3416.6 ; fm:damagedTreesShare 3.7 ; fm:ndviValue 0.64 .
+fm:Compartment_V349 a fm:Compartment ; fm:unitCode "V-349" ; fm:areaHectares 13.1 ; fm:standAgeYears 42 ; fm:timberStockM3 3599.6 ; fm:damagedTreesShare 2.0 ; fm:ndviValue 0.78 .
+fm:Compartment_V350 a fm:Compartment ; fm:unitCode "V-350" ; fm:areaHectares 17.7 ; fm:standAgeYears 118 ; fm:timberStockM3 5725.6 ; fm:damagedTreesShare 26.9 ; fm:ndviValue 0.63 .
+fm:Compartment_V351 a fm:Compartment ; fm:unitCode "V-351" ; fm:areaHectares 11.6 ; fm:standAgeYears 117 ; fm:timberStockM3 3401.0 ; fm:damagedTreesShare 7.5 ; fm:ndviValue 0.72 .
+fm:Compartment_V352 a fm:Compartment ; fm:unitCode "V-352" ; fm:areaHectares 6.6 ; fm:standAgeYears 60 ; fm:timberStockM3 2161.6 ; fm:damagedTreesShare 7.0 ; fm:ndviValue 0.68 .
+fm:Compartment_V353 a fm:Compartment ; fm:unitCode "V-353" ; fm:areaHectares 14.7 ; fm:standAgeYears 103 ; fm:timberStockM3 4827.1 ; fm:damagedTreesShare 0.6 ; fm:ndviValue 0.71 .
+fm:Compartment_V354 a fm:Compartment ; fm:unitCode "V-354" ; fm:areaHectares 10.3 ; fm:standAgeYears 29 ; fm:timberStockM3 3164.2 ; fm:damagedTreesShare 7.9 ; fm:ndviValue 0.72 .
+fm:Compartment_V355 a fm:Compartment ; fm:unitCode "V-355" ; fm:areaHectares 7.3 ; fm:standAgeYears 81 ; fm:timberStockM3 1910.6 ; fm:damagedTreesShare 7.8 ; fm:ndviValue 0.68 .
+fm:Compartment_V356 a fm:Compartment ; fm:unitCode "V-356" ; fm:areaHectares 7.3 ; fm:standAgeYears 62 ; fm:timberStockM3 2421.0 ; fm:damagedTreesShare 5.4 ; fm:ndviValue 0.79 .
+fm:Compartment_V357 a fm:Compartment ; fm:unitCode "V-357" ; fm:areaHectares 8.5 ; fm:standAgeYears 129 ; fm:timberStockM3 2296.5 ; fm:damagedTreesShare 14.0 ; fm:ndviValue 0.58 .
+fm:Compartment_V358 a fm:Compartment ; fm:unitCode "V-358" ; fm:areaHectares 7.9 ; fm:standAgeYears 63 ; fm:timberStockM3 2335.8 ; fm:damagedTreesShare 5.5 ; fm:ndviValue 0.82 .
+fm:Compartment_V359 a fm:Compartment ; fm:unitCode "V-359" ; fm:areaHectares 10.0 ; fm:standAgeYears 111 ; fm:timberStockM3 2895.6 ; fm:damagedTreesShare 8.8 ; fm:ndviValue 0.87 .
+fm:Compartment_V360 a fm:Compartment ; fm:unitCode "V-360" ; fm:areaHectares 11.3 ; fm:standAgeYears 125 ; fm:timberStockM3 3498.8 ; fm:damagedTreesShare 4.0 ; fm:ndviValue 0.73 .
+fm:Compartment_V361 a fm:Compartment ; fm:unitCode "V-361" ; fm:areaHectares 10.6 ; fm:standAgeYears 93 ; fm:timberStockM3 3444.3 ; fm:damagedTreesShare 3.1 ; fm:ndviValue 0.82 .
+fm:Compartment_V362 a fm:Compartment ; fm:unitCode "V-362" ; fm:areaHectares 11.9 ; fm:standAgeYears 32 ; fm:timberStockM3 4007.7 ; fm:damagedTreesShare 5.2 ; fm:ndviValue 0.7 .
+fm:Compartment_V363 a fm:Compartment ; fm:unitCode "V-363" ; fm:areaHectares 8.6 ; fm:standAgeYears 51 ; fm:timberStockM3 2132.0 ; fm:damagedTreesShare 4.3 ; fm:ndviValue 0.75 .
+fm:Compartment_V364 a fm:Compartment ; fm:unitCode "V-364" ; fm:areaHectares 6.7 ; fm:standAgeYears 131 ; fm:timberStockM3 1787.9 ; fm:damagedTreesShare 25.1 ; fm:ndviValue 0.57 .
+fm:Compartment_V365 a fm:Compartment ; fm:unitCode "V-365" ; fm:areaHectares 15.3 ; fm:standAgeYears 49 ; fm:timberStockM3 4571.0 ; fm:damagedTreesShare 6.2 ; fm:ndviValue 0.72 .
+fm:Compartment_V366 a fm:Compartment ; fm:unitCode "V-366" ; fm:areaHectares 8.2 ; fm:standAgeYears 67 ; fm:timberStockM3 2713.4 ; fm:damagedTreesShare 2.3 ; fm:ndviValue 0.71 .
+fm:Compartment_V367 a fm:Compartment ; fm:unitCode "V-367" ; fm:areaHectares 18.0 ; fm:standAgeYears 120 ; fm:timberStockM3 5182.1 ; fm:damagedTreesShare 2.6 ; fm:ndviValue 0.8 .
+fm:Compartment_V368 a fm:Compartment ; fm:unitCode "V-368" ; fm:areaHectares 11.7 ; fm:standAgeYears 55 ; fm:timberStockM3 3715.4 ; fm:damagedTreesShare 3.7 ; fm:ndviValue 0.78 .
+fm:Compartment_V369 a fm:Compartment ; fm:unitCode "V-369" ; fm:areaHectares 9.0 ; fm:standAgeYears 58 ; fm:timberStockM3 2954.5 ; fm:damagedTreesShare 4.5 ; fm:ndviValue 0.84 .
+fm:Compartment_V370 a fm:Compartment ; fm:unitCode "V-370" ; fm:areaHectares 15.8 ; fm:standAgeYears 122 ; fm:timberStockM3 5236.6 ; fm:damagedTreesShare 3.7 ; fm:ndviValue 0.76 .
+fm:Compartment_V371 a fm:Compartment ; fm:unitCode "V-371" ; fm:areaHectares 14.4 ; fm:standAgeYears 53 ; fm:timberStockM3 3479.4 ; fm:damagedTreesShare 22.6 ; fm:ndviValue 0.57 .
+fm:Compartment_V372 a fm:Compartment ; fm:unitCode "V-372" ; fm:areaHectares 6.1 ; fm:standAgeYears 62 ; fm:timberStockM3 1665.2 ; fm:damagedTreesShare 3.7 ; fm:ndviValue 0.85 .
+fm:Compartment_V373 a fm:Compartment ; fm:unitCode "V-373" ; fm:areaHectares 17.2 ; fm:standAgeYears 108 ; fm:timberStockM3 4708.6 ; fm:damagedTreesShare 7.0 ; fm:ndviValue 0.77 .
+fm:Compartment_V374 a fm:Compartment ; fm:unitCode "V-374" ; fm:areaHectares 10.9 ; fm:standAgeYears 119 ; fm:timberStockM3 2799.4 ; fm:damagedTreesShare 7.3 ; fm:ndviValue 0.71 .
+fm:Compartment_V375 a fm:Compartment ; fm:unitCode "V-375" ; fm:areaHectares 6.6 ; fm:standAgeYears 87 ; fm:timberStockM3 2171.0 ; fm:damagedTreesShare 8.9 ; fm:ndviValue 0.87 .
+fm:Compartment_V376 a fm:Compartment ; fm:unitCode "V-376" ; fm:areaHectares 15.9 ; fm:standAgeYears 132 ; fm:timberStockM3 5318.8 ; fm:damagedTreesShare 6.2 ; fm:ndviValue 0.83 .
+fm:Compartment_V377 a fm:Compartment ; fm:unitCode "V-377" ; fm:areaHectares 12.8 ; fm:standAgeYears 132 ; fm:timberStockM3 3159.0 ; fm:damagedTreesShare 1.8 ; fm:ndviValue 0.62 .
+fm:Compartment_V378 a fm:Compartment ; fm:unitCode "V-378" ; fm:areaHectares 13.3 ; fm:standAgeYears 106 ; fm:timberStockM3 4012.0 ; fm:damagedTreesShare 21.1 ; fm:ndviValue 0.55 .
+fm:Compartment_V379 a fm:Compartment ; fm:unitCode "V-379" ; fm:areaHectares 9.8 ; fm:standAgeYears 95 ; fm:timberStockM3 2368.4 ; fm:damagedTreesShare 6.6 ; fm:ndviValue 0.78 .
+fm:Compartment_V380 a fm:Compartment ; fm:unitCode "V-380" ; fm:areaHectares 15.4 ; fm:standAgeYears 89 ; fm:timberStockM3 4734.0 ; fm:damagedTreesShare 7.4 ; fm:ndviValue 0.86 .
+fm:Compartment_V381 a fm:Compartment ; fm:unitCode "V-381" ; fm:areaHectares 11.3 ; fm:standAgeYears 37 ; fm:timberStockM3 2984.3 ; fm:damagedTreesShare 5.8 ; fm:ndviValue 0.72 .
+fm:Compartment_V382 a fm:Compartment ; fm:unitCode "V-382" ; fm:areaHectares 9.6 ; fm:standAgeYears 126 ; fm:timberStockM3 2662.1 ; fm:damagedTreesShare 4.0 ; fm:ndviValue 0.79 .
+fm:Compartment_V383 a fm:Compartment ; fm:unitCode "V-383" ; fm:areaHectares 8.2 ; fm:standAgeYears 53 ; fm:timberStockM3 2647.0 ; fm:damagedTreesShare 1.2 ; fm:ndviValue 0.88 .
+fm:Compartment_V384 a fm:Compartment ; fm:unitCode "V-384" ; fm:areaHectares 5.3 ; fm:standAgeYears 29 ; fm:timberStockM3 1473.0 ; fm:damagedTreesShare 5.2 ; fm:ndviValue 0.68 .
+fm:Compartment_V385 a fm:Compartment ; fm:unitCode "V-385" ; fm:areaHectares 5.2 ; fm:standAgeYears 46 ; fm:timberStockM3 1687.6 ; fm:damagedTreesShare 24.5 ; fm:ndviValue 0.53 .
+fm:Compartment_V386 a fm:Compartment ; fm:unitCode "V-386" ; fm:areaHectares 16.5 ; fm:standAgeYears 37 ; fm:timberStockM3 5476.6 ; fm:damagedTreesShare 2.5 ; fm:ndviValue 0.86 .
+fm:Compartment_V387 a fm:Compartment ; fm:unitCode "V-387" ; fm:areaHectares 10.7 ; fm:standAgeYears 97 ; fm:timberStockM3 2617.8 ; fm:damagedTreesShare 1.1 ; fm:ndviValue 0.86 .
+fm:Compartment_V388 a fm:Compartment ; fm:unitCode "V-388" ; fm:areaHectares 13.2 ; fm:standAgeYears 97 ; fm:timberStockM3 3404.7 ; fm:damagedTreesShare 7.7 ; fm:ndviValue 0.67 .
+fm:Compartment_V389 a fm:Compartment ; fm:unitCode "V-389" ; fm:areaHectares 14.5 ; fm:standAgeYears 43 ; fm:timberStockM3 4513.4 ; fm:damagedTreesShare 3.9 ; fm:ndviValue 0.69 .
+fm:Compartment_V390 a fm:Compartment ; fm:unitCode "V-390" ; fm:areaHectares 11.9 ; fm:standAgeYears 55 ; fm:timberStockM3 3866.8 ; fm:damagedTreesShare 6.3 ; fm:ndviValue 0.78 .
+fm:Compartment_V391 a fm:Compartment ; fm:unitCode "V-391" ; fm:areaHectares 6.0 ; fm:standAgeYears 119 ; fm:timberStockM3 2033.1 ; fm:damagedTreesShare 6.7 ; fm:ndviValue 0.78 .
+fm:Compartment_V392 a fm:Compartment ; fm:unitCode "V-392" ; fm:areaHectares 5.4 ; fm:standAgeYears 31 ; fm:timberStockM3 1421.4 ; fm:damagedTreesShare 12.6 ; fm:ndviValue 0.57 .
+fm:Compartment_V393 a fm:Compartment ; fm:unitCode "V-393" ; fm:areaHectares 9.6 ; fm:standAgeYears 101 ; fm:timberStockM3 3046.6 ; fm:damagedTreesShare 0.8 ; fm:ndviValue 0.73 .
+fm:Compartment_V394 a fm:Compartment ; fm:unitCode "V-394" ; fm:areaHectares 7.2 ; fm:standAgeYears 87 ; fm:timberStockM3 2126.2 ; fm:damagedTreesShare 3.7 ; fm:ndviValue 0.71 .
+fm:Compartment_V395 a fm:Compartment ; fm:unitCode "V-395" ; fm:areaHectares 5.2 ; fm:standAgeYears 73 ; fm:timberStockM3 1569.7 ; fm:damagedTreesShare 7.3 ; fm:ndviValue 0.82 .
+fm:Compartment_V396 a fm:Compartment ; fm:unitCode "V-396" ; fm:areaHectares 9.3 ; fm:standAgeYears 44 ; fm:timberStockM3 2961.0 ; fm:damagedTreesShare 1.8 ; fm:ndviValue 0.75 .
+fm:Compartment_V397 a fm:Compartment ; fm:unitCode "V-397" ; fm:areaHectares 4.1 ; fm:standAgeYears 36 ; fm:timberStockM3 1110.4 ; fm:damagedTreesShare 3.6 ; fm:ndviValue 0.73 .
+fm:Compartment_V398 a fm:Compartment ; fm:unitCode "V-398" ; fm:areaHectares 10.0 ; fm:standAgeYears 48 ; fm:timberStockM3 2957.0 ; fm:damagedTreesShare 4.9 ; fm:ndviValue 0.69 .
+fm:Compartment_V399 a fm:Compartment ; fm:unitCode "V-399" ; fm:areaHectares 5.3 ; fm:standAgeYears 95 ; fm:timberStockM3 1589.0 ; fm:damagedTreesShare 17.8 ; fm:ndviValue 0.54 .
+fm:Compartment_V400 a fm:Compartment ; fm:unitCode "V-400" ; fm:areaHectares 14.9 ; fm:standAgeYears 74 ; fm:timberStockM3 4656.0 ; fm:damagedTreesShare 5.3 ; fm:ndviValue 0.88 .
+fm:Harvest_001 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 170.1 .
+fm:Harvest_002 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 146.0 .
+fm:Harvest_003 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 145.9 .
+fm:Harvest_004 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 189.4 .
+fm:Harvest_005 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 138.2 .
+fm:Harvest_006 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 233.4 .
+fm:Harvest_007 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 188.9 .
+fm:Harvest_008 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 209.2 .
+fm:Harvest_009 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 327.9 .
+fm:Harvest_010 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 286.0 .
+fm:Harvest_011 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 241.1 .
+fm:Harvest_012 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 190.5 .
+fm:Harvest_013 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 199.6 .
+fm:Harvest_014 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 215.4 .
+fm:Harvest_015 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 235.3 .
+fm:Harvest_016 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 359.1 .
+fm:Harvest_017 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 411.5 .
+fm:Harvest_018 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 189.1 .
+fm:Harvest_019 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 402.6 .
+fm:Harvest_020 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 248.1 .
+fm:Harvest_021 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 408.3 .
+fm:Harvest_022 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 186.2 .
+fm:Harvest_023 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 298.9 .
+fm:Harvest_024 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 348.1 .
+fm:Harvest_025 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 214.1 .
+fm:Harvest_026 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 210.5 .
+fm:Harvest_027 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 155.9 .
+fm:Harvest_028 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 149.4 .
+fm:Harvest_029 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 98.9 .
+fm:Harvest_030 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 242.3 .
+fm:Harvest_031 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 159.2 .
+fm:Harvest_032 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 364.3 .
+fm:Harvest_033 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 360.3 .
+fm:Harvest_034 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 312.1 .
+fm:Harvest_035 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 299.0 .
+fm:Harvest_036 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 173.4 .
+fm:Harvest_037 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 326.0 .
+fm:Harvest_038 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 114.4 .
+fm:Harvest_039 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 248.1 .
+fm:Harvest_040 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 266.3 .
+fm:Harvest_041 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 228.0 .
+fm:Harvest_042 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 350.9 .
+fm:Harvest_043 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 321.5 .
+fm:Harvest_044 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 286.0 .
+fm:Harvest_045 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 126.1 .
+fm:Harvest_046 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 307.0 .
+fm:Harvest_047 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 144.9 .
+fm:Harvest_048 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 104.6 .
+fm:Harvest_049 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 313.6 .
+fm:Harvest_050 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 409.0 .
+fm:Harvest_051 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 408.7 .
+fm:Harvest_052 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 125.0 .
+fm:Harvest_053 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 175.4 .
+fm:Harvest_054 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 336.5 .
+fm:Harvest_055 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 281.6 .
+fm:Harvest_056 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 162.9 .
+fm:Harvest_057 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 219.1 .
+fm:Harvest_058 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 284.2 .
+fm:Harvest_059 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 139.7 .
+fm:Harvest_060 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 249.3 .
+fm:Harvest_061 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 227.3 .
+fm:Harvest_062 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 128.3 .
+fm:Harvest_063 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 136.8 .
+fm:Harvest_064 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 203.2 .
+fm:Harvest_065 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 262.0 .
+fm:Harvest_066 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 247.1 .
+fm:Harvest_067 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 328.3 .
+fm:Harvest_068 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 195.2 .
+fm:Harvest_069 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 104.7 .
+fm:Harvest_070 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 128.0 .
+fm:Harvest_071 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 303.8 .
+fm:Harvest_072 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 354.0 .
+fm:Harvest_073 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 260.3 .
+fm:Harvest_074 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 142.8 .
+fm:Harvest_075 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 230.7 .
+fm:Harvest_076 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 166.5 .
+fm:Harvest_077 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 297.8 .
+fm:Harvest_078 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 301.4 .
+fm:Harvest_079 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 220.5 .
+fm:Harvest_080 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 381.4 .
+fm:Harvest_081 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 285.4 .
+fm:Harvest_082 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 91.5 .
+fm:Harvest_083 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 157.9 .
+fm:Harvest_084 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 356.9 .
+fm:Harvest_085 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 280.5 .
+fm:Harvest_086 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 151.7 .
+fm:Harvest_087 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 155.0 .
+fm:Harvest_088 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 176.6 .
+fm:Harvest_089 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 264.1 .
+fm:Harvest_090 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 193.4 .
+fm:Harvest_091 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 291.7 .
+fm:Harvest_092 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 283.7 .
+fm:Harvest_093 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 204.8 .
+fm:Harvest_094 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 369.0 .
+fm:Harvest_095 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 293.7 .
+fm:Harvest_096 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 358.5 .
+fm:Harvest_097 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 323.0 .
+fm:Harvest_098 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 188.2 .
+fm:Harvest_099 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 292.8 .
+fm:Harvest_100 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 118.0 .
+fm:Harvest_101 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 134.2 .
+fm:Harvest_102 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 128.9 .
+fm:Harvest_103 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 190.8 .
+fm:Harvest_104 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 150.4 .
+fm:Harvest_105 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 318.8 .
+fm:Harvest_106 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 258.6 .
+fm:Harvest_107 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 228.0 .
+fm:Harvest_108 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 135.5 .
+fm:Harvest_109 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 216.6 .
+fm:Harvest_110 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 151.3 .
+fm:Harvest_111 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 299.7 .
+fm:Harvest_112 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 318.8 .
+fm:Harvest_113 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 302.9 .
+fm:Harvest_114 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 420.0 .
+fm:Harvest_115 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 273.1 .
+fm:Harvest_116 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 251.6 .
+fm:Harvest_117 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 136.3 .
+fm:Harvest_118 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 193.8 .
+fm:Harvest_119 a fm:TimberHarvesting ; fm:kind "MainFelling" ; fm:harvestVolumeM3 238.8 .
+fm:Harvest_120 a fm:TimberHarvesting ; fm:kind "SanitaryFelling" ; fm:harvestVolumeM3 107.7 .
+fm:Reforest_001 a fm:Reforestation ; fm:seedlings 7768 .
+fm:Reforest_002 a fm:Reforestation ; fm:seedlings 6618 .
+fm:Reforest_003 a fm:Reforestation ; fm:seedlings 5702 .
+fm:Reforest_004 a fm:Reforestation ; fm:seedlings 7539 .
+fm:Reforest_005 a fm:Reforestation ; fm:seedlings 4869 .
+fm:Reforest_006 a fm:Reforestation ; fm:seedlings 6949 .
+fm:Reforest_007 a fm:Reforestation ; fm:seedlings 4130 .
+fm:Reforest_008 a fm:Reforestation ; fm:seedlings 5520 .
+fm:Reforest_009 a fm:Reforestation ; fm:seedlings 7561 .
+fm:Reforest_010 a fm:Reforestation ; fm:seedlings 5101 .
+fm:Reforest_011 a fm:Reforestation ; fm:seedlings 4609 .
+fm:Reforest_012 a fm:Reforestation ; fm:seedlings 6741 .
+fm:Reforest_013 a fm:Reforestation ; fm:seedlings 8580 .
+fm:Reforest_014 a fm:Reforestation ; fm:seedlings 6199 .
+fm:Reforest_015 a fm:Reforestation ; fm:seedlings 7027 .
+fm:Reforest_016 a fm:Reforestation ; fm:seedlings 8833 .
+fm:Reforest_017 a fm:Reforestation ; fm:seedlings 4615 .
+fm:Reforest_018 a fm:Reforestation ; fm:seedlings 8441 .
+fm:Reforest_019 a fm:Reforestation ; fm:seedlings 5145 .
+fm:Reforest_020 a fm:Reforestation ; fm:seedlings 4955 .
+fm:Reforest_021 a fm:Reforestation ; fm:seedlings 6114 .
+fm:Reforest_022 a fm:Reforestation ; fm:seedlings 9193 .
+fm:Reforest_023 a fm:Reforestation ; fm:seedlings 8217 .
+fm:Reforest_024 a fm:Reforestation ; fm:seedlings 6169 .
+fm:Reforest_025 a fm:Reforestation ; fm:seedlings 6718 .
+fm:Reforest_026 a fm:Reforestation ; fm:seedlings 8119 .
+fm:Reforest_027 a fm:Reforestation ; fm:seedlings 7969 .
+fm:Reforest_028 a fm:Reforestation ; fm:seedlings 8006 .
+fm:Reforest_029 a fm:Reforestation ; fm:seedlings 9457 .
+fm:Reforest_030 a fm:Reforestation ; fm:seedlings 9302 .
+fm:Reforest_031 a fm:Reforestation ; fm:seedlings 5886 .
+fm:Reforest_032 a fm:Reforestation ; fm:seedlings 4066 .
+fm:Reforest_033 a fm:Reforestation ; fm:seedlings 6851 .
+fm:Reforest_034 a fm:Reforestation ; fm:seedlings 4640 .
+fm:Reforest_035 a fm:Reforestation ; fm:seedlings 5482 .
+fm:Reforest_036 a fm:Reforestation ; fm:seedlings 4762 .
+fm:Reforest_037 a fm:Reforestation ; fm:seedlings 6588 .
+fm:Reforest_038 a fm:Reforestation ; fm:seedlings 8398 .
+fm:Reforest_039 a fm:Reforestation ; fm:seedlings 6783 .
+fm:Reforest_040 a fm:Reforestation ; fm:seedlings 9166 .
+fm:Reforest_041 a fm:Reforestation ; fm:seedlings 3801 .
+fm:Reforest_042 a fm:Reforestation ; fm:seedlings 6445 .
+fm:Reforest_043 a fm:Reforestation ; fm:seedlings 7898 .
+fm:Reforest_044 a fm:Reforestation ; fm:seedlings 4196 .
+fm:Reforest_045 a fm:Reforestation ; fm:seedlings 5533 .
+fm:Reforest_046 a fm:Reforestation ; fm:seedlings 6408 .
+fm:Reforest_047 a fm:Reforestation ; fm:seedlings 8519 .
+fm:Reforest_048 a fm:Reforestation ; fm:seedlings 8784 .
+fm:Reforest_049 a fm:Reforestation ; fm:seedlings 6773 .
+fm:Reforest_050 a fm:Reforestation ; fm:seedlings 6216 .
+fm:Reforest_051 a fm:Reforestation ; fm:seedlings 7026 .
+fm:Reforest_052 a fm:Reforestation ; fm:seedlings 4307 .
+fm:Reforest_053 a fm:Reforestation ; fm:seedlings 7683 .
+fm:Reforest_054 a fm:Reforestation ; fm:seedlings 8071 .
+fm:Reforest_055 a fm:Reforestation ; fm:seedlings 8212 .
+fm:Reforest_056 a fm:Reforestation ; fm:seedlings 6564 .
+fm:Reforest_057 a fm:Reforestation ; fm:seedlings 9066 .
+fm:Reforest_058 a fm:Reforestation ; fm:seedlings 7599 .
+fm:Reforest_059 a fm:Reforestation ; fm:seedlings 3701 .
+fm:Reforest_060 a fm:Reforestation ; fm:seedlings 5920 .
+fm:Reforest_061 a fm:Reforestation ; fm:seedlings 4203 .
+fm:Reforest_062 a fm:Reforestation ; fm:seedlings 9481 .
+fm:Reforest_063 a fm:Reforestation ; fm:seedlings 6055 .
+fm:Reforest_064 a fm:Reforestation ; fm:seedlings 5194 .
+fm:Reforest_065 a fm:Reforestation ; fm:seedlings 6353 .
+fm:Reforest_066 a fm:Reforestation ; fm:seedlings 7089 .
+fm:Reforest_067 a fm:Reforestation ; fm:seedlings 7206 .
+fm:Reforest_068 a fm:Reforestation ; fm:seedlings 5959 .
+fm:Reforest_069 a fm:Reforestation ; fm:seedlings 9322 .
+fm:Reforest_070 a fm:Reforestation ; fm:seedlings 6310 .
+fm:Reforest_071 a fm:Reforestation ; fm:seedlings 9047 .
+fm:Reforest_072 a fm:Reforestation ; fm:seedlings 5498 .
+fm:Reforest_073 a fm:Reforestation ; fm:seedlings 8021 .
+fm:Reforest_074 a fm:Reforestation ; fm:seedlings 8086 .
+fm:Reforest_075 a fm:Reforestation ; fm:seedlings 7285 .
+fm:Reforest_076 a fm:Reforestation ; fm:seedlings 6818 .
+fm:Reforest_077 a fm:Reforestation ; fm:seedlings 5026 .
+fm:Reforest_078 a fm:Reforestation ; fm:seedlings 7040 .
+fm:Reforest_079 a fm:Reforestation ; fm:seedlings 8530 .
+fm:Reforest_080 a fm:Reforestation ; fm:seedlings 7182 .
+fm:Reforest_081 a fm:Reforestation ; fm:seedlings 6685 .
+fm:Reforest_082 a fm:Reforestation ; fm:seedlings 5259 .
+fm:Reforest_083 a fm:Reforestation ; fm:seedlings 9265 .
+fm:Reforest_084 a fm:Reforestation ; fm:seedlings 4012 .
+fm:Reforest_085 a fm:Reforestation ; fm:seedlings 7898 .
+fm:Reforest_086 a fm:Reforestation ; fm:seedlings 6170 .
+fm:Reforest_087 a fm:Reforestation ; fm:seedlings 4433 .
+fm:Reforest_088 a fm:Reforestation ; fm:seedlings 7509 .
+fm:Reforest_089 a fm:Reforestation ; fm:seedlings 8735 .
+fm:Reforest_090 a fm:Reforestation ; fm:seedlings 6683 .
+fm:Compartment_V001 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V002 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V003 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V004 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V005 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V006 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V007 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V008 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V009 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V010 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V011 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V012 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V013 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V014 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V015 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V016 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V017 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V018 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V019 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V020 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V021 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V022 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V023 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V024 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V025 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V026 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V027 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V028 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V029 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V030 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V031 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V032 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V033 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V034 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V035 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V036 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V037 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V038 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V039 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V040 fm:partOfForestry fm:Forestry_LS01 .
+fm:Compartment_V041 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V042 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V043 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V044 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V045 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V046 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V047 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V048 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V049 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V050 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V051 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V052 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V053 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V054 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V055 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V056 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V057 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V058 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V059 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V060 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V061 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V062 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V063 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V064 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V065 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V066 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V067 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V068 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V069 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V070 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V071 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V072 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V073 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V074 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V075 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V076 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V077 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V078 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V079 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V080 fm:partOfForestry fm:Forestry_LS02 .
+fm:Compartment_V081 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V082 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V083 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V084 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V085 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V086 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V087 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V088 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V089 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V090 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V091 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V092 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V093 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V094 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V095 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V096 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V097 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V098 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V099 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V100 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V101 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V102 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V103 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V104 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V105 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V106 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V107 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V108 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V109 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V110 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V111 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V112 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V113 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V114 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V115 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V116 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V117 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V118 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V119 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V120 fm:partOfForestry fm:Forestry_LS03 .
+fm:Compartment_V121 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V122 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V123 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V124 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V125 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V126 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V127 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V128 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V129 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V130 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V131 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V132 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V133 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V134 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V135 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V136 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V137 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V138 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V139 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V140 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V141 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V142 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V143 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V144 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V145 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V146 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V147 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V148 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V149 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V150 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V151 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V152 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V153 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V154 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V155 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V156 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V157 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V158 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V159 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V160 fm:partOfForestry fm:Forestry_LS04 .
+fm:Compartment_V161 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V162 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V163 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V164 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V165 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V166 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V167 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V168 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V169 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V170 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V171 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V172 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V173 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V174 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V175 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V176 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V177 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V178 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V179 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V180 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V181 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V182 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V183 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V184 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V185 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V186 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V187 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V188 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V189 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V190 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V191 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V192 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V193 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V194 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V195 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V196 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V197 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V198 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V199 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V200 fm:partOfForestry fm:Forestry_LS05 .
+fm:Compartment_V201 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V202 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V203 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V204 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V205 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V206 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V207 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V208 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V209 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V210 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V211 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V212 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V213 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V214 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V215 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V216 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V217 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V218 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V219 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V220 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V221 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V222 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V223 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V224 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V225 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V226 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V227 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V228 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V229 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V230 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V231 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V232 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V233 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V234 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V235 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V236 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V237 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V238 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V239 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V240 fm:partOfForestry fm:Forestry_LS06 .
+fm:Compartment_V241 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V242 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V243 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V244 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V245 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V246 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V247 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V248 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V249 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V250 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V251 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V252 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V253 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V254 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V255 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V256 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V257 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V258 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V259 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V260 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V261 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V262 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V263 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V264 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V265 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V266 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V267 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V268 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V269 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V270 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V271 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V272 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V273 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V274 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V275 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V276 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V277 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V278 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V279 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V280 fm:partOfForestry fm:Forestry_LS07 .
+fm:Compartment_V281 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V282 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V283 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V284 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V285 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V286 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V287 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V288 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V289 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V290 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V291 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V292 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V293 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V294 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V295 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V296 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V297 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V298 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V299 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V300 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V301 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V302 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V303 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V304 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V305 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V306 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V307 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V308 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V309 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V310 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V311 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V312 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V313 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V314 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V315 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V316 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V317 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V318 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V319 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V320 fm:partOfForestry fm:Forestry_LS08 .
+fm:Compartment_V321 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V322 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V323 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V324 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V325 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V326 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V327 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V328 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V329 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V330 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V331 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V332 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V333 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V334 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V335 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V336 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V337 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V338 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V339 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V340 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V341 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V342 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V343 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V344 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V345 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V346 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V347 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V348 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V349 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V350 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V351 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V352 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V353 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V354 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V355 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V356 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V357 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V358 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V359 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V360 fm:partOfForestry fm:Forestry_LS09 .
+fm:Compartment_V361 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V362 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V363 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V364 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V365 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V366 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V367 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V368 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V369 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V370 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V371 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V372 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V373 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V374 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V375 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V376 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V377 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V378 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V379 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V380 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V381 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V382 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V383 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V384 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V385 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V386 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V387 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V388 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V389 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V390 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V391 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V392 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V393 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V394 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V395 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V396 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V397 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V398 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V399 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V400 fm:partOfForestry fm:Forestry_LS10 .
+fm:Compartment_V001 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V002 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V003 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V004 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V005 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V006 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V007 fm:hasDominantSpecies fm:Species_QuercusRobur .
+fm:Compartment_V008 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V009 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V010 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V011 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V012 fm:hasDominantSpecies fm:Species_QuercusRobur .
+fm:Compartment_V013 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V014 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V015 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V016 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V017 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V018 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V019 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V020 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V021 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V022 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V023 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V024 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V025 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V026 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V027 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V028 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V029 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V030 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V031 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V032 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V033 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V034 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V035 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V036 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V037 fm:hasDominantSpecies fm:Species_QuercusRobur .
+fm:Compartment_V038 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V039 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V040 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V041 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V042 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V043 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V044 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V045 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V046 fm:hasDominantSpecies fm:Species_QuercusRobur .
+fm:Compartment_V047 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V048 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V049 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V050 fm:hasDominantSpecies fm:Species_QuercusRobur .
+fm:Compartment_V051 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V052 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V053 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V054 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V055 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V056 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V057 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V058 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V059 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V060 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V061 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V062 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V063 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V064 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V065 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V066 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V067 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V068 fm:hasDominantSpecies fm:Species_QuercusRobur .
+fm:Compartment_V069 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V070 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V071 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V072 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V073 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V074 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V075 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V076 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V077 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V078 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V079 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V080 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V081 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V082 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V083 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V084 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V085 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V086 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V087 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V088 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V089 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V090 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V091 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V092 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V093 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V094 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V095 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V096 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V097 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V098 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V099 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V100 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V101 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V102 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V103 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V104 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V105 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V106 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V107 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V108 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V109 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V110 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V111 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V112 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V113 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V114 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V115 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V116 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V117 fm:hasDominantSpecies fm:Species_QuercusRobur .
+fm:Compartment_V118 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V119 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V120 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V121 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V122 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V123 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V124 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V125 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V126 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V127 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V128 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V129 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V130 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V131 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V132 fm:hasDominantSpecies fm:Species_QuercusRobur .
+fm:Compartment_V133 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V134 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V135 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V136 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V137 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V138 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V139 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V140 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V141 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V142 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V143 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V144 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V145 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V146 fm:hasDominantSpecies fm:Species_QuercusRobur .
+fm:Compartment_V147 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V148 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V149 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V150 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V151 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V152 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V153 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V154 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V155 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V156 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V157 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V158 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V159 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V160 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V161 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V162 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V163 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V164 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V165 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V166 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V167 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V168 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V169 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V170 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V171 fm:hasDominantSpecies fm:Species_QuercusRobur .
+fm:Compartment_V172 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V173 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V174 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V175 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V176 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V177 fm:hasDominantSpecies fm:Species_QuercusRobur .
+fm:Compartment_V178 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V179 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V180 fm:hasDominantSpecies fm:Species_QuercusRobur .
+fm:Compartment_V181 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V182 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V183 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V184 fm:hasDominantSpecies fm:Species_QuercusRobur .
+fm:Compartment_V185 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V186 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V187 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V188 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V189 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V190 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V191 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V192 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V193 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V194 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V195 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V196 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V197 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V198 fm:hasDominantSpecies fm:Species_QuercusRobur .
+fm:Compartment_V199 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V200 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V201 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V202 fm:hasDominantSpecies fm:Species_QuercusRobur .
+fm:Compartment_V203 fm:hasDominantSpecies fm:Species_QuercusRobur .
+fm:Compartment_V204 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V205 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V206 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V207 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V208 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V209 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V210 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V211 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V212 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V213 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V214 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V215 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V216 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V217 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V218 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V219 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V220 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V221 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V222 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V223 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V224 fm:hasDominantSpecies fm:Species_QuercusRobur .
+fm:Compartment_V225 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V226 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V227 fm:hasDominantSpecies fm:Species_QuercusRobur .
+fm:Compartment_V228 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V229 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V230 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V231 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V232 fm:hasDominantSpecies fm:Species_QuercusRobur .
+fm:Compartment_V233 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V234 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V235 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V236 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V237 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V238 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V239 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V240 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V241 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V242 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V243 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V244 fm:hasDominantSpecies fm:Species_QuercusRobur .
+fm:Compartment_V245 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V246 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V247 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V248 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V249 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V250 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V251 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V252 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V253 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V254 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V255 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V256 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V257 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V258 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V259 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V260 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V261 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V262 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V263 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V264 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V265 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V266 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V267 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V268 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V269 fm:hasDominantSpecies fm:Species_QuercusRobur .
+fm:Compartment_V270 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V271 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V272 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V273 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V274 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V275 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V276 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V277 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V278 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V279 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V280 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V281 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V282 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V283 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V284 fm:hasDominantSpecies fm:Species_QuercusRobur .
+fm:Compartment_V285 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V286 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V287 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V288 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V289 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V290 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V291 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V292 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V293 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V294 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V295 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V296 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V297 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V298 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V299 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V300 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V301 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V302 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V303 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V304 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V305 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V306 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V307 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V308 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V309 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V310 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V311 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V312 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V313 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V314 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V315 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V316 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V317 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V318 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V319 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V320 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V321 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V322 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V323 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V324 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V325 fm:hasDominantSpecies fm:Species_QuercusRobur .
+fm:Compartment_V326 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V327 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V328 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V329 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V330 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V331 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V332 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V333 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V334 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V335 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V336 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V337 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V338 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V339 fm:hasDominantSpecies fm:Species_QuercusRobur .
+fm:Compartment_V340 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V341 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V342 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V343 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V344 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V345 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V346 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V347 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V348 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V349 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V350 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V351 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V352 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V353 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V354 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V355 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V356 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V357 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V358 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V359 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V360 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V361 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V362 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V363 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V364 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V365 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V366 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V367 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V368 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V369 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V370 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V371 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V372 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V373 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V374 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V375 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V376 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V377 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V378 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V379 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V380 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V381 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V382 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V383 fm:hasDominantSpecies fm:Species_QuercusRobur .
+fm:Compartment_V384 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V385 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V386 fm:hasDominantSpecies fm:Species_QuercusRobur .
+fm:Compartment_V387 fm:hasDominantSpecies fm:Species_LarixDecidua .
+fm:Compartment_V388 fm:hasDominantSpecies fm:Species_FagusSylvatica .
+fm:Compartment_V389 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V390 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V391 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V392 fm:hasDominantSpecies fm:Species_QuercusRobur .
+fm:Compartment_V393 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V394 fm:hasDominantSpecies fm:Species_QuercusRobur .
+fm:Compartment_V395 fm:hasDominantSpecies fm:Species_AbiesAlba .
+fm:Compartment_V396 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V397 fm:hasDominantSpecies fm:Species_PinusSylvestris .
+fm:Compartment_V398 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V399 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Compartment_V400 fm:hasDominantSpecies fm:Species_PiceaAbies .
+fm:Forester_F101 fm:supervises fm:Compartment_V001 .
+fm:Forester_F102 fm:supervises fm:Compartment_V002 .
+fm:Forester_F103 fm:supervises fm:Compartment_V003 .
+fm:Forester_F104 fm:supervises fm:Compartment_V004 .
+fm:Forester_F105 fm:supervises fm:Compartment_V005 .
+fm:Forester_F106 fm:supervises fm:Compartment_V006 .
+fm:Forester_F107 fm:supervises fm:Compartment_V007 .
+fm:Forester_F108 fm:supervises fm:Compartment_V008 .
+fm:Forester_F109 fm:supervises fm:Compartment_V009 .
+fm:Forester_F110 fm:supervises fm:Compartment_V010 .
+fm:Forester_F111 fm:supervises fm:Compartment_V011 .
+fm:Forester_F112 fm:supervises fm:Compartment_V012 .
+fm:Forester_F113 fm:supervises fm:Compartment_V013 .
+fm:Forester_F114 fm:supervises fm:Compartment_V014 .
+fm:Forester_F115 fm:supervises fm:Compartment_V015 .
+fm:Forester_F116 fm:supervises fm:Compartment_V016 .
+fm:Forester_F117 fm:supervises fm:Compartment_V017 .
+fm:Forester_F118 fm:supervises fm:Compartment_V018 .
+fm:Forester_F119 fm:supervises fm:Compartment_V019 .
+fm:Forester_F120 fm:supervises fm:Compartment_V020 .
+fm:Forester_F121 fm:supervises fm:Compartment_V021 .
+fm:Forester_F122 fm:supervises fm:Compartment_V022 .
+fm:Forester_F123 fm:supervises fm:Compartment_V023 .
+fm:Forester_F124 fm:supervises fm:Compartment_V024 .
+fm:Forester_F125 fm:supervises fm:Compartment_V025 .
+fm:Forester_F126 fm:supervises fm:Compartment_V026 .
+fm:Forester_F127 fm:supervises fm:Compartment_V027 .
+fm:Forester_F128 fm:supervises fm:Compartment_V028 .
+fm:Forester_F129 fm:supervises fm:Compartment_V029 .
+fm:Forester_F130 fm:supervises fm:Compartment_V030 .
+fm:Forester_F101 fm:supervises fm:Compartment_V031 .
+fm:Forester_F102 fm:supervises fm:Compartment_V032 .
+fm:Forester_F103 fm:supervises fm:Compartment_V033 .
+fm:Forester_F104 fm:supervises fm:Compartment_V034 .
+fm:Forester_F105 fm:supervises fm:Compartment_V035 .
+fm:Forester_F106 fm:supervises fm:Compartment_V036 .
+fm:Forester_F107 fm:supervises fm:Compartment_V037 .
+fm:Forester_F108 fm:supervises fm:Compartment_V038 .
+fm:Forester_F109 fm:supervises fm:Compartment_V039 .
+fm:Forester_F110 fm:supervises fm:Compartment_V040 .
+fm:Forester_F111 fm:supervises fm:Compartment_V041 .
+fm:Forester_F112 fm:supervises fm:Compartment_V042 .
+fm:Forester_F113 fm:supervises fm:Compartment_V043 .
+fm:Forester_F114 fm:supervises fm:Compartment_V044 .
+fm:Forester_F115 fm:supervises fm:Compartment_V045 .
+fm:Forester_F116 fm:supervises fm:Compartment_V046 .
+fm:Forester_F117 fm:supervises fm:Compartment_V047 .
+fm:Forester_F118 fm:supervises fm:Compartment_V048 .
+fm:Forester_F119 fm:supervises fm:Compartment_V049 .
+fm:Forester_F120 fm:supervises fm:Compartment_V050 .
+fm:Forester_F121 fm:supervises fm:Compartment_V051 .
+fm:Forester_F122 fm:supervises fm:Compartment_V052 .
+fm:Forester_F123 fm:supervises fm:Compartment_V053 .
+fm:Forester_F124 fm:supervises fm:Compartment_V054 .
+fm:Forester_F125 fm:supervises fm:Compartment_V055 .
+fm:Forester_F126 fm:supervises fm:Compartment_V056 .
+fm:Forester_F127 fm:supervises fm:Compartment_V057 .
+fm:Forester_F128 fm:supervises fm:Compartment_V058 .
+fm:Forester_F129 fm:supervises fm:Compartment_V059 .
+fm:Forester_F130 fm:supervises fm:Compartment_V060 .
+fm:Forester_F101 fm:supervises fm:Compartment_V061 .
+fm:Forester_F102 fm:supervises fm:Compartment_V062 .
+fm:Forester_F103 fm:supervises fm:Compartment_V063 .
+fm:Forester_F104 fm:supervises fm:Compartment_V064 .
+fm:Forester_F105 fm:supervises fm:Compartment_V065 .
+fm:Forester_F106 fm:supervises fm:Compartment_V066 .
+fm:Forester_F107 fm:supervises fm:Compartment_V067 .
+fm:Forester_F108 fm:supervises fm:Compartment_V068 .
+fm:Forester_F109 fm:supervises fm:Compartment_V069 .
+fm:Forester_F110 fm:supervises fm:Compartment_V070 .
+fm:Forester_F111 fm:supervises fm:Compartment_V071 .
+fm:Forester_F112 fm:supervises fm:Compartment_V072 .
+fm:Forester_F113 fm:supervises fm:Compartment_V073 .
+fm:Forester_F114 fm:supervises fm:Compartment_V074 .
+fm:Forester_F115 fm:supervises fm:Compartment_V075 .
+fm:Forester_F116 fm:supervises fm:Compartment_V076 .
+fm:Forester_F117 fm:supervises fm:Compartment_V077 .
+fm:Forester_F118 fm:supervises fm:Compartment_V078 .
+fm:Forester_F119 fm:supervises fm:Compartment_V079 .
+fm:Forester_F120 fm:supervises fm:Compartment_V080 .
+fm:Forester_F121 fm:supervises fm:Compartment_V081 .
+fm:Forester_F122 fm:supervises fm:Compartment_V082 .
+fm:Forester_F123 fm:supervises fm:Compartment_V083 .
+fm:Forester_F124 fm:supervises fm:Compartment_V084 .
+fm:Forester_F125 fm:supervises fm:Compartment_V085 .
+fm:Forester_F126 fm:supervises fm:Compartment_V086 .
+fm:Forester_F127 fm:supervises fm:Compartment_V087 .
+fm:Forester_F128 fm:supervises fm:Compartment_V088 .
+fm:Forester_F129 fm:supervises fm:Compartment_V089 .
+fm:Forester_F130 fm:supervises fm:Compartment_V090 .
+fm:Forester_F101 fm:supervises fm:Compartment_V091 .
+fm:Forester_F102 fm:supervises fm:Compartment_V092 .
+fm:Forester_F103 fm:supervises fm:Compartment_V093 .
+fm:Forester_F104 fm:supervises fm:Compartment_V094 .
+fm:Forester_F105 fm:supervises fm:Compartment_V095 .
+fm:Forester_F106 fm:supervises fm:Compartment_V096 .
+fm:Forester_F107 fm:supervises fm:Compartment_V097 .
+fm:Forester_F108 fm:supervises fm:Compartment_V098 .
+fm:Forester_F109 fm:supervises fm:Compartment_V099 .
+fm:Forester_F110 fm:supervises fm:Compartment_V100 .
+fm:Forester_F111 fm:supervises fm:Compartment_V101 .
+fm:Forester_F112 fm:supervises fm:Compartment_V102 .
+fm:Forester_F113 fm:supervises fm:Compartment_V103 .
+fm:Forester_F114 fm:supervises fm:Compartment_V104 .
+fm:Forester_F115 fm:supervises fm:Compartment_V105 .
+fm:Forester_F116 fm:supervises fm:Compartment_V106 .
+fm:Forester_F117 fm:supervises fm:Compartment_V107 .
+fm:Forester_F118 fm:supervises fm:Compartment_V108 .
+fm:Forester_F119 fm:supervises fm:Compartment_V109 .
+fm:Forester_F120 fm:supervises fm:Compartment_V110 .
+fm:Forester_F121 fm:supervises fm:Compartment_V111 .
+fm:Forester_F122 fm:supervises fm:Compartment_V112 .
+fm:Forester_F123 fm:supervises fm:Compartment_V113 .
+fm:Forester_F124 fm:supervises fm:Compartment_V114 .
+fm:Forester_F125 fm:supervises fm:Compartment_V115 .
+fm:Forester_F126 fm:supervises fm:Compartment_V116 .
+fm:Forester_F127 fm:supervises fm:Compartment_V117 .
+fm:Forester_F128 fm:supervises fm:Compartment_V118 .
+fm:Forester_F129 fm:supervises fm:Compartment_V119 .
+fm:Forester_F130 fm:supervises fm:Compartment_V120 .
+fm:Forester_F101 fm:supervises fm:Compartment_V121 .
+fm:Forester_F102 fm:supervises fm:Compartment_V122 .
+fm:Forester_F103 fm:supervises fm:Compartment_V123 .
+fm:Forester_F104 fm:supervises fm:Compartment_V124 .
+fm:Forester_F105 fm:supervises fm:Compartment_V125 .
+fm:Forester_F106 fm:supervises fm:Compartment_V126 .
+fm:Forester_F107 fm:supervises fm:Compartment_V127 .
+fm:Forester_F108 fm:supervises fm:Compartment_V128 .
+fm:Forester_F109 fm:supervises fm:Compartment_V129 .
+fm:Forester_F110 fm:supervises fm:Compartment_V130 .
+fm:Forester_F111 fm:supervises fm:Compartment_V131 .
+fm:Forester_F112 fm:supervises fm:Compartment_V132 .
+fm:Forester_F113 fm:supervises fm:Compartment_V133 .
+fm:Forester_F114 fm:supervises fm:Compartment_V134 .
+fm:Forester_F115 fm:supervises fm:Compartment_V135 .
+fm:Forester_F116 fm:supervises fm:Compartment_V136 .
+fm:Forester_F117 fm:supervises fm:Compartment_V137 .
+fm:Forester_F118 fm:supervises fm:Compartment_V138 .
+fm:Forester_F119 fm:supervises fm:Compartment_V139 .
+fm:Forester_F120 fm:supervises fm:Compartment_V140 .
+fm:Forester_F121 fm:supervises fm:Compartment_V141 .
+fm:Forester_F122 fm:supervises fm:Compartment_V142 .
+fm:Forester_F123 fm:supervises fm:Compartment_V143 .
+fm:Forester_F124 fm:supervises fm:Compartment_V144 .
+fm:Forester_F125 fm:supervises fm:Compartment_V145 .
+fm:Forester_F126 fm:supervises fm:Compartment_V146 .
+fm:Forester_F127 fm:supervises fm:Compartment_V147 .
+fm:Forester_F128 fm:supervises fm:Compartment_V148 .
+fm:Forester_F129 fm:supervises fm:Compartment_V149 .
+fm:Forester_F130 fm:supervises fm:Compartment_V150 .
+fm:Forester_F101 fm:supervises fm:Compartment_V151 .
+fm:Forester_F102 fm:supervises fm:Compartment_V152 .
+fm:Forester_F103 fm:supervises fm:Compartment_V153 .
+fm:Forester_F104 fm:supervises fm:Compartment_V154 .
+fm:Forester_F105 fm:supervises fm:Compartment_V155 .
+fm:Forester_F106 fm:supervises fm:Compartment_V156 .
+fm:Forester_F107 fm:supervises fm:Compartment_V157 .
+fm:Forester_F108 fm:supervises fm:Compartment_V158 .
+fm:Forester_F109 fm:supervises fm:Compartment_V159 .
+fm:Forester_F110 fm:supervises fm:Compartment_V160 .
+fm:Forester_F111 fm:supervises fm:Compartment_V161 .
+fm:Forester_F112 fm:supervises fm:Compartment_V162 .
+fm:Forester_F113 fm:supervises fm:Compartment_V163 .
+fm:Forester_F114 fm:supervises fm:Compartment_V164 .
+fm:Forester_F115 fm:supervises fm:Compartment_V165 .
+fm:Forester_F116 fm:supervises fm:Compartment_V166 .
+fm:Forester_F117 fm:supervises fm:Compartment_V167 .
+fm:Forester_F118 fm:supervises fm:Compartment_V168 .
+fm:Forester_F119 fm:supervises fm:Compartment_V169 .
+fm:Forester_F120 fm:supervises fm:Compartment_V170 .
+fm:Forester_F121 fm:supervises fm:Compartment_V171 .
+fm:Forester_F122 fm:supervises fm:Compartment_V172 .
+fm:Forester_F123 fm:supervises fm:Compartment_V173 .
+fm:Forester_F124 fm:supervises fm:Compartment_V174 .
+fm:Forester_F125 fm:supervises fm:Compartment_V175 .
+fm:Forester_F126 fm:supervises fm:Compartment_V176 .
+fm:Forester_F127 fm:supervises fm:Compartment_V177 .
+fm:Forester_F128 fm:supervises fm:Compartment_V178 .
+fm:Forester_F129 fm:supervises fm:Compartment_V179 .
+fm:Forester_F130 fm:supervises fm:Compartment_V180 .
+fm:Forester_F101 fm:supervises fm:Compartment_V181 .
+fm:Forester_F102 fm:supervises fm:Compartment_V182 .
+fm:Forester_F103 fm:supervises fm:Compartment_V183 .
+fm:Forester_F104 fm:supervises fm:Compartment_V184 .
+fm:Forester_F105 fm:supervises fm:Compartment_V185 .
+fm:Forester_F106 fm:supervises fm:Compartment_V186 .
+fm:Forester_F107 fm:supervises fm:Compartment_V187 .
+fm:Forester_F108 fm:supervises fm:Compartment_V188 .
+fm:Forester_F109 fm:supervises fm:Compartment_V189 .
+fm:Forester_F110 fm:supervises fm:Compartment_V190 .
+fm:Forester_F111 fm:supervises fm:Compartment_V191 .
+fm:Forester_F112 fm:supervises fm:Compartment_V192 .
+fm:Forester_F113 fm:supervises fm:Compartment_V193 .
+fm:Forester_F114 fm:supervises fm:Compartment_V194 .
+fm:Forester_F115 fm:supervises fm:Compartment_V195 .
+fm:Forester_F116 fm:supervises fm:Compartment_V196 .
+fm:Forester_F117 fm:supervises fm:Compartment_V197 .
+fm:Forester_F118 fm:supervises fm:Compartment_V198 .
+fm:Forester_F119 fm:supervises fm:Compartment_V199 .
+fm:Forester_F120 fm:supervises fm:Compartment_V200 .
+fm:Forester_F121 fm:supervises fm:Compartment_V201 .
+fm:Forester_F122 fm:supervises fm:Compartment_V202 .
+fm:Forester_F123 fm:supervises fm:Compartment_V203 .
+fm:Forester_F124 fm:supervises fm:Compartment_V204 .
+fm:Forester_F125 fm:supervises fm:Compartment_V205 .
+fm:Forester_F126 fm:supervises fm:Compartment_V206 .
+fm:Forester_F127 fm:supervises fm:Compartment_V207 .
+fm:Forester_F128 fm:supervises fm:Compartment_V208 .
+fm:Forester_F129 fm:supervises fm:Compartment_V209 .
+fm:Forester_F130 fm:supervises fm:Compartment_V210 .
+fm:Forester_F101 fm:supervises fm:Compartment_V211 .
+fm:Forester_F102 fm:supervises fm:Compartment_V212 .
+fm:Forester_F103 fm:supervises fm:Compartment_V213 .
+fm:Forester_F104 fm:supervises fm:Compartment_V214 .
+fm:Forester_F105 fm:supervises fm:Compartment_V215 .
+fm:Forester_F106 fm:supervises fm:Compartment_V216 .
+fm:Forester_F107 fm:supervises fm:Compartment_V217 .
+fm:Forester_F108 fm:supervises fm:Compartment_V218 .
+fm:Forester_F109 fm:supervises fm:Compartment_V219 .
+fm:Forester_F110 fm:supervises fm:Compartment_V220 .
+fm:Forester_F111 fm:supervises fm:Compartment_V221 .
+fm:Forester_F112 fm:supervises fm:Compartment_V222 .
+fm:Forester_F113 fm:supervises fm:Compartment_V223 .
+fm:Forester_F114 fm:supervises fm:Compartment_V224 .
+fm:Forester_F115 fm:supervises fm:Compartment_V225 .
+fm:Forester_F116 fm:supervises fm:Compartment_V226 .
+fm:Forester_F117 fm:supervises fm:Compartment_V227 .
+fm:Forester_F118 fm:supervises fm:Compartment_V228 .
+fm:Forester_F119 fm:supervises fm:Compartment_V229 .
+fm:Forester_F120 fm:supervises fm:Compartment_V230 .
+fm:Forester_F121 fm:supervises fm:Compartment_V231 .
+fm:Forester_F122 fm:supervises fm:Compartment_V232 .
+fm:Forester_F123 fm:supervises fm:Compartment_V233 .
+fm:Forester_F124 fm:supervises fm:Compartment_V234 .
+fm:Forester_F125 fm:supervises fm:Compartment_V235 .
+fm:Forester_F126 fm:supervises fm:Compartment_V236 .
+fm:Forester_F127 fm:supervises fm:Compartment_V237 .
+fm:Forester_F128 fm:supervises fm:Compartment_V238 .
+fm:Forester_F129 fm:supervises fm:Compartment_V239 .
+fm:Forester_F130 fm:supervises fm:Compartment_V240 .
+fm:Forester_F101 fm:supervises fm:Compartment_V241 .
+fm:Forester_F102 fm:supervises fm:Compartment_V242 .
+fm:Forester_F103 fm:supervises fm:Compartment_V243 .
+fm:Forester_F104 fm:supervises fm:Compartment_V244 .
+fm:Forester_F105 fm:supervises fm:Compartment_V245 .
+fm:Forester_F106 fm:supervises fm:Compartment_V246 .
+fm:Forester_F107 fm:supervises fm:Compartment_V247 .
+fm:Forester_F108 fm:supervises fm:Compartment_V248 .
+fm:Forester_F109 fm:supervises fm:Compartment_V249 .
+fm:Forester_F110 fm:supervises fm:Compartment_V250 .
+fm:Forester_F111 fm:supervises fm:Compartment_V251 .
+fm:Forester_F112 fm:supervises fm:Compartment_V252 .
+fm:Forester_F113 fm:supervises fm:Compartment_V253 .
+fm:Forester_F114 fm:supervises fm:Compartment_V254 .
+fm:Forester_F115 fm:supervises fm:Compartment_V255 .
+fm:Forester_F116 fm:supervises fm:Compartment_V256 .
+fm:Forester_F117 fm:supervises fm:Compartment_V257 .
+fm:Forester_F118 fm:supervises fm:Compartment_V258 .
+fm:Forester_F119 fm:supervises fm:Compartment_V259 .
+fm:Forester_F120 fm:supervises fm:Compartment_V260 .
+fm:Forester_F121 fm:supervises fm:Compartment_V261 .
+fm:Forester_F122 fm:supervises fm:Compartment_V262 .
+fm:Forester_F123 fm:supervises fm:Compartment_V263 .
+fm:Forester_F124 fm:supervises fm:Compartment_V264 .
+fm:Forester_F125 fm:supervises fm:Compartment_V265 .
+fm:Forester_F126 fm:supervises fm:Compartment_V266 .
+fm:Forester_F127 fm:supervises fm:Compartment_V267 .
+fm:Forester_F128 fm:supervises fm:Compartment_V268 .
+fm:Forester_F129 fm:supervises fm:Compartment_V269 .
+fm:Forester_F130 fm:supervises fm:Compartment_V270 .
+fm:Forester_F101 fm:supervises fm:Compartment_V271 .
+fm:Forester_F102 fm:supervises fm:Compartment_V272 .
+fm:Forester_F103 fm:supervises fm:Compartment_V273 .
+fm:Forester_F104 fm:supervises fm:Compartment_V274 .
+fm:Forester_F105 fm:supervises fm:Compartment_V275 .
+fm:Forester_F106 fm:supervises fm:Compartment_V276 .
+fm:Forester_F107 fm:supervises fm:Compartment_V277 .
+fm:Forester_F108 fm:supervises fm:Compartment_V278 .
+fm:Forester_F109 fm:supervises fm:Compartment_V279 .
+fm:Forester_F110 fm:supervises fm:Compartment_V280 .
+fm:Forester_F111 fm:supervises fm:Compartment_V281 .
+fm:Forester_F112 fm:supervises fm:Compartment_V282 .
+fm:Forester_F113 fm:supervises fm:Compartment_V283 .
+fm:Forester_F114 fm:supervises fm:Compartment_V284 .
+fm:Forester_F115 fm:supervises fm:Compartment_V285 .
+fm:Forester_F116 fm:supervises fm:Compartment_V286 .
+fm:Forester_F117 fm:supervises fm:Compartment_V287 .
+fm:Forester_F118 fm:supervises fm:Compartment_V288 .
+fm:Forester_F119 fm:supervises fm:Compartment_V289 .
+fm:Forester_F120 fm:supervises fm:Compartment_V290 .
+fm:Forester_F121 fm:supervises fm:Compartment_V291 .
+fm:Forester_F122 fm:supervises fm:Compartment_V292 .
+fm:Forester_F123 fm:supervises fm:Compartment_V293 .
+fm:Forester_F124 fm:supervises fm:Compartment_V294 .
+fm:Forester_F125 fm:supervises fm:Compartment_V295 .
+fm:Forester_F126 fm:supervises fm:Compartment_V296 .
+fm:Forester_F127 fm:supervises fm:Compartment_V297 .
+fm:Forester_F128 fm:supervises fm:Compartment_V298 .
+fm:Forester_F129 fm:supervises fm:Compartment_V299 .
+fm:Forester_F130 fm:supervises fm:Compartment_V300 .
+fm:Forester_F101 fm:supervises fm:Compartment_V301 .
+fm:Forester_F102 fm:supervises fm:Compartment_V302 .
+fm:Forester_F103 fm:supervises fm:Compartment_V303 .
+fm:Forester_F104 fm:supervises fm:Compartment_V304 .
+fm:Forester_F105 fm:supervises fm:Compartment_V305 .
+fm:Forester_F106 fm:supervises fm:Compartment_V306 .
+fm:Forester_F107 fm:supervises fm:Compartment_V307 .
+fm:Forester_F108 fm:supervises fm:Compartment_V308 .
+fm:Forester_F109 fm:supervises fm:Compartment_V309 .
+fm:Forester_F110 fm:supervises fm:Compartment_V310 .
+fm:Forester_F111 fm:supervises fm:Compartment_V311 .
+fm:Forester_F112 fm:supervises fm:Compartment_V312 .
+fm:Forester_F113 fm:supervises fm:Compartment_V313 .
+fm:Forester_F114 fm:supervises fm:Compartment_V314 .
+fm:Forester_F115 fm:supervises fm:Compartment_V315 .
+fm:Forester_F116 fm:supervises fm:Compartment_V316 .
+fm:Forester_F117 fm:supervises fm:Compartment_V317 .
+fm:Forester_F118 fm:supervises fm:Compartment_V318 .
+fm:Forester_F119 fm:supervises fm:Compartment_V319 .
+fm:Forester_F120 fm:supervises fm:Compartment_V320 .
+fm:Forester_F121 fm:supervises fm:Compartment_V321 .
+fm:Forester_F122 fm:supervises fm:Compartment_V322 .
+fm:Forester_F123 fm:supervises fm:Compartment_V323 .
+fm:Forester_F124 fm:supervises fm:Compartment_V324 .
+fm:Forester_F125 fm:supervises fm:Compartment_V325 .
+fm:Forester_F126 fm:supervises fm:Compartment_V326 .
+fm:Forester_F127 fm:supervises fm:Compartment_V327 .
+fm:Forester_F128 fm:supervises fm:Compartment_V328 .
+fm:Forester_F129 fm:supervises fm:Compartment_V329 .
+fm:Forester_F130 fm:supervises fm:Compartment_V330 .
+fm:Forester_F101 fm:supervises fm:Compartment_V331 .
+fm:Forester_F102 fm:supervises fm:Compartment_V332 .
+fm:Forester_F103 fm:supervises fm:Compartment_V333 .
+fm:Forester_F104 fm:supervises fm:Compartment_V334 .
+fm:Forester_F105 fm:supervises fm:Compartment_V335 .
+fm:Forester_F106 fm:supervises fm:Compartment_V336 .
+fm:Forester_F107 fm:supervises fm:Compartment_V337 .
+fm:Forester_F108 fm:supervises fm:Compartment_V338 .
+fm:Forester_F109 fm:supervises fm:Compartment_V339 .
+fm:Forester_F110 fm:supervises fm:Compartment_V340 .
+fm:Forester_F111 fm:supervises fm:Compartment_V341 .
+fm:Forester_F112 fm:supervises fm:Compartment_V342 .
+fm:Forester_F113 fm:supervises fm:Compartment_V343 .
+fm:Forester_F114 fm:supervises fm:Compartment_V344 .
+fm:Forester_F115 fm:supervises fm:Compartment_V345 .
+fm:Forester_F116 fm:supervises fm:Compartment_V346 .
+fm:Forester_F117 fm:supervises fm:Compartment_V347 .
+fm:Forester_F118 fm:supervises fm:Compartment_V348 .
+fm:Forester_F119 fm:supervises fm:Compartment_V349 .
+fm:Forester_F120 fm:supervises fm:Compartment_V350 .
+fm:Forester_F121 fm:supervises fm:Compartment_V351 .
+fm:Forester_F122 fm:supervises fm:Compartment_V352 .
+fm:Forester_F123 fm:supervises fm:Compartment_V353 .
+fm:Forester_F124 fm:supervises fm:Compartment_V354 .
+fm:Forester_F125 fm:supervises fm:Compartment_V355 .
+fm:Forester_F126 fm:supervises fm:Compartment_V356 .
+fm:Forester_F127 fm:supervises fm:Compartment_V357 .
+fm:Forester_F128 fm:supervises fm:Compartment_V358 .
+fm:Forester_F129 fm:supervises fm:Compartment_V359 .
+fm:Forester_F130 fm:supervises fm:Compartment_V360 .
+fm:Forester_F101 fm:supervises fm:Compartment_V361 .
+fm:Forester_F102 fm:supervises fm:Compartment_V362 .
+fm:Forester_F103 fm:supervises fm:Compartment_V363 .
+fm:Forester_F104 fm:supervises fm:Compartment_V364 .
+fm:Forester_F105 fm:supervises fm:Compartment_V365 .
+fm:Forester_F106 fm:supervises fm:Compartment_V366 .
+fm:Forester_F107 fm:supervises fm:Compartment_V367 .
+fm:Forester_F108 fm:supervises fm:Compartment_V368 .
+fm:Forester_F109 fm:supervises fm:Compartment_V369 .
+fm:Forester_F110 fm:supervises fm:Compartment_V370 .
+fm:Forester_F111 fm:supervises fm:Compartment_V371 .
+fm:Forester_F112 fm:supervises fm:Compartment_V372 .
+fm:Forester_F113 fm:supervises fm:Compartment_V373 .
+fm:Forester_F114 fm:supervises fm:Compartment_V374 .
+fm:Forester_F115 fm:supervises fm:Compartment_V375 .
+fm:Forester_F116 fm:supervises fm:Compartment_V376 .
+fm:Forester_F117 fm:supervises fm:Compartment_V377 .
+fm:Forester_F118 fm:supervises fm:Compartment_V378 .
+fm:Forester_F119 fm:supervises fm:Compartment_V379 .
+fm:Forester_F120 fm:supervises fm:Compartment_V380 .
+fm:Forester_F121 fm:supervises fm:Compartment_V381 .
+fm:Forester_F122 fm:supervises fm:Compartment_V382 .
+fm:Forester_F123 fm:supervises fm:Compartment_V383 .
+fm:Forester_F124 fm:supervises fm:Compartment_V384 .
+fm:Forester_F125 fm:supervises fm:Compartment_V385 .
+fm:Forester_F126 fm:supervises fm:Compartment_V386 .
+fm:Forester_F127 fm:supervises fm:Compartment_V387 .
+fm:Forester_F128 fm:supervises fm:Compartment_V388 .
+fm:Forester_F129 fm:supervises fm:Compartment_V389 .
+fm:Forester_F130 fm:supervises fm:Compartment_V390 .
+fm:Forester_F101 fm:supervises fm:Compartment_V391 .
+fm:Forester_F102 fm:supervises fm:Compartment_V392 .
+fm:Forester_F103 fm:supervises fm:Compartment_V393 .
+fm:Forester_F104 fm:supervises fm:Compartment_V394 .
+fm:Forester_F105 fm:supervises fm:Compartment_V395 .
+fm:Forester_F106 fm:supervises fm:Compartment_V396 .
+fm:Forester_F107 fm:supervises fm:Compartment_V397 .
+fm:Forester_F108 fm:supervises fm:Compartment_V398 .
+fm:Forester_F109 fm:supervises fm:Compartment_V399 .
+fm:Forester_F110 fm:supervises fm:Compartment_V400 .
+fm:Compartment_V007 fm:affectedBy fm:Threat_Ips_02 .
+fm:Compartment_V014 fm:affectedBy fm:Threat_Ips_03 .
+fm:Compartment_V021 fm:affectedBy fm:Threat_Ips_04 .
+fm:Compartment_V023 fm:affectedBy fm:Threat_Wind_04 .
+fm:Compartment_V028 fm:affectedBy fm:Threat_Rot_01 .
+fm:Compartment_V035 fm:affectedBy fm:Threat_Rot_02 .
+fm:Compartment_V042 fm:affectedBy fm:Threat_Rot_03 .
+fm:Compartment_V046 fm:affectedBy fm:Threat_Wind_03 .
+fm:Compartment_V049 fm:affectedBy fm:Threat_Rot_04 .
+fm:Compartment_V056 fm:affectedBy fm:Threat_Ips_01 .
+fm:Compartment_V063 fm:affectedBy fm:Threat_Ips_02 .
+fm:Compartment_V069 fm:affectedBy fm:Threat_Wind_02 .
+fm:Compartment_V070 fm:affectedBy fm:Threat_Ips_03 .
+fm:Compartment_V077 fm:affectedBy fm:Threat_Ips_04 .
+fm:Compartment_V084 fm:affectedBy fm:Threat_Rot_01 .
+fm:Compartment_V091 fm:affectedBy fm:Threat_Rot_02 .
+fm:Compartment_V092 fm:affectedBy fm:Threat_Wind_01 .
+fm:Compartment_V098 fm:affectedBy fm:Threat_Rot_03 .
+fm:Compartment_V105 fm:affectedBy fm:Threat_Rot_04 .
+fm:Compartment_V112 fm:affectedBy fm:Threat_Ips_01 .
+fm:Compartment_V115 fm:affectedBy fm:Threat_Wind_04 .
+fm:Compartment_V119 fm:affectedBy fm:Threat_Ips_02 .
+fm:Compartment_V126 fm:affectedBy fm:Threat_Ips_03 .
+fm:Compartment_V133 fm:affectedBy fm:Threat_Ips_04 .
+fm:Compartment_V138 fm:affectedBy fm:Threat_Wind_03 .
+fm:Compartment_V140 fm:affectedBy fm:Threat_Rot_01 .
+fm:Compartment_V147 fm:affectedBy fm:Threat_Rot_02 .
+fm:Compartment_V154 fm:affectedBy fm:Threat_Rot_03 .
+fm:Compartment_V161 fm:affectedBy fm:Threat_Rot_04 .
+fm:Compartment_V168 fm:affectedBy fm:Threat_Ips_01 .
+fm:Compartment_V175 fm:affectedBy fm:Threat_Ips_02 .
+fm:Compartment_V182 fm:affectedBy fm:Threat_Ips_03 .
+fm:Compartment_V184 fm:affectedBy fm:Threat_Wind_01 .
+fm:Compartment_V189 fm:affectedBy fm:Threat_Ips_04 .
+fm:Compartment_V196 fm:affectedBy fm:Threat_Rot_01 .
+fm:Compartment_V203 fm:affectedBy fm:Threat_Rot_02 .
+fm:Compartment_V207 fm:affectedBy fm:Threat_Wind_04 .
+fm:Compartment_V210 fm:affectedBy fm:Threat_Rot_03 .
+fm:Compartment_V217 fm:affectedBy fm:Threat_Rot_04 .
+fm:Compartment_V224 fm:affectedBy fm:Threat_Ips_01 .
+fm:Compartment_V230 fm:affectedBy fm:Threat_Wind_03 .
+fm:Compartment_V231 fm:affectedBy fm:Threat_Ips_02 .
+fm:Compartment_V238 fm:affectedBy fm:Threat_Ips_03 .
+fm:Compartment_V245 fm:affectedBy fm:Threat_Ips_04 .
+fm:Compartment_V252 fm:affectedBy fm:Threat_Rot_01 .
+fm:Compartment_V253 fm:affectedBy fm:Threat_Wind_02 .
+fm:Compartment_V259 fm:affectedBy fm:Threat_Rot_02 .
+fm:Compartment_V266 fm:affectedBy fm:Threat_Rot_03 .
+fm:Compartment_V273 fm:affectedBy fm:Threat_Rot_04 .
+fm:Compartment_V276 fm:affectedBy fm:Threat_Wind_01 .
+fm:Compartment_V280 fm:affectedBy fm:Threat_Ips_01 .
+fm:Compartment_V287 fm:affectedBy fm:Threat_Ips_02 .
+fm:Compartment_V294 fm:affectedBy fm:Threat_Ips_03 .
+fm:Compartment_V299 fm:affectedBy fm:Threat_Wind_04 .
+fm:Compartment_V301 fm:affectedBy fm:Threat_Ips_04 .
+fm:Compartment_V308 fm:affectedBy fm:Threat_Rot_01 .
+fm:Compartment_V315 fm:affectedBy fm:Threat_Rot_02 .
+fm:Compartment_V322 fm:affectedBy fm:Threat_Rot_03 .
+fm:Compartment_V329 fm:affectedBy fm:Threat_Rot_04 .
+fm:Compartment_V336 fm:affectedBy fm:Threat_Ips_01 .
+fm:Compartment_V343 fm:affectedBy fm:Threat_Ips_02 .
+fm:Compartment_V345 fm:affectedBy fm:Threat_Wind_02 .
+fm:Compartment_V350 fm:affectedBy fm:Threat_Ips_03 .
+fm:Compartment_V357 fm:affectedBy fm:Threat_Ips_04 .
+fm:Compartment_V364 fm:affectedBy fm:Threat_Rot_01 .
+fm:Compartment_V368 fm:affectedBy fm:Threat_Wind_01 .
+fm:Compartment_V371 fm:affectedBy fm:Threat_Rot_02 .
+fm:Compartment_V378 fm:affectedBy fm:Threat_Rot_03 .
+fm:Compartment_V385 fm:affectedBy fm:Threat_Rot_04 .
+fm:Compartment_V391 fm:affectedBy fm:Threat_Wind_04 .
+fm:Compartment_V392 fm:affectedBy fm:Threat_Ips_01 .
+fm:Compartment_V399 fm:affectedBy fm:Threat_Ips_02 .
+fm:Harvest_001 fm:appliedTo fm:Compartment_V002 .
+fm:Harvest_002 fm:appliedTo fm:Compartment_V007 .
+fm:Harvest_003 fm:appliedTo fm:Compartment_V012 .
+fm:Harvest_004 fm:appliedTo fm:Compartment_V014 .
+fm:Harvest_005 fm:appliedTo fm:Compartment_V016 .
+fm:Harvest_006 fm:appliedTo fm:Compartment_V021 .
+fm:Harvest_007 fm:appliedTo fm:Compartment_V022 .
+fm:Harvest_008 fm:appliedTo fm:Compartment_V023 .
+fm:Harvest_009 fm:appliedTo fm:Compartment_V028 .
+fm:Harvest_010 fm:appliedTo fm:Compartment_V032 .
+fm:Harvest_011 fm:appliedTo fm:Compartment_V033 .
+fm:Harvest_012 fm:appliedTo fm:Compartment_V034 .
+fm:Harvest_013 fm:appliedTo fm:Compartment_V035 .
+fm:Harvest_014 fm:appliedTo fm:Compartment_V036 .
+fm:Harvest_015 fm:appliedTo fm:Compartment_V037 .
+fm:Harvest_016 fm:appliedTo fm:Compartment_V042 .
+fm:Harvest_017 fm:appliedTo fm:Compartment_V044 .
+fm:Harvest_018 fm:appliedTo fm:Compartment_V047 .
+fm:Harvest_019 fm:appliedTo fm:Compartment_V049 .
+fm:Harvest_020 fm:appliedTo fm:Compartment_V052 .
+fm:Harvest_021 fm:appliedTo fm:Compartment_V056 .
+fm:Harvest_022 fm:appliedTo fm:Compartment_V061 .
+fm:Harvest_023 fm:appliedTo fm:Compartment_V062 .
+fm:Harvest_024 fm:appliedTo fm:Compartment_V063 .
+fm:Harvest_025 fm:appliedTo fm:Compartment_V065 .
+fm:Harvest_026 fm:appliedTo fm:Compartment_V067 .
+fm:Harvest_027 fm:appliedTo fm:Compartment_V069 .
+fm:Harvest_028 fm:appliedTo fm:Compartment_V070 .
+fm:Harvest_029 fm:appliedTo fm:Compartment_V072 .
+fm:Harvest_030 fm:appliedTo fm:Compartment_V074 .
+fm:Harvest_031 fm:appliedTo fm:Compartment_V075 .
+fm:Harvest_032 fm:appliedTo fm:Compartment_V076 .
+fm:Harvest_033 fm:appliedTo fm:Compartment_V077 .
+fm:Harvest_034 fm:appliedTo fm:Compartment_V078 .
+fm:Harvest_035 fm:appliedTo fm:Compartment_V079 .
+fm:Harvest_036 fm:appliedTo fm:Compartment_V080 .
+fm:Harvest_037 fm:appliedTo fm:Compartment_V082 .
+fm:Harvest_038 fm:appliedTo fm:Compartment_V084 .
+fm:Harvest_039 fm:appliedTo fm:Compartment_V086 .
+fm:Harvest_040 fm:appliedTo fm:Compartment_V089 .
+fm:Harvest_041 fm:appliedTo fm:Compartment_V091 .
+fm:Harvest_042 fm:appliedTo fm:Compartment_V092 .
+fm:Harvest_043 fm:appliedTo fm:Compartment_V093 .
+fm:Harvest_044 fm:appliedTo fm:Compartment_V094 .
+fm:Harvest_045 fm:appliedTo fm:Compartment_V095 .
+fm:Harvest_046 fm:appliedTo fm:Compartment_V096 .
+fm:Harvest_047 fm:appliedTo fm:Compartment_V097 .
+fm:Harvest_048 fm:appliedTo fm:Compartment_V098 .
+fm:Harvest_049 fm:appliedTo fm:Compartment_V099 .
+fm:Harvest_050 fm:appliedTo fm:Compartment_V103 .
+fm:Harvest_051 fm:appliedTo fm:Compartment_V104 .
+fm:Harvest_052 fm:appliedTo fm:Compartment_V105 .
+fm:Harvest_053 fm:appliedTo fm:Compartment_V106 .
+fm:Harvest_054 fm:appliedTo fm:Compartment_V107 .
+fm:Harvest_055 fm:appliedTo fm:Compartment_V108 .
+fm:Harvest_056 fm:appliedTo fm:Compartment_V109 .
+fm:Harvest_057 fm:appliedTo fm:Compartment_V110 .
+fm:Harvest_058 fm:appliedTo fm:Compartment_V112 .
+fm:Harvest_059 fm:appliedTo fm:Compartment_V116 .
+fm:Harvest_060 fm:appliedTo fm:Compartment_V118 .
+fm:Harvest_061 fm:appliedTo fm:Compartment_V119 .
+fm:Harvest_062 fm:appliedTo fm:Compartment_V120 .
+fm:Harvest_063 fm:appliedTo fm:Compartment_V121 .
+fm:Harvest_064 fm:appliedTo fm:Compartment_V124 .
+fm:Harvest_065 fm:appliedTo fm:Compartment_V125 .
+fm:Harvest_066 fm:appliedTo fm:Compartment_V126 .
+fm:Harvest_067 fm:appliedTo fm:Compartment_V127 .
+fm:Harvest_068 fm:appliedTo fm:Compartment_V130 .
+fm:Harvest_069 fm:appliedTo fm:Compartment_V131 .
+fm:Harvest_070 fm:appliedTo fm:Compartment_V133 .
+fm:Harvest_071 fm:appliedTo fm:Compartment_V135 .
+fm:Harvest_072 fm:appliedTo fm:Compartment_V140 .
+fm:Harvest_073 fm:appliedTo fm:Compartment_V142 .
+fm:Harvest_074 fm:appliedTo fm:Compartment_V144 .
+fm:Harvest_075 fm:appliedTo fm:Compartment_V147 .
+fm:Harvest_076 fm:appliedTo fm:Compartment_V149 .
+fm:Harvest_077 fm:appliedTo fm:Compartment_V150 .
+fm:Harvest_078 fm:appliedTo fm:Compartment_V154 .
+fm:Harvest_079 fm:appliedTo fm:Compartment_V156 .
+fm:Harvest_080 fm:appliedTo fm:Compartment_V159 .
+fm:Harvest_081 fm:appliedTo fm:Compartment_V161 .
+fm:Harvest_082 fm:appliedTo fm:Compartment_V162 .
+fm:Harvest_083 fm:appliedTo fm:Compartment_V165 .
+fm:Harvest_084 fm:appliedTo fm:Compartment_V168 .
+fm:Harvest_085 fm:appliedTo fm:Compartment_V169 .
+fm:Harvest_086 fm:appliedTo fm:Compartment_V171 .
+fm:Harvest_087 fm:appliedTo fm:Compartment_V172 .
+fm:Harvest_088 fm:appliedTo fm:Compartment_V174 .
+fm:Harvest_089 fm:appliedTo fm:Compartment_V175 .
+fm:Harvest_090 fm:appliedTo fm:Compartment_V176 .
+fm:Harvest_091 fm:appliedTo fm:Compartment_V178 .
+fm:Harvest_092 fm:appliedTo fm:Compartment_V182 .
+fm:Harvest_093 fm:appliedTo fm:Compartment_V183 .
+fm:Harvest_094 fm:appliedTo fm:Compartment_V188 .
+fm:Harvest_095 fm:appliedTo fm:Compartment_V189 .
+fm:Harvest_096 fm:appliedTo fm:Compartment_V190 .
+fm:Harvest_097 fm:appliedTo fm:Compartment_V191 .
+fm:Harvest_098 fm:appliedTo fm:Compartment_V192 .
+fm:Harvest_099 fm:appliedTo fm:Compartment_V193 .
+fm:Harvest_100 fm:appliedTo fm:Compartment_V194 .
+fm:Harvest_101 fm:appliedTo fm:Compartment_V196 .
+fm:Harvest_102 fm:appliedTo fm:Compartment_V197 .
+fm:Harvest_103 fm:appliedTo fm:Compartment_V199 .
+fm:Harvest_104 fm:appliedTo fm:Compartment_V200 .
+fm:Harvest_105 fm:appliedTo fm:Compartment_V201 .
+fm:Harvest_106 fm:appliedTo fm:Compartment_V202 .
+fm:Harvest_107 fm:appliedTo fm:Compartment_V203 .
+fm:Harvest_108 fm:appliedTo fm:Compartment_V204 .
+fm:Harvest_109 fm:appliedTo fm:Compartment_V210 .
+fm:Harvest_110 fm:appliedTo fm:Compartment_V217 .
+fm:Harvest_111 fm:appliedTo fm:Compartment_V218 .
+fm:Harvest_112 fm:appliedTo fm:Compartment_V220 .
+fm:Harvest_113 fm:appliedTo fm:Compartment_V221 .
+fm:Harvest_114 fm:appliedTo fm:Compartment_V222 .
+fm:Harvest_115 fm:appliedTo fm:Compartment_V223 .
+fm:Harvest_116 fm:appliedTo fm:Compartment_V224 .
+fm:Harvest_117 fm:appliedTo fm:Compartment_V228 .
+fm:Harvest_118 fm:appliedTo fm:Compartment_V229 .
+fm:Harvest_119 fm:appliedTo fm:Compartment_V230 .
+fm:Harvest_120 fm:appliedTo fm:Compartment_V231 .
+fm:Harvest_001 fm:followedBy fm:Reforest_001 .
+fm:Harvest_002 fm:followedBy fm:Reforest_002 .
+fm:Harvest_003 fm:followedBy fm:Reforest_003 .
+fm:Harvest_004 fm:followedBy fm:Reforest_004 .
+fm:Harvest_005 fm:followedBy fm:Reforest_005 .
+fm:Harvest_006 fm:followedBy fm:Reforest_006 .
+fm:Harvest_007 fm:followedBy fm:Reforest_007 .
+fm:Harvest_008 fm:followedBy fm:Reforest_008 .
+fm:Harvest_009 fm:followedBy fm:Reforest_009 .
+fm:Harvest_010 fm:followedBy fm:Reforest_010 .
+fm:Harvest_011 fm:followedBy fm:Reforest_011 .
+fm:Harvest_012 fm:followedBy fm:Reforest_012 .
+fm:Harvest_013 fm:followedBy fm:Reforest_013 .
+fm:Harvest_014 fm:followedBy fm:Reforest_014 .
+fm:Harvest_015 fm:followedBy fm:Reforest_015 .
+fm:Harvest_016 fm:followedBy fm:Reforest_016 .
+fm:Harvest_017 fm:followedBy fm:Reforest_017 .
+fm:Harvest_018 fm:followedBy fm:Reforest_018 .
+fm:Harvest_019 fm:followedBy fm:Reforest_019 .
+fm:Harvest_020 fm:followedBy fm:Reforest_020 .
+fm:Harvest_021 fm:followedBy fm:Reforest_021 .
+fm:Harvest_022 fm:followedBy fm:Reforest_022 .
+fm:Harvest_023 fm:followedBy fm:Reforest_023 .
+fm:Harvest_024 fm:followedBy fm:Reforest_024 .
+fm:Harvest_025 fm:followedBy fm:Reforest_025 .
+fm:Harvest_026 fm:followedBy fm:Reforest_026 .
+fm:Harvest_027 fm:followedBy fm:Reforest_027 .
+fm:Harvest_028 fm:followedBy fm:Reforest_028 .
+fm:Harvest_029 fm:followedBy fm:Reforest_029 .
+fm:Harvest_030 fm:followedBy fm:Reforest_030 .
+fm:Harvest_031 fm:followedBy fm:Reforest_031 .
+fm:Harvest_032 fm:followedBy fm:Reforest_032 .
+fm:Harvest_033 fm:followedBy fm:Reforest_033 .
+fm:Harvest_034 fm:followedBy fm:Reforest_034 .
+fm:Harvest_035 fm:followedBy fm:Reforest_035 .
+fm:Harvest_036 fm:followedBy fm:Reforest_036 .
+fm:Harvest_037 fm:followedBy fm:Reforest_037 .
+fm:Harvest_038 fm:followedBy fm:Reforest_038 .
+fm:Harvest_039 fm:followedBy fm:Reforest_039 .
+fm:Harvest_040 fm:followedBy fm:Reforest_040 .
+fm:Harvest_041 fm:followedBy fm:Reforest_041 .
+fm:Harvest_042 fm:followedBy fm:Reforest_042 .
+fm:Harvest_043 fm:followedBy fm:Reforest_043 .
+fm:Harvest_044 fm:followedBy fm:Reforest_044 .
+fm:Harvest_045 fm:followedBy fm:Reforest_045 .
+fm:Harvest_046 fm:followedBy fm:Reforest_046 .
+fm:Harvest_047 fm:followedBy fm:Reforest_047 .
+fm:Harvest_048 fm:followedBy fm:Reforest_048 .
+fm:Harvest_049 fm:followedBy fm:Reforest_049 .
+fm:Harvest_050 fm:followedBy fm:Reforest_050 .
+fm:Harvest_051 fm:followedBy fm:Reforest_051 .
+fm:Harvest_052 fm:followedBy fm:Reforest_052 .
+fm:Harvest_053 fm:followedBy fm:Reforest_053 .
+fm:Harvest_054 fm:followedBy fm:Reforest_054 .
+fm:Harvest_055 fm:followedBy fm:Reforest_055 .
+fm:Harvest_056 fm:followedBy fm:Reforest_056 .
+fm:Harvest_057 fm:followedBy fm:Reforest_057 .
+fm:Harvest_058 fm:followedBy fm:Reforest_058 .
+fm:Harvest_059 fm:followedBy fm:Reforest_059 .
+fm:Harvest_060 fm:followedBy fm:Reforest_060 .
+fm:Harvest_061 fm:followedBy fm:Reforest_061 .
+fm:Harvest_062 fm:followedBy fm:Reforest_062 .
+fm:Harvest_063 fm:followedBy fm:Reforest_063 .
+fm:Harvest_064 fm:followedBy fm:Reforest_064 .
+fm:Harvest_065 fm:followedBy fm:Reforest_065 .
+fm:Harvest_066 fm:followedBy fm:Reforest_066 .
+fm:Harvest_067 fm:followedBy fm:Reforest_067 .
+fm:Harvest_068 fm:followedBy fm:Reforest_068 .
+fm:Harvest_069 fm:followedBy fm:Reforest_069 .
+fm:Harvest_070 fm:followedBy fm:Reforest_070 .
+fm:Harvest_071 fm:followedBy fm:Reforest_071 .
+fm:Harvest_072 fm:followedBy fm:Reforest_072 .
+fm:Harvest_073 fm:followedBy fm:Reforest_073 .
+fm:Harvest_074 fm:followedBy fm:Reforest_074 .
+fm:Harvest_075 fm:followedBy fm:Reforest_075 .
+fm:Harvest_076 fm:followedBy fm:Reforest_076 .
+fm:Harvest_077 fm:followedBy fm:Reforest_077 .
+fm:Harvest_078 fm:followedBy fm:Reforest_078 .
+fm:Harvest_079 fm:followedBy fm:Reforest_079 .
+fm:Harvest_080 fm:followedBy fm:Reforest_080 .
+fm:Harvest_081 fm:followedBy fm:Reforest_081 .
+fm:Harvest_082 fm:followedBy fm:Reforest_082 .
+fm:Harvest_083 fm:followedBy fm:Reforest_083 .
+fm:Harvest_084 fm:followedBy fm:Reforest_084 .
+fm:Harvest_085 fm:followedBy fm:Reforest_085 .
+fm:Harvest_086 fm:followedBy fm:Reforest_086 .
+fm:Harvest_087 fm:followedBy fm:Reforest_087 .
+fm:Harvest_088 fm:followedBy fm:Reforest_088 .
+fm:Harvest_089 fm:followedBy fm:Reforest_089 .
+fm:Harvest_090 fm:followedBy fm:Reforest_090 .

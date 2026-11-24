@@ -1,0 +1,28 @@
+id,subtype,origin,name,plannedDate,harvestVolumeM3,plantedSeedlingsCount
+SanitaryFelling_2026_V012,SanitaryFelling,lab7-8,Вибіркова санітарна рубка V-012,,120.0,
+MainFelling_2026_V003,MainFelling,lab7-8,Рубка головного користування V-003,,260.0,
+Planting_Spring2027_V012,Reforestation,lab7-8,"Весняне садіння ялини 2027, V-012",,,5000
+SanitaryFelling_2026_V107,SanitaryFelling,synthetic,Вибіркова санітарна рубка V-107,2026-11-23,185.0,
+Planting_Spring2027_V107,Reforestation,synthetic,"Весняне садіння культур 2027, V-107",2027-04-19,,9100
+SanitaryFelling_2026_V302,SanitaryFelling,synthetic,Вибіркова санітарна рубка V-302,2026-11-04,192.0,
+Planting_Spring2027_V302,Reforestation,synthetic,"Весняне садіння культур 2027, V-302",2027-05-17,,8300
+SanitaryFelling_2026_V014,SanitaryFelling,synthetic,Вибіркова санітарна рубка V-014,2026-11-21,176.0,
+Planting_Spring2027_V014,Reforestation,synthetic,"Весняне садіння культур 2027, V-014",2027-05-14,,6300
+SanitaryFelling_2026_V009,SanitaryFelling,synthetic,Вибіркова санітарна рубка V-009,2026-11-20,177.0,
+Planting_Spring2027_V009,Reforestation,synthetic,"Весняне садіння культур 2027, V-009",2027-05-16,,8100
+SanitaryFelling_2026_V207,SanitaryFelling,synthetic,Вибіркова санітарна рубка V-207,2026-11-29,116.0,
+Planting_Spring2027_V207,Reforestation,synthetic,"Весняне садіння культур 2027, V-207",2027-04-18,,6400
+SanitaryFelling_2026_V203,SanitaryFelling,synthetic,Вибіркова санітарна рубка V-203,2026-11-13,113.0,
+Planting_Spring2027_V203,Reforestation,synthetic,"Весняне садіння культур 2027, V-203",2027-04-21,,4900
+MainFelling_2026_V102,MainFelling,synthetic,Рубка головного користування V-102,2026-12-31,694.0,
+MainFelling_2026_V208,MainFelling,synthetic,Рубка головного користування V-208,2027-01-09,230.0,
+MainFelling_2026_V204,MainFelling,synthetic,Рубка головного користування V-204,2026-11-09,457.0,
+MainFelling_2026_V206,MainFelling,synthetic,Рубка головного користування V-206,2026-11-26,221.0,
+MainFelling_2026_V013,MainFelling,synthetic,Рубка головного користування V-013,2026-12-31,306.0,
+Planting_Spring2027_V204,Reforestation,synthetic,"Весняне садіння культур 2027, V-204",2027-05-13,,9300
+Planting_Spring2027_V013,Reforestation,synthetic,"Весняне садіння культур 2027, V-013",2027-05-20,,6300
+Planting_Spring2027_V102,Reforestation,synthetic,"Весняне садіння культур 2027, V-102",2027-04-15,,9200
+FirePatrol_Sept2026_LS01,FirePreventionMeasure,lab7-8,Протипожежне патрулювання LS-01,,,
+FirePatrol_2026_09_04_LS02,FirePreventionMeasure,synthetic,Протипожежне патрулювання LS-02,2026-09-04,,
+FirePatrol_2026_09_11_LS03,FirePreventionMeasure,synthetic,Протипожежне патрулювання LS-03,2026-09-11,,
+FirePatrol_2026_09_16_LS04,FirePreventionMeasure,synthetic,Протипожежне патрулювання LS-04,2026-09-16,,

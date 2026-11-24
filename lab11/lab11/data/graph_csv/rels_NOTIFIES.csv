@@ -1,0 +1,5 @@
+start_label,start_id,end_label,end_id,source,confidence,validFrom
+Process,FirePatrol_Sept2026_LS01,Actor,FireService_DSNS_Lviv,lab7-8-abox,1.0,2026-09-05
+Process,FirePatrol_2026_09_04_LS02,Actor,FireService_DSNS_Lviv,synthetic-gen-seed42,0.8,2026-09-04
+Process,FirePatrol_2026_09_11_LS03,Actor,FireService_DSNS_IvanoFrankivsk,synthetic-gen-seed42,0.8,2026-09-11
+Process,FirePatrol_2026_09_16_LS04,Actor,FireService_DSNS_IvanoFrankivsk,synthetic-gen-seed42,0.8,2026-09-16

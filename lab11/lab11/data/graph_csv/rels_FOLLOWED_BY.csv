@@ -1,0 +1,11 @@
+start_label,start_id,end_label,end_id,source,confidence,validFrom
+Process,SanitaryFelling_2026_V012,Process,Planting_Spring2027_V012,lab7-8-abox,1.0,2026-09-01
+Process,SanitaryFelling_2026_V107,Process,Planting_Spring2027_V107,synthetic-gen-seed42,0.8,2027-04-19
+Process,SanitaryFelling_2026_V302,Process,Planting_Spring2027_V302,synthetic-gen-seed42,0.8,2027-05-17
+Process,SanitaryFelling_2026_V014,Process,Planting_Spring2027_V014,synthetic-gen-seed42,0.8,2027-05-14
+Process,SanitaryFelling_2026_V009,Process,Planting_Spring2027_V009,synthetic-gen-seed42,0.8,2027-05-16
+Process,SanitaryFelling_2026_V207,Process,Planting_Spring2027_V207,synthetic-gen-seed42,0.8,2027-04-18
+Process,SanitaryFelling_2026_V203,Process,Planting_Spring2027_V203,synthetic-gen-seed42,0.8,2027-04-21
+Process,MainFelling_2026_V204,Process,Planting_Spring2027_V204,synthetic-gen-seed42,0.8,2027-05-13
+Process,MainFelling_2026_V013,Process,Planting_Spring2027_V013,synthetic-gen-seed42,0.8,2027-05-20
+Process,MainFelling_2026_V102,Process,Planting_Spring2027_V102,synthetic-gen-seed42,0.8,2027-04-15

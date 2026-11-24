@@ -1,0 +1,44 @@
+# СР 9. Бенчмарк 3 графових баз: Neo4j, Memgraph, GraphDB Free.
+services:
+  neo4j:
+    image: neo4j:5.26-community
+    container_name: sr09-neo4j
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      NEO4J_AUTH: neo4j/sr09password
+      NEO4J_server_memory_heap_initial__size: 512m
+      NEO4J_server_memory_heap_max__size: 1G
+
+  memgraph:
+    image: memgraph/memgraph:latest
+    container_name: sr09-memgraph
+    ports:
+      - "7688:7687"
+    command: ["--log-level=WARNING"]
+
+  graphdb:
+    image: ontotext/graphdb:10.8.0
+    container_name: sr09-graphdb
+    ports:
+      - "7200:7200"
+    environment:
+      GDB_JAVA_OPTS: "-Xmx1g -Xms512m"
+
+  bench:
+    build: .
+    container_name: sr09-bench
+    depends_on:
+      - neo4j
+      - memgraph
+      - graphdb
+    environment:
+      NEO4J_URI: bolt://neo4j:7687
+      NEO4J_USER: neo4j
+      NEO4J_PASSWORD: sr09password
+      MEMGRAPH_URI: bolt://memgraph:7687
+      GRAPHDB_URL: http://graphdb:7200
+    volumes:
+      - ./data:/app/data
+      - ./outputs:/app/outputs

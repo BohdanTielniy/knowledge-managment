@@ -1,0 +1,301 @@
+{
+  "openapi": "3.0.2",
+  "info": {
+    "title": "Domain Knowledge Hub — Forest Management RAG + Graph API",
+    "description": "REST API гібридного сховища знань (BM25 + Dense + RRF + Reranker + Neo4j GraphRAG) для ПдО «Управління лісовими продуктами».",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/health": {
+      "get": {
+        "summary": "Перевірка стану сервісу",
+        "operationId": "health_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ask": {
+      "post": {
+        "summary": "Поставити запитання гібридному RAG-чат-боту",
+        "operationId": "ask_question_ask_post",
+        "parameters": [
+          {
+            "required": false,
+            "schema": {
+              "title": "X-Api-Key",
+              "type": "string"
+            },
+            "name": "X-API-Key",
+            "in": "header"
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AskRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AskResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/sources/{source_id}": {
+      "get": {
+        "summary": "Отримати повний текст джерела або вузла графа за ID",
+        "operationId": "get_source_sources__source_id__get",
+        "parameters": [
+          {
+            "required": true,
+            "schema": {
+              "title": "Source Id",
+              "type": "string"
+            },
+            "name": "source_id",
+            "in": "path"
+          },
+          {
+            "required": false,
+            "schema": {
+              "title": "X-Api-Key",
+              "type": "string"
+            },
+            "name": "X-API-Key",
+            "in": "header"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AskRequest": {
+        "title": "AskRequest",
+        "required": [
+          "question"
+        ],
+        "type": "object",
+        "properties": {
+          "question": {
+            "title": "Question",
+            "maxLength": 500,
+            "minLength": 3,
+            "type": "string",
+            "description": "Запитання користувача"
+          },
+          "use_graph": {
+            "title": "Use Graph",
+            "type": "boolean",
+            "description": "Додавати лінеаризований підграф знань у контекст",
+            "default": true
+          },
+          "top_k": {
+            "title": "Top K",
+            "maximum": 10.0,
+            "minimum": 1.0,
+            "type": "integer",
+            "description": "Кількість текстових фрагментів контексту",
+            "default": 5
+          }
+        }
+      },
+      "AskResponse": {
+        "title": "AskResponse",
+        "required": [
+          "question",
+          "role",
+          "answer",
+          "abstained",
+          "citations",
+          "citations_valid",
+          "sources",
+          "graph_entities",
+          "total_tokens",
+          "latency_ms",
+          "cost_usd"
+        ],
+        "type": "object",
+        "properties": {
+          "question": {
+            "title": "Question",
+            "type": "string"
+          },
+          "role": {
+            "title": "Role",
+            "type": "string"
+          },
+          "answer": {
+            "title": "Answer",
+            "type": "string"
+          },
+          "abstained": {
+            "title": "Abstained",
+            "type": "boolean"
+          },
+          "citations": {
+            "title": "Citations",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "citations_valid": {
+            "title": "Citations Valid",
+            "type": "boolean"
+          },
+          "sources": {
+            "title": "Sources",
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SourceItem"
+            }
+          },
+          "graph_entities": {
+            "title": "Graph Entities",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "total_tokens": {
+            "title": "Total Tokens",
+            "type": "integer"
+          },
+          "latency_ms": {
+            "title": "Latency Ms",
+            "type": "number"
+          },
+          "cost_usd": {
+            "title": "Cost Usd",
+            "type": "number"
+          }
+        }
+      },
+      "HTTPValidationError": {
+        "title": "HTTPValidationError",
+        "type": "object",
+        "properties": {
+          "detail": {
+            "title": "Detail",
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            }
+          }
+        }
+      },
+      "SourceItem": {
+        "title": "SourceItem",
+        "required": [
+          "id",
+          "doc_id",
+          "sensitivity",
+          "score"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "title": "Id",
+            "type": "string"
+          },
+          "doc_id": {
+            "title": "Doc Id",
+            "type": "string"
+          },
+          "sensitivity": {
+            "title": "Sensitivity",
+            "type": "string"
+          },
+          "score": {
+            "title": "Score",
+            "type": "number"
+          }
+        }
+      },
+      "ValidationError": {
+        "title": "ValidationError",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "type": "object",
+        "properties": {
+          "loc": {
+            "title": "Location",
+            "type": "array",
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            }
+          },
+          "msg": {
+            "title": "Message",
+            "type": "string"
+          },
+          "type": {
+            "title": "Error Type",
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+services:
+  sr10:
+    build: .
+    image: sr10-embeddings:latest
+    container_name: sr10-embeddings
+    environment:
+      HF_HOME: /cache/huggingface
+    volumes:
+      - ./outputs:/app/outputs
+      - sr10_hf_cache:/cache/huggingface
+
+volumes:
+  sr10_hf_cache:

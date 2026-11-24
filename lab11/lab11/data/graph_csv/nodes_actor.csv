@@ -1,0 +1,20 @@
+id,subtype,origin,name,staffCode
+Forester_F104,Forester,lab7-8,Фомін О.В.,F-104
+Forester_F101,Forester,synthetic,Лісник F-101,F-101
+Forester_F102,Forester,synthetic,Лісник F-102,F-102
+Forester_F201,Forester,synthetic,Лісник F-201,F-201
+Forester_F202,Forester,synthetic,Лісник F-202,F-202
+Forester_F203,Forester,synthetic,Лісник F-203,F-203
+Forester_F301,Forester,synthetic,Лісник F-301,F-301
+Forester_F302,Forester,synthetic,Лісник F-302,F-302
+Forester_F401,Forester,synthetic,Лісник F-401,F-401
+Forester_F402,Forester,synthetic,Лісник F-402,F-402
+Chief_LS01,ChiefForester,synthetic,Лісничий LS-01,
+Chief_LS02,ChiefForester,synthetic,Лісничий LS-02,
+Chief_LS03,ChiefForester,synthetic,Лісничий LS-03,
+Chief_LS04,ChiefForester,synthetic,Лісничий LS-04,
+Brigade_01,HarvestBrigade,lab7-8,Бригада лісозаготівлі №1,
+Brigade_02,HarvestBrigade,synthetic,Бригада лісозаготівлі №2,
+Brigade_03,HarvestBrigade,synthetic,Бригада лісозаготівлі №3,
+FireService_DSNS_Lviv,EmergencyService,lab7-8,Пожежна служба ДСНС (Львів),
+FireService_DSNS_IvanoFrankivsk,EmergencyService,synthetic,Пожежна служба ДСНС (Івано-Франківськ),

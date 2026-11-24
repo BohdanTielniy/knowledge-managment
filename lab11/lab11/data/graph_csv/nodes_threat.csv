@@ -1,0 +1,9 @@
+id,subtype,origin,name,kind,detectedOn
+Threat_IpsTypographus,InsectPest,lab7-8,Короїд-типограф (Ips typographus),Biotic,
+Threat_Windthrow2026,Windthrow,lab7-8,Вітровал 2026,Abiotic,
+Threat_IpsTypographus_LS02,InsectPest,synthetic,Короїд-типограф (Ips typographus),Biotic,2026-08-27
+Threat_RootRot_LS04,ForestDisease,synthetic,Кореневе гниття (Heterobasidion annosum),Biotic,2026-09-19
+Threat_RootRot_LS01,ForestDisease,synthetic,Кореневе гниття (Heterobasidion annosum),Biotic,2026-10-14
+Threat_IpsTypographus_LS03,InsectPest,synthetic,Короїд-типограф (Ips typographus),Biotic,2026-10-13
+Threat_Drought_LS03,Drought,synthetic,Посуха вересня 2026,Abiotic,2026-09-10
+Threat_Windthrow_LS04,Windthrow,synthetic,Вітровал 2026,Abiotic,2026-09-25
