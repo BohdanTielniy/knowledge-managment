@@ -1,0 +1,94 @@
+version: "1.0.0"
+domain: "Управління лісовими продуктами (Domain Knowledge Hub)"
+review_cycle_days: 90
+metrics:
+  total_revenue_uah:
+    display_name: "Загальна виручка"
+    definition: "Сумарна виручка від реалізації деревинних та недеревинних лісових продуктів."
+    formula: "ROUND(SUM(f.revenue_uah), 2)"
+    unit: "грн"
+    aggregation_type: "additive"
+    owner: "Фінансово-аналітичний відділ ЛГ"
+    sources:
+      - "fact_forest_harvest.revenue_uah"
+    constraints:
+      - "revenue_uah > 0"
+      - "Враховуються лише підтверджені події з дійсним дозволом (permit_sk IS NOT NULL)"
+    review_date: "2026-11-24"
+    status: "approved"
+
+  timber_volume_m3:
+    display_name: "Обсяг заготовленої деревини"
+    definition: "Сумарний фізичний обсяг заготовленої деревини (хвойної, листяної та паливної) у кубічних метрах."
+    formula: "ROUND(SUM(f.volume_m3), 2)"
+    unit: "м³"
+    aggregation_type: "additive"
+    owner: "Відділ лісокористування"
+    sources:
+      - "fact_forest_harvest.volume_m3"
+      - "dim_product_taxonomy.top_class_uk"
+    constraints:
+      - "Для недеревинних продуктів volume_m3 = 0"
+      - "Не підсумовувати разом із mass_kg"
+    review_date: "2026-11-24"
+    status: "approved"
+
+  gross_margin_pct:
+    display_name: "Валова рентабельність (маржинальність)"
+    definition: "Зважена частка валової маржі у загальній виручці; неадитивна міра, обчислюється як відношення сум."
+    formula: "ROUND(100.0 * SUM(f.margin_uah) / NULLIF(SUM(f.revenue_uah), 0), 2)"
+    unit: "%"
+    aggregation_type: "non_additive"
+    owner: "Фінансово-аналітичний відділ ЛГ"
+    sources:
+      - "fact_forest_harvest.margin_uah"
+      - "fact_forest_harvest.revenue_uah"
+    constraints:
+      - "ЗАБОРОНЕНО використовувати AVG(margin_pct) — лише SUM(margin_uah)/SUM(revenue_uah)"
+      - "Ділення на нуль захищено через NULLIF"
+    review_date: "2026-11-24"
+    status: "approved"
+
+  fsc_certified_share_pct:
+    display_name: "Частка FSC-сертифікованої виручки"
+    definition: "Відсоток виручки, отриманої з виділів, що мали активний сертифікат FSC на дату операції (SCD2)."
+    formula: "ROUND(100.0 * SUM(CASE WHEN l.fsc_certified = 1 THEN f.revenue_uah ELSE 0 END) / NULLIF(SUM(f.revenue_uah), 0), 2)"
+    unit: "%"
+    aggregation_type: "non_additive"
+    owner: "Служба екологічної сертифікації"
+    sources:
+      - "fact_forest_harvest.revenue_uah"
+      - "dim_location.fsc_certified"
+    constraints:
+      - "Обов’язкове з’єднання через історичний ключ location_sk (SCD Type 2)"
+    review_date: "2026-11-24"
+    status: "approved"
+
+  nontimber_revenue_share_pct:
+    display_name: "Частка виручки від недеревинних продуктів (НДП)"
+    definition: "Відсоток виручки від грибів, ягід і лікарських рослин у загальній структурі доходів."
+    formula: "ROUND(100.0 * SUM(CASE WHEN p.top_class_uk = 'Недеревинні продукти' THEN f.revenue_uah ELSE 0 END) / NULLIF(SUM(f.revenue_uah), 0), 2)"
+    unit: "%"
+    aggregation_type: "non_additive"
+    owner: "Відділ побічного лісокористування"
+    sources:
+      - "fact_forest_harvest.revenue_uah"
+      - "dim_product_taxonomy.top_class_uk"
+    constraints:
+      - "Використовувати канонічне значення top_class_uk із таксономії ЛР 5"
+    review_date: "2026-11-24"
+    status: "approved"
+
+  avg_ndvi_health:
+    display_name: "Середній індекс вегетації NDVI"
+    definition: "Середнє значення NDVI виділів у момент проведення лісогосподарських операцій."
+    formula: "ROUND(AVG(f.ndvi_score), 3)"
+    unit: "індекс (0..1)"
+    aggregation_type: "non_additive"
+    owner: "Служба екологічного моніторингу"
+    sources:
+      - "fact_forest_harvest.ndvi_score"
+    constraints:
+      - "Значення строго в діапазоні [0, 1]; при NDVI < 0.60 виділ вважається ослабленим"
+    review_date: "2026-11-24"
+    status: "approved"

@@ -1,0 +1,39 @@
+{
+  "dataset_version": "1.0.0",
+  "generated_at": "2026-11-24",
+  "seed": 42,
+  "engine_used": "sqlite3",
+  "fact_rows": 1500,
+  "files": {
+    "dim_date.parquet": {
+      "rows": 1035,
+      "cols": 10,
+      "sha256_16": "a390e26c667b1a75"
+    },
+    "dim_product_taxonomy.parquet": {
+      "rows": 11,
+      "cols": 12,
+      "sha256_16": "b33516ea4efe8220"
+    },
+    "dim_location.parquet": {
+      "rows": 18,
+      "cols": 14,
+      "sha256_16": "2a732c17be895b46"
+    },
+    "dim_actor.parquet": {
+      "rows": 10,
+      "cols": 10,
+      "sha256_16": "398f0a55343e3bb2"
+    },
+    "dim_permit.parquet": {
+      "rows": 9,
+      "cols": 6,
+      "sha256_16": "9da1604c95f1d865"
+    },
+    "fact_forest_harvest.parquet": {
+      "rows": 1500,
+      "cols": 18,
+      "sha256_16": "83c127ce36cddbf0"
+    }
+  }
+}

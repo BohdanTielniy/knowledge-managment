@@ -1,0 +1,11 @@
+id,claim,type,source,verification_level,status,comment
+CL-01,Зерно факту fact_forest_harvest = 1 подія заготівлі одного продукту (IRI) на виділі за дату,правило,Kimball & Ross (2013); Лекція 12,V4,verified,Підтверджено унікальністю fact_id (1500/1500) та відсутністю дублювань
+CL-02,Вимір dim_product_taxonomy інтегрує 11 продуктів таксономії ЛР 5 з унікальними IRI,факт,ЛР 5; data/dim_product_taxonomy.parquet,V2,verified,Перевірено DQ6: 0 дублікатів product_iri
+CL-03,Для dim_location обрано SCD Type 2 для збереження історії FSC-сертифікації виділів V-107 і V-206,правило,Лекція 12; etl/load.py,V4,verified,Підтверджено зростанням частки FSC у LS-02 та LS-04 після 2025-07-01
+CL-04,У таблиці фактів завантажено 1500 рядків і 0 ключів-«сиріт» за всіма 5 вимірами,факт,outputs/dq_report.json,V4,verified,DQ1=1500; DQ2=0 сиріт; 7/7 перевірок якості PASS
+CL-05,Результати OLAP-запитів 01_rollup і 06_drilldown збігаються з незалежним обчисленням у pandas,факт,outputs/olap_summary.json,V4,verified,Макс. розбіжність виручки = 0.00 тис. грн; маржі = 0.00 п.п.
+CL-06,Валову рентабельність (gross_margin_pct) можна агрегувати через AVG(margin_pct),гіпотеза,Чернетка LLM (Сесія 2),V4,rejected,Відхилено: неадитивна міра; AVG(margin_pct) дає похибку (кейс T08); замінено на SUM(margin)/SUM(revenue)
+CL-07,Семантичний шар забезпечує ідентичні результати різними шляхами на 2 бізнес-питаннях,факт,outputs/semantic_results.json,V4,verified,diff_A = 0.0000 п.п.; diff_B = 0.0000 п.п.
+CL-08,Регулярного виразу достатньо для захисту Text-to-SQL без AST-парсера і read-only,гіпотеза,Чернетка проєктування,V2,rejected,Відхилено: regex легко обходиться коментарями/переносами; обов’язкові AST-перевірка + read-only + LIMIT + timeout
+CL-09,AST-валідатор заблокував 2/2 тестові SQL-ін’єкції (T11 DROP TABLE та T12 sqlite_master),факт,tests/t2sql.jsonl,V2,verified,Safety rate = 100 % (12/12)
+CL-10,Недеревинні продукти формують 16.1 % виручки при вищій маржинальності (~50 %) проти деревини (~36 %),факт,docs/olap_results.md; dashboard/,V4,verified,Підтверджено запитом 06_drilldown_taxonomy.sql та pandas
