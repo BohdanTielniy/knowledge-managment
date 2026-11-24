@@ -1,0 +1,26 @@
+name: Knowledge Hub Quality Gate (Lab 14)
+
+on:
+  push:
+    branches: [ main, lab14 ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  quality-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run 12 Quality Gate Checks (SHACL + JSON Schema + Unit/GE + Cypher Invariants)
+        run: python3 quality/ci_gate.py --strict
+      - name: Upload Quality Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: quality-gate-report
+          path: outputs/ci_gate_log.json

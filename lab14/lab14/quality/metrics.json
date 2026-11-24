@@ -1,0 +1,73 @@
+{
+  "version": "baseline_v1.0",
+  "date": "2026-11-24",
+  "total_records": 80,
+  "expert_sample_size": 36,
+  "metrics": [
+    {
+      "dimension": "Повнота (Completeness)",
+      "value_pct": 99.5,
+      "threshold_pct": 95.0,
+      "passed": true
+    },
+    {
+      "dimension": "Узгодженість (Consistency)",
+      "value_pct": 92.5,
+      "threshold_pct": 98.0,
+      "passed": false
+    },
+    {
+      "dimension": "Точність (Accuracy, n=36)",
+      "value_pct": 88.89,
+      "threshold_pct": 95.0,
+      "passed": false
+    },
+    {
+      "dimension": "Актуальність (Timeliness)",
+      "value_pct": 95.0,
+      "threshold_pct": 90.0,
+      "passed": true
+    },
+    {
+      "dimension": "Унікальність (Uniqueness)",
+      "value_pct": 92.5,
+      "threshold_pct": 98.0,
+      "passed": false
+    },
+    {
+      "dimension": "Походження (Provenance)",
+      "value_pct": 95.0,
+      "threshold_pct": 95.0,
+      "passed": true
+    },
+    {
+      "dimension": "Валідність (Validity)",
+      "value_pct": 96.25,
+      "threshold_pct": 98.0,
+      "passed": false
+    },
+    {
+      "dimension": "Доступність (Accessibility)",
+      "value_pct": 100.0,
+      "threshold_pct": 100.0,
+      "passed": true
+    }
+  ],
+  "priorities": [
+    {
+      "priority": "P1",
+      "target": "Узгодженість та точність (суперечності квот V-102, V-012, термінологія)",
+      "rag_impact": "Суперечливі чанки спричиняють суперечливі або неповні відповіді (E26/S14) і знижують Faithfulness."
+    },
+    {
+      "priority": "P2",
+      "target": "Унікальність (дедуплікація 6 сутностей і дубльованих фрагментів)",
+      "rag_impact": "Дублікати займають слоти у топ-5 ретривера, витісняючи корисні документи та знижуючи Context Recall."
+    },
+    {
+      "priority": "P3",
+      "target": "Походження, актуальність та повнота (заповнення V-008, source_url, архів 2023)",
+      "rag_impact": "Записи без source_url і застарілі правила 2023 р. погіршують Citation Accuracy та довіру до відповідей."
+    }
+  ]
+}

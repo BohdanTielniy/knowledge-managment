@@ -1,0 +1,32 @@
+[
+  {
+    "conflict_id": "CF-01",
+    "entity_id": "Compartment_V102",
+    "property": "quota_m3",
+    "accepted_value": 620.0,
+    "accepted_source": "DOC-14 (2026-09-25)",
+    "alternative_value": 720.0,
+    "alternative_source": "DOC-09 (2026-09-01)",
+    "strategy": "Пріоритет новішого наказу"
+  },
+  {
+    "conflict_id": "CF-03",
+    "entity_id": "Compartment_V107",
+    "property": "fsc_certified",
+    "accepted_value": true,
+    "accepted_source": "FSC Audit (2025-07-01)",
+    "alternative_value": false,
+    "alternative_source": "Archive (2023-05-01)",
+    "strategy": "SCD Type 2 історична версія"
+  },
+  {
+    "conflict_id": "CF-05",
+    "entity_id": "Compartment_V012",
+    "property": "damagedTreesShare",
+    "accepted_value": 14.5,
+    "accepted_source": "Акт лісопатолога (2026-10-02)",
+    "alternative_value": 12.0,
+    "alternative_source": "Таксація (2026-09-01)",
+    "strategy": "Довіра до первинного джерела"
+  }
+]

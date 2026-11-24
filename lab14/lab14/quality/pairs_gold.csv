@@ -1,0 +1,101 @@
+pair_id,split,is_duplicate,type_a,code_a,name_a,forestry_a,type_b,code_b,name_b,forestry_b,str_sim,emb_sim,attr_sim,score
+P001,dev,1,Compartment,V-003,Лісовий виділ V-003,LS-01,Compartment,V003,Лісовий виділ V003 (Карпатське),LS-01,0.7755,0.8474,1.0,0.9057
+P002,dev,1,Compartment,V-012,Лісовий виділ V-012,LS-01,Compartment,V-012,Виділ V-012 архівний,LS-01,0.5641,0.7606,1.0,0.8312
+P003,dev,1,Compartment,V-102,Лісовий виділ V-102,LS-02,Compartment,В-102,Лісовий виділ В-102,LS-02,1.0,1.0,1.0,1.0
+P004,dev,1,Actor,F-104,Фомін О.В.,LS-01,Actor,F-104,Фомін Олександр В.,LS-01,0.6923,0.6999,1.0,0.8481
+P005,dev,1,Forestry,LS-01,Лісництво Карпатське,LS-01,Forestry,LS01,Карпатське лісництво (LS01),LS-01,0.4348,0.8776,1.0,0.8281
+P006,dev,1,ForestProduct,Product_Spruce,Деревина ялини,ALL,ForestProduct,Product_Spruce,Ялинова деревина,ALL,0.5333,0.8338,1.0,0.8418
+P007,dev,1,Compartment,V-203,Лісовий виділ V-203,LS-03,Compartment,V203,Ділянка V-203 гірська,LS-03,0.45,0.5544,1.0,0.7511
+P008,dev,1,Actor,BR-01,Бригада лісозаготівлі №1,LS-01,Actor,BR-01,Бригада №1 (лісозаготівля),LS-01,0.8333,0.8333,1.0,0.9167
+P009,dev,1,Forestry,LS-02,Лісництво Бескидське,LS-02,Forestry,LS-02,Бескидське лісництво,LS-02,0.5,0.9231,1.0,0.8558
+P010,dev,1,ForestProduct,Product_Beech,Деревина бука,ALL,ForestProduct,Product_Beech,Букова деревина,ALL,0.5714,0.8577,1.0,0.8573
+P011,dev,1,Compartment,V-003,Лісовий виділ V-003,LS-01,Compartment,V003,Лісовий виділ V003 (Карпатське),LS-01,0.7755,0.8474,1.0,0.9057
+P012,dev,1,Compartment,V-012,Лісовий виділ V-012,LS-01,Compartment,V-012,Виділ V-012 архівний,LS-01,0.5641,0.7606,1.0,0.8312
+P013,dev,1,Compartment,V-102,Лісовий виділ V-102,LS-02,Compartment,В-102,Лісовий виділ В-102,LS-02,1.0,1.0,1.0,1.0
+P014,dev,1,Actor,F-104,Фомін О.В.,LS-01,Actor,F-104,Фомін Олександр В.,LS-01,0.6923,0.6999,1.0,0.8481
+P015,dev,1,Forestry,LS-01,Лісництво Карпатське,LS-01,Forestry,LS01,Карпатське лісництво (LS01),LS-01,0.4348,0.8776,1.0,0.8281
+P016,dev,1,ForestProduct,Product_Spruce,Деревина ялини,ALL,ForestProduct,Product_Spruce,Ялинова деревина,ALL,0.5333,0.8338,1.0,0.8418
+P017,dev,1,Compartment,V-203,Лісовий виділ V-203,LS-03,Compartment,V203,Ділянка V-203 гірська,LS-03,0.45,0.5544,1.0,0.7511
+P018,dev,1,Actor,BR-01,Бригада лісозаготівлі №1,LS-01,Actor,BR-01,Бригада №1 (лісозаготівля),LS-01,0.8333,0.8333,1.0,0.9167
+P019,dev,1,Forestry,LS-02,Лісництво Бескидське,LS-02,Forestry,LS-02,Бескидське лісництво,LS-02,0.5,0.9231,1.0,0.8558
+P020,dev,1,ForestProduct,Product_Beech,Деревина бука,ALL,ForestProduct,Product_Beech,Букова деревина,ALL,0.5714,0.8577,1.0,0.8573
+P021,dev,0,Compartment,V-001,Лісовий виділ V-001,LS-01,Compartment,V-002,Лісовий виділ V-002,LS-01,0.9474,0.7429,0.35,0.5976
+P022,dev,0,Compartment,V-003,Лісовий виділ V-003,LS-01,Compartment,V-103,Лісовий виділ V-103,LS-02,0.9474,0.6571,0.2,0.5011
+P023,dev,0,Compartment,V-101,Лісовий виділ V-101,LS-02,Compartment,V-102,Лісовий виділ V-102,LS-02,0.9474,0.7429,0.35,0.5976
+P024,dev,0,Actor,F-101,Лісник F-101,LS-01,Actor,F-102,Лісник F-102,LS-01,0.9167,0.6786,0.35,0.5738
+P025,dev,0,Actor,F-201,Лісник F-201,LS-02,Actor,F-301,Лісник F-301,LS-03,0.9167,0.5714,0.2,0.472
+P026,dev,0,Forestry,LS-01,Лісництво Карпатське,LS-01,Forestry,LS-02,Лісництво Бескидське,LS-02,0.75,0.6154,0.2,0.4413
+P027,dev,0,Forestry,LS-03,Лісництво Верховинське,LS-03,Forestry,LS-04,Лісництво Дністровське,LS-04,0.7727,0.5714,0.2,0.436
+P028,dev,0,ForestProduct,Product_Spruce,Деревина ялини,ALL,ForestProduct,Product_Fir,Деревина ялиці,ALL,0.8571,0.6555,0.35,0.5532
+P029,dev,0,ForestProduct,Product_Oak,Деревина дуба,ALL,ForestProduct,Product_Beech,Деревина бука,ALL,0.8462,0.6158,0.35,0.5405
+P030,dev,0,ForestProduct,Product_Blueberries,Чорниця,ALL,ForestProduct,Product_Raspberries,Малина лісова,ALL,0.1,0.4355,0.35,0.3089
+P031,dev,0,Compartment,V-201,Лісовий виділ V-201,LS-03,Compartment,V-204,Лісовий виділ V-204,LS-03,0.9474,0.7429,0.35,0.5976
+P032,dev,0,Actor,BR-01,Бригада лісозаготівлі №1,LS-01,Actor,BR-02,Бригада лісозаготівлі №2,LS-02,0.9583,0.8333,0.2,0.5479
+P033,dev,0,Compartment,V-008,Лісовий виділ V-008,LS-01,Compartment,V-009,Лісовий виділ V-009,LS-01,0.9474,0.7429,0.35,0.5976
+P034,dev,0,Compartment,V-012,Лісовий виділ V-012,LS-01,Compartment,V-014,Лісовий виділ V-014,LS-01,0.9474,0.7429,0.35,0.5976
+P035,dev,0,ForestProduct,Product_Pine,Деревина сосни,ALL,ForestProduct,Product_Larch,Деревина модрини,ALL,0.8,0.5973,0.35,0.5243
+P036,dev,0,Compartment,V-001,Лісовий виділ V-001,LS-01,Compartment,V-002,Лісовий виділ V-002,LS-01,0.9474,0.7429,0.35,0.5976
+P037,dev,0,Compartment,V-003,Лісовий виділ V-003,LS-01,Compartment,V-103,Лісовий виділ V-103,LS-02,0.9474,0.6571,0.2,0.5011
+P038,dev,0,Compartment,V-101,Лісовий виділ V-101,LS-02,Compartment,V-102,Лісовий виділ V-102,LS-02,0.9474,0.7429,0.35,0.5976
+P039,dev,0,Actor,F-101,Лісник F-101,LS-01,Actor,F-102,Лісник F-102,LS-01,0.9167,0.6786,0.35,0.5738
+P040,dev,0,Actor,F-201,Лісник F-201,LS-02,Actor,F-301,Лісник F-301,LS-03,0.9167,0.5714,0.2,0.472
+P041,dev,0,Forestry,LS-01,Лісництво Карпатське,LS-01,Forestry,LS-02,Лісництво Бескидське,LS-02,0.75,0.6154,0.2,0.4413
+P042,dev,0,Forestry,LS-03,Лісництво Верховинське,LS-03,Forestry,LS-04,Лісництво Дністровське,LS-04,0.7727,0.5714,0.2,0.436
+P043,dev,0,ForestProduct,Product_Spruce,Деревина ялини,ALL,ForestProduct,Product_Fir,Деревина ялиці,ALL,0.8571,0.6555,0.35,0.5532
+P044,dev,0,ForestProduct,Product_Oak,Деревина дуба,ALL,ForestProduct,Product_Beech,Деревина бука,ALL,0.8462,0.6158,0.35,0.5405
+P045,dev,0,ForestProduct,Product_Blueberries,Чорниця,ALL,ForestProduct,Product_Raspberries,Малина лісова,ALL,0.1,0.4355,0.35,0.3089
+P046,dev,0,Compartment,V-201,Лісовий виділ V-201,LS-03,Compartment,V-204,Лісовий виділ V-204,LS-03,0.9474,0.7429,0.35,0.5976
+P047,dev,0,Actor,BR-01,Бригада лісозаготівлі №1,LS-01,Actor,BR-02,Бригада лісозаготівлі №2,LS-02,0.9583,0.8333,0.2,0.5479
+P048,dev,0,Compartment,V-008,Лісовий виділ V-008,LS-01,Compartment,V-009,Лісовий виділ V-009,LS-01,0.9474,0.7429,0.35,0.5976
+P049,dev,0,Compartment,V-012,Лісовий виділ V-012,LS-01,Compartment,V-014,Лісовий виділ V-014,LS-01,0.9474,0.7429,0.35,0.5976
+P050,dev,0,ForestProduct,Product_Pine,Деревина сосни,ALL,ForestProduct,Product_Larch,Деревина модрини,ALL,0.8,0.5973,0.35,0.5243
+P051,test,1,Compartment,V-003,Лісовий виділ V-003,LS-01,Compartment,V003,Лісовий виділ V003 (Карпатське),LS-01,0.7755,0.8474,1.0,0.9057
+P052,test,1,Compartment,V-012,Лісовий виділ V-012,LS-01,Compartment,V-012,Виділ V-012 архівний,LS-01,0.5641,0.7606,1.0,0.8312
+P053,test,1,Compartment,V-102,Лісовий виділ V-102,LS-02,Compartment,В-102,Лісовий виділ В-102,LS-02,1.0,1.0,1.0,1.0
+P054,test,1,Actor,F-104,Фомін О.В.,LS-01,Actor,F-104,Фомін Олександр В.,LS-01,0.6923,0.6999,1.0,0.8481
+P055,test,1,Forestry,LS-01,Лісництво Карпатське,LS-01,Forestry,LS01,Карпатське лісництво (LS01),LS-01,0.4348,0.8776,1.0,0.8281
+P056,test,1,ForestProduct,Product_Spruce,Деревина ялини,ALL,ForestProduct,Product_Spruce,Ялинова деревина,ALL,0.5333,0.8338,1.0,0.8418
+P057,test,1,Compartment,V-203,Лісовий виділ V-203,LS-03,Compartment,V203,Ділянка V-203 гірська,LS-03,0.45,0.5544,1.0,0.7511
+P058,test,1,Actor,BR-01,Бригада лісозаготівлі №1,LS-01,Actor,BR-01,Бригада №1 (лісозаготівля),LS-01,0.8333,0.8333,1.0,0.9167
+P059,test,1,Forestry,LS-02,Лісництво Бескидське,LS-02,Forestry,LS-02,Бескидське лісництво,LS-02,0.5,0.9231,1.0,0.8558
+P060,test,1,ForestProduct,Product_Beech,Деревина бука,ALL,ForestProduct,Product_Beech,Букова деревина,ALL,0.5714,0.8577,1.0,0.8573
+P061,test,1,Compartment,V-003,Лісовий виділ V-003,LS-01,Compartment,V003,Лісовий виділ V003 (Карпатське) (2026),LS-01,0.7037,0.8047,1.0,0.8771
+P062,test,1,Compartment,V-012,Лісовий виділ V-012,LS-01,Compartment,V-012,Виділ V-012 архівний (2026),LS-01,0.5,0.7128,1.0,0.8032
+P063,test,1,Compartment,V-102,Лісовий виділ V-102,LS-02,Compartment,В-102,Лісовий виділ В-102 (2026),LS-02,0.8837,0.9087,1.0,0.9481
+P064,test,1,Actor,F-104,Фомін О.В.,LS-01,Actor,F-104,Фомін Олександр В. (2026),LS-01,0.5806,0.5855,1.0,0.7915
+P065,test,1,Forestry,LS-01,Лісництво Карпатське,LS-01,Forestry,LS01,Карпатське лісництво (LS01) (2026),LS-01,0.3922,0.8296,1.0,0.8054
+P066,test,1,ForestProduct,Product_Spruce,Деревина ялини,ALL,ForestProduct,Product_Spruce,Ялинова деревина (2026),ALL,0.5143,0.7737,1.0,0.822
+P067,test,1,Compartment,V-203,Лісовий виділ V-203,LS-03,Compartment,V203,Ділянка V-203 гірська (2026),LS-03,0.4,0.5351,1.0,0.7338
+P068,test,1,Actor,BR-01,Бригада лісозаготівлі №1,LS-01,Actor,BR-01,Бригада №1 (лісозаготівля) (2026),LS-01,0.7925,0.7715,1.0,0.891
+P069,test,1,Forestry,LS-02,Лісництво Бескидське,LS-02,Forestry,LS-02,Бескидське лісництво (2026),LS-02,0.4444,0.8454,1.0,0.8225
+P070,test,1,ForestProduct,Product_Beech,Деревина бука,ALL,ForestProduct,Product_Beech,Букова деревина (2026),ALL,0.5455,0.7591,1.0,0.8261
+P071,test,0,Compartment,V-001,Лісовий виділ V-001,LS-01,Compartment,V-002,Лісовий виділ V-002,LS-01,0.9474,0.7429,0.35,0.5976
+P072,test,0,Compartment,V-003,Лісовий виділ V-003,LS-01,Compartment,V-103,Лісовий виділ V-103,LS-02,0.9474,0.6571,0.2,0.5011
+P073,test,0,Compartment,V-101,Лісовий виділ V-101,LS-02,Compartment,V-102,Лісовий виділ V-102,LS-02,0.9474,0.7429,0.35,0.5976
+P074,test,0,Actor,F-101,Лісник F-101,LS-01,Actor,F-102,Лісник F-102,LS-01,0.9167,0.6786,0.35,0.5738
+P075,test,0,Actor,F-201,Лісник F-201,LS-02,Actor,F-301,Лісник F-301,LS-03,0.9167,0.5714,0.2,0.472
+P076,test,0,Forestry,LS-01,Лісництво Карпатське,LS-01,Forestry,LS-02,Лісництво Бескидське,LS-02,0.75,0.6154,0.2,0.4413
+P077,test,0,Forestry,LS-03,Лісництво Верховинське,LS-03,Forestry,LS-04,Лісництво Дністровське,LS-04,0.7727,0.5714,0.2,0.436
+P078,test,0,ForestProduct,Product_Spruce,Деревина ялини,ALL,ForestProduct,Product_Fir,Деревина ялиці,ALL,0.8571,0.6555,0.35,0.5532
+P079,test,0,ForestProduct,Product_Oak,Деревина дуба,ALL,ForestProduct,Product_Beech,Деревина бука,ALL,0.8462,0.6158,0.35,0.5405
+P080,test,0,ForestProduct,Product_Blueberries,Чорниця,ALL,ForestProduct,Product_Raspberries,Малина лісова,ALL,0.1,0.4355,0.35,0.3089
+P081,test,0,Compartment,V-201,Лісовий виділ V-201,LS-03,Compartment,V-204,Лісовий виділ V-204,LS-03,0.9474,0.7429,0.35,0.5976
+P082,test,0,Actor,BR-01,Бригада лісозаготівлі №1,LS-01,Actor,BR-02,Бригада лісозаготівлі №2,LS-02,0.9583,0.8333,0.2,0.5479
+P083,test,0,Compartment,V-008,Лісовий виділ V-008,LS-01,Compartment,V-009,Лісовий виділ V-009,LS-01,0.9474,0.7429,0.35,0.5976
+P084,test,0,Compartment,V-012,Лісовий виділ V-012,LS-01,Compartment,V-014,Лісовий виділ V-014,LS-01,0.9474,0.7429,0.35,0.5976
+P085,test,0,ForestProduct,Product_Pine,Деревина сосни,ALL,ForestProduct,Product_Larch,Деревина модрини,ALL,0.8,0.5973,0.35,0.5243
+P086,test,0,Compartment,V-001,Лісовий виділ V-001,LS-01,Compartment,V-002,Лісовий виділ V-002 (2026),LS-01,0.8372,0.6949,0.35,0.558
+P087,test,0,Compartment,V-003,Лісовий виділ V-003,LS-01,Compartment,V-103,Лісовий виділ V-103 (2026),LS-02,0.8372,0.588,0.2,0.4563
+P088,test,0,Compartment,V-101,Лісовий виділ V-101,LS-02,Compartment,V-102,Лісовий виділ V-102 (2026),LS-02,0.8372,0.6949,0.35,0.558
+P089,test,0,Actor,F-101,Лісник F-101,LS-01,Actor,F-102,Лісник F-102 (2026),LS-01,0.7586,0.6251,0.35,0.5209
+P090,test,0,Actor,F-201,Лісник F-201,LS-02,Actor,F-301,Лісник F-301 (2026),LS-03,0.7586,0.4935,0.2,0.413
+P091,test,0,Forestry,LS-01,Лісництво Карпатське,LS-01,Forestry,LS-02,Лісництво Бескидське (2026),LS-02,0.6667,0.5284,0.2,0.3988
+P092,test,0,Forestry,LS-03,Лісництво Верховинське,LS-03,Forestry,LS-04,Лісництво Дністровське (2026),LS-04,0.6939,0.4935,0.2,0.3968
+P093,test,0,ForestProduct,Product_Spruce,Деревина ялини,ALL,ForestProduct,Product_Fir,Деревина ялиці (2026),ALL,0.7273,0.6003,0.35,0.5069
+P094,test,0,ForestProduct,Product_Oak,Деревина дуба,ALL,ForestProduct,Product_Beech,Деревина бука (2026),ALL,0.7097,0.5303,0.35,0.485
+P095,test,0,ForestProduct,Product_Blueberries,Чорниця,ALL,ForestProduct,Product_Raspberries,Малина лісова (2026),ALL,0.08,0.4059,0.35,0.2965
+P096,test,0,Compartment,V-201,Лісовий виділ V-201,LS-03,Compartment,V-204,Лісовий виділ V-204 (2026),LS-03,0.8372,0.6949,0.35,0.558
+P097,test,0,Actor,BR-01,Бригада лісозаготівлі №1,LS-01,Actor,BR-02,Бригада лісозаготівлі №2 (2026),LS-02,0.8679,0.7715,0.2,0.5099
+P098,test,0,Compartment,V-008,Лісовий виділ V-008,LS-01,Compartment,V-009,Лісовий виділ V-009 (2026),LS-01,0.8372,0.6949,0.35,0.558
+P099,test,0,Compartment,V-012,Лісовий виділ V-012,LS-01,Compartment,V-014,Лісовий виділ V-014 (2026),LS-01,0.8837,0.6949,0.35,0.5697
+P100,test,0,ForestProduct,Product_Pine,Деревина сосни,ALL,ForestProduct,Product_Larch,Деревина модрини (2026),ALL,0.6857,0.5205,0.35,0.4765

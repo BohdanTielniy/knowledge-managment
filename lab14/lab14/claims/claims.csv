@@ -1,0 +1,11 @@
+id,claim,type,source,verification_level,status,comment
+CL-01,Baseline-профіль охоплює 8 вимірів якості на 80 записах (експертна вибірка 36 >= 30),факт,quality/metrics.json,V4,verified,4 з 8 вимірів нижче порогу до очищення (узгодженість 92.5% точність 88.89% унікальність 92.5% валідність 96.25%)
+CL-02,Blocking зменшив кількість порівнянь пар із 3160 до 266 (на 91.6%),факт,outputs/dedup_report.json,V4,verified,Підтверджено живим прогоном quality/dedup.py
+CL-03,Для дедуплікації достатньо рядкової схожості без перевірки нормалізованого коду,гіпотеза,Чернетка налаштування dev,V3,rejected,Відхилено: висока рядкова схожість V-001 і V-002 (0.94) давала хибні злиття (P=0.65); підвищення ваги code_match дало F1=1.00
+CL-04,Механізм merge зберігає provenance а unmerge повністю відновлює вихідний стан (80->79->80),факт,outputs/dedup_report.json,V2,verified,Перевірено автоматичним assert у quality/dedup.py
+CL-05,Виявлено й розв'язано 6 суперечностей 4 типів із збереженням альтернатив для 3 випадків,факт,quality/conflicts.md; data/conflict_alternatives.json,V3,verified,Зафіксовано журнал рішень із відповідальним і датою
+CL-06,При конфлікті значень старі дані варто видаляти без збереження альтернатив,гіпотеза,Чернетка LLM (Сесія 2),V3,rejected,Відхилено: для аудиту та ретроспективних запитів обов'язкове збереження альтернатив із provenance
+CL-07,CI-gate виконує 12 перевірок 4 типів (SHACL JSON Schema Unit/GE Cypher) і проходить 12/12 на cleaned_v2.0,факт,outputs/ci_gate_log.json,V2,verified,Підтверджено unittest і quality/ci_gate.py
+CL-08,Навмисно внесені 3 дефекти (NDVI=1.45 дублікат V-003 порожній source_url) заблоковані CI-gate,факт,outputs/ci_gate_log.json,V2,verified,CI-gate зафіксував порушення SHACL-03 SHACL-04 JSON-01 GE-02
+CL-09,Після очищення всі 8 вимірів якості сховища досягли 100% і перевищили пороги,факт,outputs/after_summary.json,V4,verified,Підтверджено повторним профілюванням cleaned_v2.0
+CL-10,Очищення бази знань покращило RAG ЛР 11: Faithfulness 0.906->0.969 Context Recall 0.975->0.992 Abstention 0.750->0.875,факт,quality/after_report.md,V4,verified,Найбільший ефект дало розв'язання конфлікту V-102 і дедуплікація

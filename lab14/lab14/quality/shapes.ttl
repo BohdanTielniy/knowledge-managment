@@ -1,0 +1,31 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix fh: <https://foresthub.ua/onto/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+fh:CompartmentShape a sh:NodeShape ;
+    sh:targetClass fh:Compartment ;
+    sh:property [
+        sh:path fh:code ;
+        sh:minCount 1 ;
+        sh:pattern "^V-[0-9]{3}$" ;
+        sh:message "SHACL-1: Код виділу повинен мати формат V-XXX." ;
+    ] ;
+    sh:property [
+        sh:path fh:areaHectares ;
+        sh:datatype xsd:decimal ;
+        sh:minExclusive 0 ;
+        sh:message "SHACL-2: Площа виділу має бути > 0 га." ;
+    ] ;
+    sh:property [
+        sh:path fh:ndviValue ;
+        sh:datatype xsd:decimal ;
+        sh:minInclusive 0.0 ;
+        sh:maxInclusive 1.0 ;
+        sh:message "SHACL-3: Індекс NDVI повинен бути в межах [0, 1]." ;
+    ] ;
+    sh:property [
+        sh:path fh:sourceUrl ;
+        sh:minCount 1 ;
+        sh:pattern "^https?://" ;
+        sh:message "SHACL-4: Кожен запис повинен мати валідний source_url (provenance)." ;
+    ] .
