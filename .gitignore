@@ -7,3 +7,6 @@ outputs/
 *.png
 *.zip
 !lab9/src/docs/graph_schema.png
+*.parquet
+*.docx
+*.sql

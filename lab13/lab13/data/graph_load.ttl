@@ -1,0 +1,1664 @@
+@prefix fh: <https://foresthub.ua/onto/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+fh:Assertion_001 a rdf:Statement ;
+    rdf:subject fh:Compartment_V001 ;
+    rdf:predicate fh:PART_OF ;
+    rdf:object fh:Forestry_LS01 ;
+    prov:wasDerivedFrom "DOC-01" ;
+    fh:startOffset 0 ;
+    fh:endOffset 73 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.97"^^xsd:decimal .
+
+fh:Assertion_002 a rdf:Statement ;
+    rdf:subject fh:Compartment_V001 ;
+    rdf:predicate fh:DOMINATED_BY ;
+    rdf:object fh:Species_PiceaAbies ;
+    prov:wasDerivedFrom "DOC-01" ;
+    fh:startOffset 74 ;
+    fh:endOffset 131 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_003 a rdf:Statement ;
+    rdf:subject fh:Compartment_V001 ;
+    rdf:predicate fh:YIELDS ;
+    rdf:object fh:Product_SpruceTimber ;
+    prov:wasDerivedFrom "DOC-01" ;
+    fh:startOffset 132 ;
+    fh:endOffset 205 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.94"^^xsd:decimal .
+
+fh:Assertion_004 a rdf:Statement ;
+    rdf:subject fh:Compartment_V001 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_BarkBeetle ;
+    prov:wasDerivedFrom "DOC-01" ;
+    fh:startOffset 206 ;
+    fh:endOffset 310 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_005 a rdf:Statement ;
+    rdf:subject fh:Compartment_V001 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_Drought ;
+    prov:wasDerivedFrom "DOC-01" ;
+    fh:startOffset 206 ;
+    fh:endOffset 310 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_006 a rdf:Statement ;
+    rdf:subject fh:Actor_F101 ;
+    rdf:predicate fh:SUPERVISES ;
+    rdf:object fh:Compartment_V001 ;
+    prov:wasDerivedFrom "DOC-01" ;
+    fh:startOffset 311 ;
+    fh:endOffset 380 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_007 a rdf:Statement ;
+    rdf:subject fh:Actor_DSNS_Lviv ;
+    rdf:predicate fh:MITIGATES ;
+    rdf:object fh:Threat_BarkBeetle ;
+    prov:wasDerivedFrom "DOC-01" ;
+    fh:startOffset 381 ;
+    fh:endOffset 462 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.93"^^xsd:decimal .
+
+fh:Assertion_008 a rdf:Statement ;
+    rdf:subject fh:Compartment_V002 ;
+    rdf:predicate fh:PART_OF ;
+    rdf:object fh:Forestry_LS01 ;
+    prov:wasDerivedFrom "DOC-02" ;
+    fh:startOffset 0 ;
+    fh:endOffset 83 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.97"^^xsd:decimal .
+
+fh:Assertion_009 a rdf:Statement ;
+    rdf:subject fh:Compartment_V002 ;
+    rdf:predicate fh:DOMINATED_BY ;
+    rdf:object fh:Species_FagusSylvatica ;
+    prov:wasDerivedFrom "DOC-02" ;
+    fh:startOffset 84 ;
+    fh:endOffset 132 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_010 a rdf:Statement ;
+    rdf:subject fh:Compartment_V002 ;
+    rdf:predicate fh:YIELDS ;
+    rdf:object fh:Product_BeechTimber ;
+    prov:wasDerivedFrom "DOC-02" ;
+    fh:startOffset 133 ;
+    fh:endOffset 202 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.94"^^xsd:decimal .
+
+fh:Assertion_011 a rdf:Statement ;
+    rdf:subject fh:Compartment_V002 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_Windthrow ;
+    prov:wasDerivedFrom "DOC-02" ;
+    fh:startOffset 203 ;
+    fh:endOffset 303 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_012 a rdf:Statement ;
+    rdf:subject fh:Compartment_V002 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_RootRot ;
+    prov:wasDerivedFrom "DOC-02" ;
+    fh:startOffset 203 ;
+    fh:endOffset 303 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_013 a rdf:Statement ;
+    rdf:subject fh:Actor_F104 ;
+    rdf:predicate fh:SUPERVISES ;
+    rdf:object fh:Compartment_V002 ;
+    prov:wasDerivedFrom "DOC-02" ;
+    fh:startOffset 357 ;
+    fh:endOffset 398 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_014 a rdf:Statement ;
+    rdf:subject fh:Actor_DSNS_Lviv ;
+    rdf:predicate fh:MITIGATES ;
+    rdf:object fh:Threat_Windthrow ;
+    prov:wasDerivedFrom "DOC-02" ;
+    fh:startOffset 399 ;
+    fh:endOffset 468 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.93"^^xsd:decimal .
+
+fh:Assertion_015 a rdf:Statement ;
+    rdf:subject fh:Compartment_V003 ;
+    rdf:predicate fh:PART_OF ;
+    rdf:object fh:Forestry_LS01 ;
+    prov:wasDerivedFrom "DOC-03" ;
+    fh:startOffset 0 ;
+    fh:endOffset 72 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.97"^^xsd:decimal .
+
+fh:Assertion_016 a rdf:Statement ;
+    rdf:subject fh:Compartment_V003 ;
+    rdf:predicate fh:DOMINATED_BY ;
+    rdf:object fh:Species_PiceaAbies ;
+    prov:wasDerivedFrom "DOC-03" ;
+    fh:startOffset 73 ;
+    fh:endOffset 133 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_017 a rdf:Statement ;
+    rdf:subject fh:Compartment_V003 ;
+    rdf:predicate fh:YIELDS ;
+    rdf:object fh:Product_SpruceTimber ;
+    prov:wasDerivedFrom "DOC-03" ;
+    fh:startOffset 134 ;
+    fh:endOffset 206 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.94"^^xsd:decimal .
+
+fh:Assertion_018 a rdf:Statement ;
+    rdf:subject fh:Compartment_V003 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_BarkBeetle ;
+    prov:wasDerivedFrom "DOC-03" ;
+    fh:startOffset 207 ;
+    fh:endOffset 289 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_019 a rdf:Statement ;
+    rdf:subject fh:Compartment_V003 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_Drought ;
+    prov:wasDerivedFrom "DOC-03" ;
+    fh:startOffset 207 ;
+    fh:endOffset 289 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_020 a rdf:Statement ;
+    rdf:subject fh:Actor_BR01 ;
+    rdf:predicate fh:SUPERVISES ;
+    rdf:object fh:Compartment_V003 ;
+    prov:wasDerivedFrom "DOC-03" ;
+    fh:startOffset 290 ;
+    fh:endOffset 329 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_021 a rdf:Statement ;
+    rdf:subject fh:Actor_F104 ;
+    rdf:predicate fh:MITIGATES ;
+    rdf:object fh:Threat_BarkBeetle ;
+    prov:wasDerivedFrom "DOC-03" ;
+    fh:startOffset 330 ;
+    fh:endOffset 411 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.93"^^xsd:decimal .
+
+fh:Assertion_022 a rdf:Statement ;
+    rdf:subject fh:Compartment_V008 ;
+    rdf:predicate fh:PART_OF ;
+    rdf:object fh:Forestry_LS01 ;
+    prov:wasDerivedFrom "DOC-04" ;
+    fh:startOffset 0 ;
+    fh:endOffset 74 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.97"^^xsd:decimal .
+
+fh:Assertion_023 a rdf:Statement ;
+    rdf:subject fh:Compartment_V008 ;
+    rdf:predicate fh:DOMINATED_BY ;
+    rdf:object fh:Species_AbiesAlba ;
+    prov:wasDerivedFrom "DOC-04" ;
+    fh:startOffset 75 ;
+    fh:endOffset 147 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_024 a rdf:Statement ;
+    rdf:subject fh:Compartment_V008 ;
+    rdf:predicate fh:YIELDS ;
+    rdf:object fh:Product_BoletusMushrooms ;
+    prov:wasDerivedFrom "DOC-04" ;
+    fh:startOffset 148 ;
+    fh:endOffset 208 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.94"^^xsd:decimal .
+
+fh:Assertion_025 a rdf:Statement ;
+    rdf:subject fh:Compartment_V008 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_SurfaceFire ;
+    prov:wasDerivedFrom "DOC-04" ;
+    fh:startOffset 209 ;
+    fh:endOffset 278 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_026 a rdf:Statement ;
+    rdf:subject fh:Compartment_V008 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_Drought ;
+    prov:wasDerivedFrom "DOC-04" ;
+    fh:startOffset 209 ;
+    fh:endOffset 278 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_027 a rdf:Statement ;
+    rdf:subject fh:Actor_F104 ;
+    rdf:predicate fh:SUPERVISES ;
+    rdf:object fh:Compartment_V008 ;
+    prov:wasDerivedFrom "DOC-04" ;
+    fh:startOffset 332 ;
+    fh:endOffset 374 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_028 a rdf:Statement ;
+    rdf:subject fh:Actor_DSNS_Lviv ;
+    rdf:predicate fh:MITIGATES ;
+    rdf:object fh:Threat_Drought ;
+    prov:wasDerivedFrom "DOC-04" ;
+    fh:startOffset 375 ;
+    fh:endOffset 443 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.93"^^xsd:decimal .
+
+fh:Assertion_029 a rdf:Statement ;
+    rdf:subject fh:Compartment_V101 ;
+    rdf:predicate fh:PART_OF ;
+    rdf:object fh:Forestry_LS02 ;
+    prov:wasDerivedFrom "DOC-05" ;
+    fh:startOffset 0 ;
+    fh:endOffset 73 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.97"^^xsd:decimal .
+
+fh:Assertion_030 a rdf:Statement ;
+    rdf:subject fh:Compartment_V101 ;
+    rdf:predicate fh:DOMINATED_BY ;
+    rdf:object fh:Species_FagusSylvatica ;
+    prov:wasDerivedFrom "DOC-05" ;
+    fh:startOffset 74 ;
+    fh:endOffset 125 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_031 a rdf:Statement ;
+    rdf:subject fh:Compartment_V101 ;
+    rdf:predicate fh:YIELDS ;
+    rdf:object fh:Product_BeechTimber ;
+    prov:wasDerivedFrom "DOC-05" ;
+    fh:startOffset 126 ;
+    fh:endOffset 198 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.94"^^xsd:decimal .
+
+fh:Assertion_032 a rdf:Statement ;
+    rdf:subject fh:Compartment_V101 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_Windthrow ;
+    prov:wasDerivedFrom "DOC-05" ;
+    fh:startOffset 199 ;
+    fh:endOffset 304 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_033 a rdf:Statement ;
+    rdf:subject fh:Compartment_V101 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_RootRot ;
+    prov:wasDerivedFrom "DOC-05" ;
+    fh:startOffset 199 ;
+    fh:endOffset 304 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_034 a rdf:Statement ;
+    rdf:subject fh:Actor_F201 ;
+    rdf:predicate fh:SUPERVISES ;
+    rdf:object fh:Compartment_V101 ;
+    prov:wasDerivedFrom "DOC-05" ;
+    fh:startOffset 305 ;
+    fh:endOffset 374 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_035 a rdf:Statement ;
+    rdf:subject fh:Actor_F201 ;
+    rdf:predicate fh:MITIGATES ;
+    rdf:object fh:Threat_RootRot ;
+    prov:wasDerivedFrom "DOC-05" ;
+    fh:startOffset 375 ;
+    fh:endOffset 450 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.93"^^xsd:decimal .
+
+fh:Assertion_036 a rdf:Statement ;
+    rdf:subject fh:Compartment_V102 ;
+    rdf:predicate fh:PART_OF ;
+    rdf:object fh:Forestry_LS02 ;
+    prov:wasDerivedFrom "DOC-06" ;
+    fh:startOffset 0 ;
+    fh:endOffset 83 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.97"^^xsd:decimal .
+
+fh:Assertion_037 a rdf:Statement ;
+    rdf:subject fh:Compartment_V102 ;
+    rdf:predicate fh:DOMINATED_BY ;
+    rdf:object fh:Species_QuercusRobur ;
+    prov:wasDerivedFrom "DOC-06" ;
+    fh:startOffset 84 ;
+    fh:endOffset 134 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_038 a rdf:Statement ;
+    rdf:subject fh:Compartment_V102 ;
+    rdf:predicate fh:YIELDS ;
+    rdf:object fh:Product_OakTimber ;
+    prov:wasDerivedFrom "DOC-06" ;
+    fh:startOffset 135 ;
+    fh:endOffset 204 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.94"^^xsd:decimal .
+
+fh:Assertion_039 a rdf:Statement ;
+    rdf:subject fh:Compartment_V102 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_SurfaceFire ;
+    prov:wasDerivedFrom "DOC-06" ;
+    fh:startOffset 205 ;
+    fh:endOffset 302 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_040 a rdf:Statement ;
+    rdf:subject fh:Compartment_V102 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_Drought ;
+    prov:wasDerivedFrom "DOC-06" ;
+    fh:startOffset 205 ;
+    fh:endOffset 302 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_041 a rdf:Statement ;
+    rdf:subject fh:Actor_BR02 ;
+    rdf:predicate fh:SUPERVISES ;
+    rdf:object fh:Compartment_V102 ;
+    prov:wasDerivedFrom "DOC-06" ;
+    fh:startOffset 303 ;
+    fh:endOffset 344 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_042 a rdf:Statement ;
+    rdf:subject fh:Actor_DSNS_Lviv ;
+    rdf:predicate fh:MITIGATES ;
+    rdf:object fh:Threat_SurfaceFire ;
+    prov:wasDerivedFrom "DOC-06" ;
+    fh:startOffset 345 ;
+    fh:endOffset 419 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.93"^^xsd:decimal .
+
+fh:Assertion_043 a rdf:Statement ;
+    rdf:subject fh:Compartment_V105 ;
+    rdf:predicate fh:PART_OF ;
+    rdf:object fh:Forestry_LS02 ;
+    prov:wasDerivedFrom "DOC-07" ;
+    fh:startOffset 0 ;
+    fh:endOffset 72 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.97"^^xsd:decimal .
+
+fh:Assertion_044 a rdf:Statement ;
+    rdf:subject fh:Compartment_V105 ;
+    rdf:predicate fh:DOMINATED_BY ;
+    rdf:object fh:Species_PinusSylvestris ;
+    prov:wasDerivedFrom "DOC-07" ;
+    fh:startOffset 73 ;
+    fh:endOffset 130 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_045 a rdf:Statement ;
+    rdf:subject fh:Compartment_V105 ;
+    rdf:predicate fh:YIELDS ;
+    rdf:object fh:Product_PineTimber ;
+    prov:wasDerivedFrom "DOC-07" ;
+    fh:startOffset 131 ;
+    fh:endOffset 203 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.94"^^xsd:decimal .
+
+fh:Assertion_046 a rdf:Statement ;
+    rdf:subject fh:Compartment_V105 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_CrownFire ;
+    prov:wasDerivedFrom "DOC-07" ;
+    fh:startOffset 204 ;
+    fh:endOffset 285 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_047 a rdf:Statement ;
+    rdf:subject fh:Compartment_V105 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_Drought ;
+    prov:wasDerivedFrom "DOC-07" ;
+    fh:startOffset 204 ;
+    fh:endOffset 285 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_048 a rdf:Statement ;
+    rdf:subject fh:Actor_F202 ;
+    rdf:predicate fh:SUPERVISES ;
+    rdf:object fh:Compartment_V105 ;
+    prov:wasDerivedFrom "DOC-07" ;
+    fh:startOffset 286 ;
+    fh:endOffset 325 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_049 a rdf:Statement ;
+    rdf:subject fh:Actor_DSNS_Lviv ;
+    rdf:predicate fh:MITIGATES ;
+    rdf:object fh:Threat_CrownFire ;
+    prov:wasDerivedFrom "DOC-07" ;
+    fh:startOffset 326 ;
+    fh:endOffset 411 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.93"^^xsd:decimal .
+
+fh:Assertion_050 a rdf:Statement ;
+    rdf:subject fh:Compartment_V107 ;
+    rdf:predicate fh:PART_OF ;
+    rdf:object fh:Forestry_LS02 ;
+    prov:wasDerivedFrom "DOC-08" ;
+    fh:startOffset 0 ;
+    fh:endOffset 74 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.97"^^xsd:decimal .
+
+fh:Assertion_051 a rdf:Statement ;
+    rdf:subject fh:Compartment_V107 ;
+    rdf:predicate fh:DOMINATED_BY ;
+    rdf:object fh:Species_PiceaAbies ;
+    prov:wasDerivedFrom "DOC-08" ;
+    fh:startOffset 75 ;
+    fh:endOffset 154 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_052 a rdf:Statement ;
+    rdf:subject fh:Compartment_V107 ;
+    rdf:predicate fh:YIELDS ;
+    rdf:object fh:Product_SpruceTimber ;
+    prov:wasDerivedFrom "DOC-08" ;
+    fh:startOffset 155 ;
+    fh:endOffset 219 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.94"^^xsd:decimal .
+
+fh:Assertion_053 a rdf:Statement ;
+    rdf:subject fh:Compartment_V107 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_BarkBeetle ;
+    prov:wasDerivedFrom "DOC-08" ;
+    fh:startOffset 220 ;
+    fh:endOffset 291 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_054 a rdf:Statement ;
+    rdf:subject fh:Compartment_V107 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_Drought ;
+    prov:wasDerivedFrom "DOC-08" ;
+    fh:startOffset 220 ;
+    fh:endOffset 291 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_055 a rdf:Statement ;
+    rdf:subject fh:Actor_F201 ;
+    rdf:predicate fh:SUPERVISES ;
+    rdf:object fh:Compartment_V107 ;
+    prov:wasDerivedFrom "DOC-08" ;
+    fh:startOffset 345 ;
+    fh:endOffset 387 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_056 a rdf:Statement ;
+    rdf:subject fh:Actor_BR02 ;
+    rdf:predicate fh:MITIGATES ;
+    rdf:object fh:Threat_BarkBeetle ;
+    prov:wasDerivedFrom "DOC-08" ;
+    fh:startOffset 388 ;
+    fh:endOffset 460 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.93"^^xsd:decimal .
+
+fh:Assertion_057 a rdf:Statement ;
+    rdf:subject fh:Compartment_V201 ;
+    rdf:predicate fh:PART_OF ;
+    rdf:object fh:Forestry_LS03 ;
+    prov:wasDerivedFrom "DOC-09" ;
+    fh:startOffset 0 ;
+    fh:endOffset 75 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.97"^^xsd:decimal .
+
+fh:Assertion_058 a rdf:Statement ;
+    rdf:subject fh:Compartment_V201 ;
+    rdf:predicate fh:DOMINATED_BY ;
+    rdf:object fh:Species_AbiesAlba ;
+    prov:wasDerivedFrom "DOC-09" ;
+    fh:startOffset 76 ;
+    fh:endOffset 126 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_059 a rdf:Statement ;
+    rdf:subject fh:Compartment_V201 ;
+    rdf:predicate fh:YIELDS ;
+    rdf:object fh:Product_Blueberries ;
+    prov:wasDerivedFrom "DOC-09" ;
+    fh:startOffset 127 ;
+    fh:endOffset 193 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.94"^^xsd:decimal .
+
+fh:Assertion_060 a rdf:Statement ;
+    rdf:subject fh:Compartment_V201 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_Windthrow ;
+    prov:wasDerivedFrom "DOC-09" ;
+    fh:startOffset 194 ;
+    fh:endOffset 299 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_061 a rdf:Statement ;
+    rdf:subject fh:Compartment_V201 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_RootRot ;
+    prov:wasDerivedFrom "DOC-09" ;
+    fh:startOffset 194 ;
+    fh:endOffset 299 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_062 a rdf:Statement ;
+    rdf:subject fh:Actor_F301 ;
+    rdf:predicate fh:SUPERVISES ;
+    rdf:object fh:Compartment_V201 ;
+    prov:wasDerivedFrom "DOC-09" ;
+    fh:startOffset 300 ;
+    fh:endOffset 369 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_063 a rdf:Statement ;
+    rdf:subject fh:Actor_DSNS_IvanoFrankivsk ;
+    rdf:predicate fh:MITIGATES ;
+    rdf:object fh:Threat_Windthrow ;
+    prov:wasDerivedFrom "DOC-09" ;
+    fh:startOffset 370 ;
+    fh:endOffset 455 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.93"^^xsd:decimal .
+
+fh:Assertion_064 a rdf:Statement ;
+    rdf:subject fh:Compartment_V202 ;
+    rdf:predicate fh:PART_OF ;
+    rdf:object fh:Forestry_LS03 ;
+    prov:wasDerivedFrom "DOC-10" ;
+    fh:startOffset 0 ;
+    fh:endOffset 85 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.97"^^xsd:decimal .
+
+fh:Assertion_065 a rdf:Statement ;
+    rdf:subject fh:Compartment_V202 ;
+    rdf:predicate fh:DOMINATED_BY ;
+    rdf:object fh:Species_LarixDecidua ;
+    prov:wasDerivedFrom "DOC-10" ;
+    fh:startOffset 86 ;
+    fh:endOffset 142 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_066 a rdf:Statement ;
+    rdf:subject fh:Compartment_V202 ;
+    rdf:predicate fh:YIELDS ;
+    rdf:object fh:Product_StJohnsWort ;
+    prov:wasDerivedFrom "DOC-10" ;
+    fh:startOffset 143 ;
+    fh:endOffset 207 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.94"^^xsd:decimal .
+
+fh:Assertion_067 a rdf:Statement ;
+    rdf:subject fh:Compartment_V202 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_SurfaceFire ;
+    prov:wasDerivedFrom "DOC-10" ;
+    fh:startOffset 208 ;
+    fh:endOffset 305 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_068 a rdf:Statement ;
+    rdf:subject fh:Compartment_V202 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_Drought ;
+    prov:wasDerivedFrom "DOC-10" ;
+    fh:startOffset 208 ;
+    fh:endOffset 305 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_069 a rdf:Statement ;
+    rdf:subject fh:Actor_F302 ;
+    rdf:predicate fh:SUPERVISES ;
+    rdf:object fh:Compartment_V202 ;
+    prov:wasDerivedFrom "DOC-10" ;
+    fh:startOffset 306 ;
+    fh:endOffset 347 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_070 a rdf:Statement ;
+    rdf:subject fh:Actor_DSNS_IvanoFrankivsk ;
+    rdf:predicate fh:MITIGATES ;
+    rdf:object fh:Threat_SurfaceFire ;
+    prov:wasDerivedFrom "DOC-10" ;
+    fh:startOffset 348 ;
+    fh:endOffset 433 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.93"^^xsd:decimal .
+
+fh:Assertion_071 a rdf:Statement ;
+    rdf:subject fh:Compartment_V203 ;
+    rdf:predicate fh:PART_OF ;
+    rdf:object fh:Forestry_LS03 ;
+    prov:wasDerivedFrom "DOC-11" ;
+    fh:startOffset 0 ;
+    fh:endOffset 74 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.97"^^xsd:decimal .
+
+fh:Assertion_072 a rdf:Statement ;
+    rdf:subject fh:Compartment_V203 ;
+    rdf:predicate fh:DOMINATED_BY ;
+    rdf:object fh:Species_PiceaAbies ;
+    prov:wasDerivedFrom "DOC-11" ;
+    fh:startOffset 75 ;
+    fh:endOffset 135 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_073 a rdf:Statement ;
+    rdf:subject fh:Compartment_V203 ;
+    rdf:predicate fh:YIELDS ;
+    rdf:object fh:Product_SpruceTimber ;
+    prov:wasDerivedFrom "DOC-11" ;
+    fh:startOffset 136 ;
+    fh:endOffset 208 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.94"^^xsd:decimal .
+
+fh:Assertion_074 a rdf:Statement ;
+    rdf:subject fh:Compartment_V203 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_BarkBeetle ;
+    prov:wasDerivedFrom "DOC-11" ;
+    fh:startOffset 209 ;
+    fh:endOffset 291 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_075 a rdf:Statement ;
+    rdf:subject fh:Compartment_V203 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_Drought ;
+    prov:wasDerivedFrom "DOC-11" ;
+    fh:startOffset 209 ;
+    fh:endOffset 291 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_076 a rdf:Statement ;
+    rdf:subject fh:Actor_BR03 ;
+    rdf:predicate fh:SUPERVISES ;
+    rdf:object fh:Compartment_V203 ;
+    prov:wasDerivedFrom "DOC-11" ;
+    fh:startOffset 292 ;
+    fh:endOffset 331 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_077 a rdf:Statement ;
+    rdf:subject fh:Actor_F301 ;
+    rdf:predicate fh:MITIGATES ;
+    rdf:object fh:Threat_BarkBeetle ;
+    prov:wasDerivedFrom "DOC-11" ;
+    fh:startOffset 332 ;
+    fh:endOffset 413 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.93"^^xsd:decimal .
+
+fh:Assertion_078 a rdf:Statement ;
+    rdf:subject fh:Compartment_V205 ;
+    rdf:predicate fh:PART_OF ;
+    rdf:object fh:Forestry_LS04 ;
+    prov:wasDerivedFrom "DOC-12" ;
+    fh:startOffset 0 ;
+    fh:endOffset 76 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.97"^^xsd:decimal .
+
+fh:Assertion_079 a rdf:Statement ;
+    rdf:subject fh:Compartment_V205 ;
+    rdf:predicate fh:DOMINATED_BY ;
+    rdf:object fh:Species_QuercusRobur ;
+    prov:wasDerivedFrom "DOC-12" ;
+    fh:startOffset 77 ;
+    fh:endOffset 152 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_080 a rdf:Statement ;
+    rdf:subject fh:Compartment_V205 ;
+    rdf:predicate fh:YIELDS ;
+    rdf:object fh:Product_HardwoodFirewood ;
+    prov:wasDerivedFrom "DOC-12" ;
+    fh:startOffset 153 ;
+    fh:endOffset 223 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.94"^^xsd:decimal .
+
+fh:Assertion_081 a rdf:Statement ;
+    rdf:subject fh:Compartment_V205 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_Windthrow ;
+    prov:wasDerivedFrom "DOC-12" ;
+    fh:startOffset 224 ;
+    fh:endOffset 296 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_082 a rdf:Statement ;
+    rdf:subject fh:Compartment_V205 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_RootRot ;
+    prov:wasDerivedFrom "DOC-12" ;
+    fh:startOffset 224 ;
+    fh:endOffset 296 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_083 a rdf:Statement ;
+    rdf:subject fh:Actor_F401 ;
+    rdf:predicate fh:SUPERVISES ;
+    rdf:object fh:Compartment_V205 ;
+    prov:wasDerivedFrom "DOC-12" ;
+    fh:startOffset 350 ;
+    fh:endOffset 392 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_084 a rdf:Statement ;
+    rdf:subject fh:Actor_F401 ;
+    rdf:predicate fh:MITIGATES ;
+    rdf:object fh:Threat_RootRot ;
+    prov:wasDerivedFrom "DOC-12" ;
+    fh:startOffset 393 ;
+    fh:endOffset 464 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.93"^^xsd:decimal .
+
+fh:Assertion_085 a rdf:Statement ;
+    rdf:subject fh:Compartment_V012 ;
+    rdf:predicate fh:PART_OF ;
+    rdf:object fh:Forestry_LS01 ;
+    prov:wasDerivedFrom "DOC-13" ;
+    fh:startOffset 0 ;
+    fh:endOffset 73 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.97"^^xsd:decimal .
+
+fh:Assertion_086 a rdf:Statement ;
+    rdf:subject fh:Compartment_V012 ;
+    rdf:predicate fh:DOMINATED_BY ;
+    rdf:object fh:Species_PiceaAbies ;
+    prov:wasDerivedFrom "DOC-13" ;
+    fh:startOffset 74 ;
+    fh:endOffset 131 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_087 a rdf:Statement ;
+    rdf:subject fh:Compartment_V012 ;
+    rdf:predicate fh:YIELDS ;
+    rdf:object fh:Product_SpruceTimber ;
+    prov:wasDerivedFrom "DOC-13" ;
+    fh:startOffset 132 ;
+    fh:endOffset 205 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.94"^^xsd:decimal .
+
+fh:Assertion_088 a rdf:Statement ;
+    rdf:subject fh:Compartment_V012 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_BarkBeetle ;
+    prov:wasDerivedFrom "DOC-13" ;
+    fh:startOffset 206 ;
+    fh:endOffset 310 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_089 a rdf:Statement ;
+    rdf:subject fh:Compartment_V012 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_Drought ;
+    prov:wasDerivedFrom "DOC-13" ;
+    fh:startOffset 206 ;
+    fh:endOffset 310 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_090 a rdf:Statement ;
+    rdf:subject fh:Actor_F104 ;
+    rdf:predicate fh:SUPERVISES ;
+    rdf:object fh:Compartment_V012 ;
+    prov:wasDerivedFrom "DOC-13" ;
+    fh:startOffset 311 ;
+    fh:endOffset 380 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_091 a rdf:Statement ;
+    rdf:subject fh:Actor_BR01 ;
+    rdf:predicate fh:MITIGATES ;
+    rdf:object fh:Threat_BarkBeetle ;
+    prov:wasDerivedFrom "DOC-13" ;
+    fh:startOffset 381 ;
+    fh:endOffset 457 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.93"^^xsd:decimal .
+
+fh:Assertion_092 a rdf:Statement ;
+    rdf:subject fh:Compartment_V014 ;
+    rdf:predicate fh:PART_OF ;
+    rdf:object fh:Forestry_LS01 ;
+    prov:wasDerivedFrom "DOC-14" ;
+    fh:startOffset 0 ;
+    fh:endOffset 83 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.97"^^xsd:decimal .
+
+fh:Assertion_093 a rdf:Statement ;
+    rdf:subject fh:Compartment_V014 ;
+    rdf:predicate fh:DOMINATED_BY ;
+    rdf:object fh:Species_PinusSylvestris ;
+    prov:wasDerivedFrom "DOC-14" ;
+    fh:startOffset 84 ;
+    fh:endOffset 135 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_094 a rdf:Statement ;
+    rdf:subject fh:Compartment_V014 ;
+    rdf:predicate fh:YIELDS ;
+    rdf:object fh:Product_PineTimber ;
+    prov:wasDerivedFrom "DOC-14" ;
+    fh:startOffset 136 ;
+    fh:endOffset 206 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.94"^^xsd:decimal .
+
+fh:Assertion_095 a rdf:Statement ;
+    rdf:subject fh:Compartment_V014 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_CrownFire ;
+    prov:wasDerivedFrom "DOC-14" ;
+    fh:startOffset 207 ;
+    fh:endOffset 305 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_096 a rdf:Statement ;
+    rdf:subject fh:Compartment_V014 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_Drought ;
+    prov:wasDerivedFrom "DOC-14" ;
+    fh:startOffset 207 ;
+    fh:endOffset 305 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_097 a rdf:Statement ;
+    rdf:subject fh:Actor_F101 ;
+    rdf:predicate fh:SUPERVISES ;
+    rdf:object fh:Compartment_V014 ;
+    prov:wasDerivedFrom "DOC-14" ;
+    fh:startOffset 306 ;
+    fh:endOffset 347 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_098 a rdf:Statement ;
+    rdf:subject fh:Actor_DSNS_Lviv ;
+    rdf:predicate fh:MITIGATES ;
+    rdf:object fh:Threat_CrownFire ;
+    prov:wasDerivedFrom "DOC-14" ;
+    fh:startOffset 348 ;
+    fh:endOffset 423 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.93"^^xsd:decimal .
+
+fh:Assertion_099 a rdf:Statement ;
+    rdf:subject fh:Compartment_V003 ;
+    rdf:predicate fh:PART_OF ;
+    rdf:object fh:Forestry_LS01 ;
+    prov:wasDerivedFrom "DOC-15" ;
+    fh:startOffset 0 ;
+    fh:endOffset 72 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.97"^^xsd:decimal .
+
+fh:Assertion_100 a rdf:Statement ;
+    rdf:subject fh:Compartment_V003 ;
+    rdf:predicate fh:DOMINATED_BY ;
+    rdf:object fh:Species_PiceaAbies ;
+    prov:wasDerivedFrom "DOC-15" ;
+    fh:startOffset 73 ;
+    fh:endOffset 133 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_101 a rdf:Statement ;
+    rdf:subject fh:Compartment_V003 ;
+    rdf:predicate fh:YIELDS ;
+    rdf:object fh:Product_BoletusMushrooms ;
+    prov:wasDerivedFrom "DOC-15" ;
+    fh:startOffset 134 ;
+    fh:endOffset 202 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.94"^^xsd:decimal .
+
+fh:Assertion_102 a rdf:Statement ;
+    rdf:subject fh:Compartment_V003 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_BarkBeetle ;
+    prov:wasDerivedFrom "DOC-15" ;
+    fh:startOffset 203 ;
+    fh:endOffset 285 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_103 a rdf:Statement ;
+    rdf:subject fh:Compartment_V003 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_Drought ;
+    prov:wasDerivedFrom "DOC-15" ;
+    fh:startOffset 203 ;
+    fh:endOffset 285 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_104 a rdf:Statement ;
+    rdf:subject fh:Actor_F104 ;
+    rdf:predicate fh:SUPERVISES ;
+    rdf:object fh:Compartment_V003 ;
+    prov:wasDerivedFrom "DOC-15" ;
+    fh:startOffset 339 ;
+    fh:endOffset 378 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_105 a rdf:Statement ;
+    rdf:subject fh:Actor_F104 ;
+    rdf:predicate fh:MITIGATES ;
+    rdf:object fh:Threat_Drought ;
+    prov:wasDerivedFrom "DOC-15" ;
+    fh:startOffset 379 ;
+    fh:endOffset 451 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.93"^^xsd:decimal .
+
+fh:Assertion_106 a rdf:Statement ;
+    rdf:subject fh:Compartment_V002 ;
+    rdf:predicate fh:PART_OF ;
+    rdf:object fh:Forestry_LS01 ;
+    prov:wasDerivedFrom "DOC-16" ;
+    fh:startOffset 0 ;
+    fh:endOffset 74 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.97"^^xsd:decimal .
+
+fh:Assertion_107 a rdf:Statement ;
+    rdf:subject fh:Compartment_V002 ;
+    rdf:predicate fh:DOMINATED_BY ;
+    rdf:object fh:Species_FagusSylvatica ;
+    prov:wasDerivedFrom "DOC-16" ;
+    fh:startOffset 75 ;
+    fh:endOffset 148 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_108 a rdf:Statement ;
+    rdf:subject fh:Compartment_V002 ;
+    rdf:predicate fh:YIELDS ;
+    rdf:object fh:Product_Blueberries ;
+    prov:wasDerivedFrom "DOC-16" ;
+    fh:startOffset 149 ;
+    fh:endOffset 206 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.94"^^xsd:decimal .
+
+fh:Assertion_109 a rdf:Statement ;
+    rdf:subject fh:Compartment_V002 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_Windthrow ;
+    prov:wasDerivedFrom "DOC-16" ;
+    fh:startOffset 207 ;
+    fh:endOffset 279 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_110 a rdf:Statement ;
+    rdf:subject fh:Compartment_V002 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_RootRot ;
+    prov:wasDerivedFrom "DOC-16" ;
+    fh:startOffset 207 ;
+    fh:endOffset 279 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_111 a rdf:Statement ;
+    rdf:subject fh:Actor_BR01 ;
+    rdf:predicate fh:SUPERVISES ;
+    rdf:object fh:Compartment_V002 ;
+    prov:wasDerivedFrom "DOC-16" ;
+    fh:startOffset 280 ;
+    fh:endOffset 322 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_112 a rdf:Statement ;
+    rdf:subject fh:Actor_F101 ;
+    rdf:predicate fh:MITIGATES ;
+    rdf:object fh:Threat_Windthrow ;
+    prov:wasDerivedFrom "DOC-16" ;
+    fh:startOffset 323 ;
+    fh:endOffset 388 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.93"^^xsd:decimal .
+
+fh:Assertion_113 a rdf:Statement ;
+    rdf:subject fh:Compartment_V102 ;
+    rdf:predicate fh:PART_OF ;
+    rdf:object fh:Forestry_LS02 ;
+    prov:wasDerivedFrom "DOC-17" ;
+    fh:startOffset 0 ;
+    fh:endOffset 73 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.97"^^xsd:decimal .
+
+fh:Assertion_114 a rdf:Statement ;
+    rdf:subject fh:Compartment_V102 ;
+    rdf:predicate fh:DOMINATED_BY ;
+    rdf:object fh:Species_QuercusRobur ;
+    prov:wasDerivedFrom "DOC-17" ;
+    fh:startOffset 74 ;
+    fh:endOffset 127 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_115 a rdf:Statement ;
+    rdf:subject fh:Compartment_V102 ;
+    rdf:predicate fh:YIELDS ;
+    rdf:object fh:Product_HardwoodFirewood ;
+    prov:wasDerivedFrom "DOC-17" ;
+    fh:startOffset 128 ;
+    fh:endOffset 207 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.94"^^xsd:decimal .
+
+fh:Assertion_116 a rdf:Statement ;
+    rdf:subject fh:Compartment_V102 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_SurfaceFire ;
+    prov:wasDerivedFrom "DOC-17" ;
+    fh:startOffset 208 ;
+    fh:endOffset 310 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_117 a rdf:Statement ;
+    rdf:subject fh:Compartment_V102 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_Drought ;
+    prov:wasDerivedFrom "DOC-17" ;
+    fh:startOffset 208 ;
+    fh:endOffset 310 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_118 a rdf:Statement ;
+    rdf:subject fh:Actor_F201 ;
+    rdf:predicate fh:SUPERVISES ;
+    rdf:object fh:Compartment_V102 ;
+    prov:wasDerivedFrom "DOC-17" ;
+    fh:startOffset 311 ;
+    fh:endOffset 380 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_119 a rdf:Statement ;
+    rdf:subject fh:Actor_DSNS_Lviv ;
+    rdf:predicate fh:MITIGATES ;
+    rdf:object fh:Threat_Drought ;
+    prov:wasDerivedFrom "DOC-17" ;
+    fh:startOffset 381 ;
+    fh:endOffset 453 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.93"^^xsd:decimal .
+
+fh:Assertion_120 a rdf:Statement ;
+    rdf:subject fh:Compartment_V107 ;
+    rdf:predicate fh:PART_OF ;
+    rdf:object fh:Forestry_LS02 ;
+    prov:wasDerivedFrom "DOC-18" ;
+    fh:startOffset 0 ;
+    fh:endOffset 83 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.97"^^xsd:decimal .
+
+fh:Assertion_121 a rdf:Statement ;
+    rdf:subject fh:Compartment_V107 ;
+    rdf:predicate fh:DOMINATED_BY ;
+    rdf:object fh:Species_PiceaAbies ;
+    prov:wasDerivedFrom "DOC-18" ;
+    fh:startOffset 84 ;
+    fh:endOffset 138 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_122 a rdf:Statement ;
+    rdf:subject fh:Compartment_V107 ;
+    rdf:predicate fh:YIELDS ;
+    rdf:object fh:Product_SpruceTimber ;
+    prov:wasDerivedFrom "DOC-18" ;
+    fh:startOffset 139 ;
+    fh:endOffset 209 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.94"^^xsd:decimal .
+
+fh:Assertion_123 a rdf:Statement ;
+    rdf:subject fh:Compartment_V107 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_BarkBeetle ;
+    prov:wasDerivedFrom "DOC-18" ;
+    fh:startOffset 210 ;
+    fh:endOffset 309 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_124 a rdf:Statement ;
+    rdf:subject fh:Compartment_V107 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_Drought ;
+    prov:wasDerivedFrom "DOC-18" ;
+    fh:startOffset 210 ;
+    fh:endOffset 309 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_125 a rdf:Statement ;
+    rdf:subject fh:Actor_BR02 ;
+    rdf:predicate fh:SUPERVISES ;
+    rdf:object fh:Compartment_V107 ;
+    prov:wasDerivedFrom "DOC-18" ;
+    fh:startOffset 310 ;
+    fh:endOffset 351 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_126 a rdf:Statement ;
+    rdf:subject fh:Actor_F201 ;
+    rdf:predicate fh:MITIGATES ;
+    rdf:object fh:Threat_BarkBeetle ;
+    prov:wasDerivedFrom "DOC-18" ;
+    fh:startOffset 352 ;
+    fh:endOffset 423 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.93"^^xsd:decimal .
+
+fh:Assertion_127 a rdf:Statement ;
+    rdf:subject fh:Compartment_V101 ;
+    rdf:predicate fh:PART_OF ;
+    rdf:object fh:Forestry_LS02 ;
+    prov:wasDerivedFrom "DOC-19" ;
+    fh:startOffset 0 ;
+    fh:endOffset 72 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.97"^^xsd:decimal .
+
+fh:Assertion_128 a rdf:Statement ;
+    rdf:subject fh:Compartment_V101 ;
+    rdf:predicate fh:DOMINATED_BY ;
+    rdf:object fh:Species_FagusSylvatica ;
+    prov:wasDerivedFrom "DOC-19" ;
+    fh:startOffset 73 ;
+    fh:endOffset 127 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_129 a rdf:Statement ;
+    rdf:subject fh:Compartment_V101 ;
+    rdf:predicate fh:YIELDS ;
+    rdf:object fh:Product_BoletusMushrooms ;
+    prov:wasDerivedFrom "DOC-19" ;
+    fh:startOffset 128 ;
+    fh:endOffset 196 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.94"^^xsd:decimal .
+
+fh:Assertion_130 a rdf:Statement ;
+    rdf:subject fh:Compartment_V101 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_Windthrow ;
+    prov:wasDerivedFrom "DOC-19" ;
+    fh:startOffset 197 ;
+    fh:endOffset 280 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_131 a rdf:Statement ;
+    rdf:subject fh:Compartment_V101 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_RootRot ;
+    prov:wasDerivedFrom "DOC-19" ;
+    fh:startOffset 197 ;
+    fh:endOffset 280 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_132 a rdf:Statement ;
+    rdf:subject fh:Actor_BR02 ;
+    rdf:predicate fh:MITIGATES ;
+    rdf:object fh:Threat_Windthrow ;
+    prov:wasDerivedFrom "DOC-19" ;
+    fh:startOffset 374 ;
+    fh:endOffset 448 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.93"^^xsd:decimal .
+
+fh:Assertion_133 a rdf:Statement ;
+    rdf:subject fh:Compartment_V203 ;
+    rdf:predicate fh:PART_OF ;
+    rdf:object fh:Forestry_LS03 ;
+    prov:wasDerivedFrom "DOC-20" ;
+    fh:startOffset 0 ;
+    fh:endOffset 76 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.97"^^xsd:decimal .
+
+fh:Assertion_134 a rdf:Statement ;
+    rdf:subject fh:Compartment_V203 ;
+    rdf:predicate fh:DOMINATED_BY ;
+    rdf:object fh:Species_PiceaAbies ;
+    prov:wasDerivedFrom "DOC-20" ;
+    fh:startOffset 77 ;
+    fh:endOffset 156 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_135 a rdf:Statement ;
+    rdf:subject fh:Compartment_V203 ;
+    rdf:predicate fh:YIELDS ;
+    rdf:object fh:Product_SpruceTimber ;
+    prov:wasDerivedFrom "DOC-20" ;
+    fh:startOffset 157 ;
+    fh:endOffset 221 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.94"^^xsd:decimal .
+
+fh:Assertion_136 a rdf:Statement ;
+    rdf:subject fh:Compartment_V203 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_BarkBeetle ;
+    prov:wasDerivedFrom "DOC-20" ;
+    fh:startOffset 222 ;
+    fh:endOffset 293 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_137 a rdf:Statement ;
+    rdf:subject fh:Compartment_V203 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_Drought ;
+    prov:wasDerivedFrom "DOC-20" ;
+    fh:startOffset 222 ;
+    fh:endOffset 293 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_138 a rdf:Statement ;
+    rdf:subject fh:Actor_F301 ;
+    rdf:predicate fh:SUPERVISES ;
+    rdf:object fh:Compartment_V203 ;
+    prov:wasDerivedFrom "DOC-20" ;
+    fh:startOffset 294 ;
+    fh:endOffset 336 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_139 a rdf:Statement ;
+    rdf:subject fh:Actor_F301 ;
+    rdf:predicate fh:MITIGATES ;
+    rdf:object fh:Threat_BarkBeetle ;
+    prov:wasDerivedFrom "DOC-20" ;
+    fh:startOffset 337 ;
+    fh:endOffset 409 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.93"^^xsd:decimal .
+
+fh:Assertion_140 a rdf:Statement ;
+    rdf:subject fh:Compartment_V204 ;
+    rdf:predicate fh:PART_OF ;
+    rdf:object fh:Forestry_LS03 ;
+    prov:wasDerivedFrom "DOC-21" ;
+    fh:startOffset 0 ;
+    fh:endOffset 75 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.97"^^xsd:decimal .
+
+fh:Assertion_141 a rdf:Statement ;
+    rdf:subject fh:Compartment_V204 ;
+    rdf:predicate fh:DOMINATED_BY ;
+    rdf:object fh:Species_FagusSylvatica ;
+    prov:wasDerivedFrom "DOC-21" ;
+    fh:startOffset 76 ;
+    fh:endOffset 127 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_142 a rdf:Statement ;
+    rdf:subject fh:Compartment_V204 ;
+    rdf:predicate fh:YIELDS ;
+    rdf:object fh:Product_BeechTimber ;
+    prov:wasDerivedFrom "DOC-21" ;
+    fh:startOffset 128 ;
+    fh:endOffset 200 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.94"^^xsd:decimal .
+
+fh:Assertion_143 a rdf:Statement ;
+    rdf:subject fh:Compartment_V204 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_RootRot ;
+    prov:wasDerivedFrom "DOC-21" ;
+    fh:startOffset 201 ;
+    fh:endOffset 306 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_144 a rdf:Statement ;
+    rdf:subject fh:Actor_BR03 ;
+    rdf:predicate fh:SUPERVISES ;
+    rdf:object fh:Compartment_V204 ;
+    prov:wasDerivedFrom "DOC-21" ;
+    fh:startOffset 307 ;
+    fh:endOffset 376 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_145 a rdf:Statement ;
+    rdf:subject fh:Actor_F302 ;
+    rdf:predicate fh:MITIGATES ;
+    rdf:object fh:Threat_RootRot ;
+    prov:wasDerivedFrom "DOC-21" ;
+    fh:startOffset 377 ;
+    fh:endOffset 452 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.93"^^xsd:decimal .
+
+fh:Assertion_146 a rdf:Statement ;
+    rdf:subject fh:Compartment_V201 ;
+    rdf:predicate fh:PART_OF ;
+    rdf:object fh:Forestry_LS03 ;
+    prov:wasDerivedFrom "DOC-22" ;
+    fh:startOffset 0 ;
+    fh:endOffset 85 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.97"^^xsd:decimal .
+
+fh:Assertion_147 a rdf:Statement ;
+    rdf:subject fh:Compartment_V201 ;
+    rdf:predicate fh:DOMINATED_BY ;
+    rdf:object fh:Species_AbiesAlba ;
+    prov:wasDerivedFrom "DOC-22" ;
+    fh:startOffset 86 ;
+    fh:endOffset 133 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_148 a rdf:Statement ;
+    rdf:subject fh:Compartment_V201 ;
+    rdf:predicate fh:YIELDS ;
+    rdf:object fh:Product_StJohnsWort ;
+    prov:wasDerivedFrom "DOC-22" ;
+    fh:startOffset 134 ;
+    fh:endOffset 198 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.94"^^xsd:decimal .
+
+fh:Assertion_149 a rdf:Statement ;
+    rdf:subject fh:Compartment_V201 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_CrownFire ;
+    prov:wasDerivedFrom "DOC-22" ;
+    fh:startOffset 199 ;
+    fh:endOffset 297 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_150 a rdf:Statement ;
+    rdf:subject fh:Compartment_V201 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_Drought ;
+    prov:wasDerivedFrom "DOC-22" ;
+    fh:startOffset 199 ;
+    fh:endOffset 297 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_151 a rdf:Statement ;
+    rdf:subject fh:Actor_F301 ;
+    rdf:predicate fh:SUPERVISES ;
+    rdf:object fh:Compartment_V201 ;
+    prov:wasDerivedFrom "DOC-22" ;
+    fh:startOffset 298 ;
+    fh:endOffset 339 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_152 a rdf:Statement ;
+    rdf:subject fh:Actor_DSNS_IvanoFrankivsk ;
+    rdf:predicate fh:MITIGATES ;
+    rdf:object fh:Threat_CrownFire ;
+    prov:wasDerivedFrom "DOC-22" ;
+    fh:startOffset 340 ;
+    fh:endOffset 426 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.93"^^xsd:decimal .
+
+fh:Assertion_153 a rdf:Statement ;
+    rdf:subject fh:Compartment_V206 ;
+    rdf:predicate fh:PART_OF ;
+    rdf:object fh:Forestry_LS04 ;
+    prov:wasDerivedFrom "DOC-23" ;
+    fh:startOffset 0 ;
+    fh:endOffset 74 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.97"^^xsd:decimal .
+
+fh:Assertion_154 a rdf:Statement ;
+    rdf:subject fh:Compartment_V206 ;
+    rdf:predicate fh:DOMINATED_BY ;
+    rdf:object fh:Species_FagusSylvatica ;
+    prov:wasDerivedFrom "DOC-23" ;
+    fh:startOffset 75 ;
+    fh:endOffset 129 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_155 a rdf:Statement ;
+    rdf:subject fh:Compartment_V206 ;
+    rdf:predicate fh:YIELDS ;
+    rdf:object fh:Product_BeechTimber ;
+    prov:wasDerivedFrom "DOC-23" ;
+    fh:startOffset 130 ;
+    fh:endOffset 201 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.94"^^xsd:decimal .
+
+fh:Assertion_156 a rdf:Statement ;
+    rdf:subject fh:Compartment_V206 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_Windthrow ;
+    prov:wasDerivedFrom "DOC-23" ;
+    fh:startOffset 202 ;
+    fh:endOffset 285 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_157 a rdf:Statement ;
+    rdf:subject fh:Compartment_V206 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_RootRot ;
+    prov:wasDerivedFrom "DOC-23" ;
+    fh:startOffset 202 ;
+    fh:endOffset 285 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_158 a rdf:Statement ;
+    rdf:subject fh:Actor_F401 ;
+    rdf:predicate fh:SUPERVISES ;
+    rdf:object fh:Compartment_V206 ;
+    prov:wasDerivedFrom "DOC-23" ;
+    fh:startOffset 339 ;
+    fh:endOffset 378 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_159 a rdf:Statement ;
+    rdf:subject fh:Actor_F401 ;
+    rdf:predicate fh:MITIGATES ;
+    rdf:object fh:Threat_Windthrow ;
+    prov:wasDerivedFrom "DOC-23" ;
+    fh:startOffset 379 ;
+    fh:endOffset 453 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.93"^^xsd:decimal .
+
+fh:Assertion_160 a rdf:Statement ;
+    rdf:subject fh:Compartment_V205 ;
+    rdf:predicate fh:PART_OF ;
+    rdf:object fh:Forestry_LS04 ;
+    prov:wasDerivedFrom "DOC-24" ;
+    fh:startOffset 0 ;
+    fh:endOffset 76 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.97"^^xsd:decimal .
+
+fh:Assertion_161 a rdf:Statement ;
+    rdf:subject fh:Compartment_V205 ;
+    rdf:predicate fh:DOMINATED_BY ;
+    rdf:object fh:Species_QuercusRobur ;
+    prov:wasDerivedFrom "DOC-24" ;
+    fh:startOffset 77 ;
+    fh:endOffset 152 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_162 a rdf:Statement ;
+    rdf:subject fh:Compartment_V205 ;
+    rdf:predicate fh:YIELDS ;
+    rdf:object fh:Product_OakTimber ;
+    prov:wasDerivedFrom "DOC-24" ;
+    fh:startOffset 153 ;
+    fh:endOffset 216 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.94"^^xsd:decimal .
+
+fh:Assertion_163 a rdf:Statement ;
+    rdf:subject fh:Compartment_V205 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_SurfaceFire ;
+    prov:wasDerivedFrom "DOC-24" ;
+    fh:startOffset 217 ;
+    fh:endOffset 286 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_164 a rdf:Statement ;
+    rdf:subject fh:Compartment_V205 ;
+    rdf:predicate fh:AFFECTED_BY ;
+    rdf:object fh:Threat_Drought ;
+    prov:wasDerivedFrom "DOC-24" ;
+    fh:startOffset 217 ;
+    fh:endOffset 286 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.92"^^xsd:decimal .
+
+fh:Assertion_165 a rdf:Statement ;
+    rdf:subject fh:Actor_F401 ;
+    rdf:predicate fh:SUPERVISES ;
+    rdf:object fh:Compartment_V205 ;
+    prov:wasDerivedFrom "DOC-24" ;
+    fh:startOffset 287 ;
+    fh:endOffset 329 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.95"^^xsd:decimal .
+
+fh:Assertion_166 a rdf:Statement ;
+    rdf:subject fh:Actor_DSNS_Lviv ;
+    rdf:predicate fh:MITIGATES ;
+    rdf:object fh:Threat_SurfaceFire ;
+    prov:wasDerivedFrom "DOC-24" ;
+    fh:startOffset 330 ;
+    fh:endOffset 405 ;
+    fh:model "gemini-2.5-flash" ;
+    fh:confidence "0.93"^^xsd:decimal .
