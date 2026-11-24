@@ -1,0 +1,7 @@
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+# Для запуску нейромережевого режиму (--backend neural) на локальній машині:
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+rank-bm25>=0.2.2

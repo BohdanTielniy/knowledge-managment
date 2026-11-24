@@ -5,3 +5,5 @@ __pycache__/
 outputs/
 *.pdf
 *.png
+*.zip
+!lab9/src/docs/graph_schema.png

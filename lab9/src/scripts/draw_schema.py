@@ -10,13 +10,13 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 OUT = os.path.join(ROOT, "docs", "graph_schema.png")
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
 
-W, H = 2.9, 1.5  # розмір рамки вузла
+W, H = 3.1, 1.55  # розмір рамки вузла
 NODES = {  # мітка: (x, y, колір, підмітки, ключові властивості)
     "Forestry": (2.0, 9.0, "#e1f0f5", "", "id, unitCode, name, areaHectares"),
     "Compartment": (8.6, 9.0, "#e1f0f5", "", "id, unitCode, areaHectares, standAgeYears,\ndamagedTreesShare, ndviValue"),
     "TreeSpecies": (15.2, 9.0, "#e3f1df", ":ConiferousSpecies | :DeciduousSpecies", "id, name, latinName"),
     "Threat": (2.0, 5.2, "#fbe3d6", ":InsectPest | :ForestDisease\n:Drought | :Windthrow", "id, name, kind, detectedOn"),
-    "Process": (8.6, 5.2, "#e3f1df", ":TimberHarvesting:SanitaryFelling | :MainFelling\n:Reforestation | :FirePreventionMeasure",
+    "Process": (8.6, 5.2, "#e3f1df", ":TimberHarvesting (:SanitaryFelling | :MainFelling)\n:Reforestation | :FirePreventionMeasure",
                 "id, name, plannedDate, harvestVolumeM3,\nplantedSeedlingsCount"),
     "ForestProduct": (15.2, 5.2, "#e3f1df", ":TimberProduct | :NonTimberProduct", "id, name, category"),
     "MeteoObservation": (2.0, 1.2, "#fbe3d6", "", "id, observationDate, airTemperatureC,\nairHumidityPercent, daysWithoutRain"),
@@ -36,11 +36,11 @@ def box(label):
     x, y, col, sub, props = NODES[label]
     ax.add_patch(FancyBboxPatch((x - W / 2, y - H / 2), W, H, boxstyle="round,pad=0.05,rounding_size=0.15",
                                 fc=col, ec="#2d4a3e", lw=1.6, zorder=2))
-    ax.text(x, y + 0.45, f":{label}", ha="center", va="center", fontsize=13, fontweight="bold", zorder=3)
-    yy = y + 0.12
+    ax.text(x, y + 0.48, f":{label}", ha="center", va="center", fontsize=13, fontweight="bold", zorder=3)
+    yy = y + 0.16
     if sub:
-        ax.text(x, yy, sub, ha="center", va="top", fontsize=7.6, color="#7a2b20", zorder=3)
-    ax.text(x, y - H / 2 + 0.08, props, ha="center", va="bottom", fontsize=7.6, color="#333", zorder=3)
+        ax.text(x, yy, sub, ha="center", va="top", fontsize=7.0, color="#7a2b20", zorder=3)
+    ax.text(x, y - H / 2 + 0.08, props, ha="center", va="bottom", fontsize=7.3, color="#333", zorder=3)
 
 
 for k in NODES:
@@ -89,7 +89,7 @@ ax.annotate("", xy=(6.0 + 1.35, 1.2 + H / 2), xytext=(8.6 - 0.1, 5.2 - H / 2),
             arrowprops=dict(arrowstyle="-|>", color="#2d4a3e", lw=1.5, connectionstyle="arc3,rad=0.12"))
 ax.text(8.75, 2.45, "NOTIFIES\n(патруль → ДСНС)", ha="center", va="center", fontsize=8.6, color="#8a1c1c",
         bbox=dict(fc="white", ec="none", pad=1.2, alpha=0.95), zorder=4)
-ax.add_patch(FancyArrowPatch((8.6 + 1.0, 5.2 + H / 2), (8.6 + 1.45, 5.2 + 0.25),
+ax.add_patch(FancyArrowPatch((8.6 + 1.0, 5.2 + H / 2), (8.6 + 1.55, 5.2 + 0.25),
                              connectionstyle="arc3,rad=-1.6", arrowstyle="-|>", mutation_scale=16,
                              lw=1.5, color="#2d4a3e", zorder=1))
 ax.text(11.5, 6.55, "FOLLOWED_BY\n(рубка → лісовідновлення)", ha="center", va="center", fontsize=8.6,

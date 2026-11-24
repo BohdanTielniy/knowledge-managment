@@ -1,0 +1,45 @@
+{"qid": "G01", "query": "частка ураження короїдом V-012", "query_type": "keyword", "answerable": true, "relevant_docs": ["DOC-01"]}
+{"qid": "G02", "query": "площа лісництва Бескидське LS-02", "query_type": "keyword", "answerable": true, "relevant_docs": ["DOC-02"]}
+{"qid": "G03", "query": "максимальне ураження 28.7 відсотка V-207", "query_type": "keyword", "answerable": true, "relevant_docs": ["DOC-03"]}
+{"qid": "G04", "query": "виділ V-301 раннє попередження NDVI 0.63", "query_type": "keyword", "answerable": true, "relevant_docs": ["DOC-04", "DOC-09"]}
+{"qid": "G05", "query": "феромонні пастки Ips typographus травень серпень", "query_type": "keyword", "answerable": true, "relevant_docs": ["DOC-05"]}
+{"qid": "G06", "query": "Phlebiopsis gigantea обробка пнів Heterobasidion", "query_type": "keyword", "answerable": true, "relevant_docs": ["DOC-06"]}
+{"qid": "G07", "query": "правило R8 30 градусів 30 відсотків 7 діб", "query_type": "keyword", "answerable": true, "relevant_docs": ["DOC-07"]}
+{"qid": "G08", "query": "метеозамір 2026-10-28 LS-01 14.5 градусів", "query_type": "keyword", "answerable": true, "relevant_docs": ["DOC-08"]}
+{"qid": "G09", "query": "Sentinel-2 Band 8 Band 4 формула NDVI", "query_type": "keyword", "answerable": true, "relevant_docs": ["DOC-09"]}
+{"qid": "G10", "query": "лісорубний квиток ЛК-2026-039 ЛК-2026-042", "query_type": "keyword", "answerable": true, "relevant_docs": ["DOC-10"]}
+{"qid": "G11", "query": "квиток ЛК-2026-047 перевищення квоти 74 м3", "query_type": "keyword", "answerable": true, "relevant_docs": ["DOC-11"]}
+{"qid": "G12", "query": "71800 саджанців весняне садіння 2027 ЗКС", "query_type": "keyword", "answerable": true, "relevant_docs": ["DOC-12"]}
+{"qid": "G13", "query": "Quota_2026_NonTimber_800kg білі гриби чорниця", "query_type": "keyword", "answerable": true, "relevant_docs": ["DOC-13"]}
+{"qid": "G14", "query": "букові насадження Fagus sylvatica 11 виділів", "query_type": "keyword", "answerable": true, "relevant_docs": ["DOC-14"]}
+{"qid": "G15", "query": "Фомін О.В. F-104 Бригада №1 Бригада №3", "query_type": "keyword", "answerable": true, "relevant_docs": ["DOC-15"]}
+{"qid": "G16", "query": "буферні зони 25-50 метрів сертифікація FSC", "query_type": "keyword", "answerable": true, "relevant_docs": ["DOC-16"]}
+{"qid": "G17", "query": "похибка LiDAR запас деревини 8 відсотків CHM", "query_type": "keyword", "answerable": true, "relevant_docs": ["DOC-17"]}
+{"qid": "G18", "query": "ТТН-ліс електронний облік деревини ЕОД бирка", "query_type": "keyword", "answerable": true, "relevant_docs": ["DOC-18"]}
+{"qid": "G19", "query": "Verra VCS Gold Standard депонування CO2", "query_type": "keyword", "answerable": true, "relevant_docs": ["DOC-19"]}
+{"qid": "G20", "query": "Ciconia nigra сезон тиші 1 квітня 15 червня", "query_type": "keyword", "answerable": true, "relevant_docs": ["DOC-20"]}
+{"qid": "G21", "query": "Як оцінюється ризик лісової пожежі за погодними показниками?", "query_type": "paraphrase", "answerable": true, "relevant_docs": ["DOC-07", "DOC-08"]}
+{"qid": "G22", "query": "Яким чином супутникові знімки допомагають завчасно помітити хвороби лісу?", "query_type": "paraphrase", "answerable": true, "relevant_docs": ["DOC-09"]}
+{"qid": "G23", "query": "Чому не можна збирати ягоди залізними пристосуваннями?", "query_type": "paraphrase", "answerable": true, "relevant_docs": ["DOC-13", "DOC-24"]}
+{"qid": "G24", "query": "Як лазерне сканування з повітря покращує облік лісового фонду?", "query_type": "paraphrase", "answerable": true, "relevant_docs": ["DOC-17"]}
+{"qid": "G25", "query": "Чому чисті ялинові насадження варто замінювати мішаними лісами?", "query_type": "paraphrase", "answerable": true, "relevant_docs": ["DOC-14", "DOC-28"]}
+{"qid": "G26", "query": "Який захисний одяг та спорядження обов'язкові для вальника?", "query_type": "paraphrase", "answerable": true, "relevant_docs": ["DOC-23"]}
+{"qid": "G27", "query": "Як транспортують колоди на крутих гірських схилах без руйнування ґрунту?", "query_type": "paraphrase", "answerable": true, "relevant_docs": ["DOC-18"]}
+{"qid": "G28", "query": "Які категорії лісів забороняють рубки головного користування за законом?", "query_type": "paraphrase", "answerable": true, "relevant_docs": ["DOC-25"]}
+{"qid": "G29", "query": "Як всихання хвойних від шкідників впливає на ціну та сортність лісу?", "query_type": "paraphrase", "answerable": true, "relevant_docs": ["DOC-22", "DOC-26"]}
+{"qid": "G30", "query": "Яка роль лісової підстилки в утриманні вологи під час посух?", "query_type": "paraphrase", "answerable": true, "relevant_docs": ["DOC-28"]}
+{"qid": "G31", "query": "Які підрозділи ДСНС сповіщають при пожежному ризику і скільки є пунктів забору води?", "query_type": "multi_hop", "answerable": true, "relevant_docs": ["DOC-07", "DOC-27"]}
+{"qid": "G32", "query": "Яка бригада виконує рубку на V-102 і чому призупинили її квиток?", "query_type": "multi_hop", "answerable": true, "relevant_docs": ["DOC-11", "DOC-15"]}
+{"qid": "G33", "query": "На яких ділянках без плану садіння 2027 вже заплановано головну рубку?", "query_type": "multi_hop", "answerable": true, "relevant_docs": ["DOC-03", "DOC-12"]}
+{"qid": "G34", "query": "Чому поєднання BM25, векторного пошуку та pre-filter потрібне для ЛР 11 і захисту рідкісних біотопів?", "query_type": "multi_hop", "answerable": true, "relevant_docs": ["DOC-20", "DOC-21"]}
+{"qid": "G35", "query": "Які виділи мають одночасно низький NDVI і підтверджене кореневе гниття?", "query_type": "multi_hop", "answerable": true, "relevant_docs": ["DOC-04", "DOC-06", "DOC-09"]}
+{"qid": "G36", "query": "Які інциденти з нелегальним збором чорниці сталися в LS-03 і який там сезонний ліміт?", "query_type": "multi_hop", "answerable": true, "relevant_docs": ["DOC-13", "DOC-24"]}
+{"qid": "G37", "query": "Як поєднати дані LiDAR та NDVI для відрізнення вітровалу від короїда?", "query_type": "multi_hop", "answerable": true, "relevant_docs": ["DOC-09", "DOC-17"]}
+{"qid": "G38", "query": "Який сумарний обсяг рубок 2026 року і як його контролює електронний облік ЕОД?", "query_type": "multi_hop", "answerable": true, "relevant_docs": ["DOC-18"]}
+{"qid": "G39", "query": "Які породи найдорожчі на аукціонах 2026 року і як ранній моніторинг зменшує втрати?", "query_type": "multi_hop", "answerable": true, "relevant_docs": ["DOC-22", "DOC-26"]}
+{"qid": "G40", "query": "Яка заробітна плата лісника F-104 у гривнях за жовтень 2026 року?", "query_type": "no_answer", "answerable": false, "relevant_docs": []}
+{"qid": "G41", "query": "Скільки вовків та бурих ведмедів обліковано в лісництві Карпатське у 2026 році?", "query_type": "no_answer", "answerable": false, "relevant_docs": []}
+{"qid": "G42", "query": "Який номер державної реєстрації вантажівки-лісовоза Бригади №2?", "query_type": "no_answer", "answerable": false, "relevant_docs": []}
+{"qid": "G43", "query": "Яка середня глибина снігового покриву у лютому 2025 року на горі Говерла?", "query_type": "no_answer", "answerable": false, "relevant_docs": []}
+{"qid": "G44", "query": "Яка ставка експортного мита на фанеру до Польщі у 2027 році?", "query_type": "no_answer", "answerable": false, "relevant_docs": []}
+{"qid": "G45", "query": "Який обсяг вилову форелі дозволено в гірських річках LS-04?", "query_type": "no_answer", "answerable": false, "relevant_docs": []}

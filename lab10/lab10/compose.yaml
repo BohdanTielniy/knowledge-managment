@@ -1,0 +1,20 @@
+# ЛР 10. Векторне сховище та семантичний пошук (FAISS + sentence-transformers + BM25) у Docker.
+services:
+  lab10:
+    build: .
+    image: lab10-vector-search:latest
+    container_name: lab10-vector-search
+    environment:
+      # neural — sentence-transformers + faiss-cpu + CrossEncoder (потрібен інтернет при першому запуску)
+      # local  — автономний SVD/HNSW-бекенд без завантаження моделей
+      BACKEND: ${BACKEND:-neural}
+      HF_HOME: /cache/huggingface
+    volumes:
+      - ./data:/app/data
+      - ./kb:/app/kb
+      - ./docs:/app/docs
+      - ./outputs:/app/outputs
+      - hf_cache:/cache/huggingface
+
+volumes:
+  hf_cache:
