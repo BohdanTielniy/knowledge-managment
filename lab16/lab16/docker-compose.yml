@@ -1,0 +1,24 @@
+services:
+  neo4j:
+    image: neo4j:5.26-community
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      - NEO4J_AUTH=neo4j/${NEO4J_PASSWORD:-foresthub_local}
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:7474 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  hub-api:
+    build: .
+    command: python3 app/demo_cli.py
+    environment:
+      - HUB_ENV=production
+      - HUB_ROLE=forester
+    volumes:
+      - ./outputs:/app/outputs
+    depends_on:
+      - neo4j

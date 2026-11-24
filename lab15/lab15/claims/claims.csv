@@ -1,0 +1,11 @@
+id,claim,type,source,verification_level,status,comment
+CL-01,Специфікація містить 4 інструменти з JSON-схемами лімітами забороненими діями та 3 типами пам'яті,правило,docs/agent_spec.md,V2,verified,Перевірено на відповідність критеріям C1-C4 Результату 1
+CL-02,Агент (plan->retrieve->draft->verify) та MCP-сервер запускаються і викликають 3 read-only інструменти,факт,outputs/trace_log.jsonl; mcp_server/server.py,V2,verified,Живий прогін підтвердив роботу RAG ЛР11 + OLAP ЛР12 + Графа ЛР14
+CL-03,Вузол verify перевіряє кожну цитату на належність до виходу інструментів перед відповіддю,правило,agent/graph_agent.py,V2,verified,Підтверджено на 12 сценарних тестах
+CL-04,Після виправлення 3 типів невдач успішність сценаріїв зросла з v1 до 100% у v2 (12/12),факт,outputs/scenarios_eval.json,V4,verified,Виправлено SC-06 SC-09/10 SC-11/12; повторний прогін = 12/12
+CL-05,Без захистів агент блокував 0/8 атак (0%) а після впровадження agent/security.py — 8/8 (100%),факт,outputs/security_eval.json,V3,verified,Протестовано 6 типів атак включно з indirect injection і tool poisoning
+CL-06,Достатньо захистити агента лише від прямого prompt injection у запиті користувача,гіпотеза,Початкова чернетка,V3,rejected,Відхилено: непрямий injection у документі (ATK-02) і tool poisoning (ATK-07) обходять лише вхідний фільтр
+CL-07,Інструмент propose_fact валідує SHACL-правила класифікує ризик і вимагає HITL для medium/high,правило,agent/propose_fact.py,V2,verified,Перевірено на 3 сценаріях HITL-01..03
+CL-08,Зміну квоти вирубки (quota_m3) можна записувати автоматично без людини при наявності URL,гіпотеза,Чернетка LLM (Сесія 2),V3,rejected,Відхилено: зміна квоти — high-risk; на HITL-03 людина відхилила 780 м3 > приросту 555 м3
+CL-09,Продемонстровано всі 3 сценарії HITL (auto_approved human_approved human_rejected) із журналом аудиту,факт,outputs/hitl_audit.jsonl; docs/hitl.md,V4,verified,Схвалено 2/3 (66.7%) середній час рішення людини = 11.85 с
+CL-10,Усі зовнішні сховища доступні агенту виключно в режимі read-only (mode=ro AST-фільтр),правило,agent/tools.py; agent/security.py,V2,verified,ATK-03 (SQL DROP) та ATK-04 (Cypher DETACH DELETE) заблоковано

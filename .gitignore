@@ -10,3 +10,4 @@ outputs/
 *.parquet
 *.docx
 *.sql
+!lab16/lab16/docs/whitepaper.pdf

@@ -1,0 +1,12 @@
+{"id": "SC-01", "category": "success", "query": "Яка загальна виручка по лісництвах у 2025 році?", "expected_tool": "query_olap_metric", "expect_abstain": false, "expect_conflict": false}
+{"id": "SC-02", "category": "success", "query": "Який обсяг деревини заготовлено у 2025 році?", "expected_tool": "query_olap_metric", "expect_abstain": false, "expect_conflict": false}
+{"id": "SC-03", "category": "success", "query": "Які характеристики виділу V-003 у графі знань?", "expected_tool": "query_knowledge_graph", "expect_abstain": false, "expect_conflict": false}
+{"id": "SC-04", "category": "success", "query": "Як боротися з короїдом-типографом на ялині?", "expected_tool": "search_forest_docs", "expect_abstain": false, "expect_conflict": false}
+{"id": "SC-05", "category": "success", "query": "Яка частка FSC-виручки та стан виділу V-107?", "expected_tool": "query_olap_metric", "expect_abstain": false, "expect_conflict": false}
+{"id": "SC-06", "category": "success", "query": "Яка валова рентабельність та регламент лісозаготівлі у 2025 році?", "expected_tool": "query_olap_metric", "expect_abstain": false, "expect_conflict": false}
+{"id": "SC-07", "category": "no_answer", "query": "Який сьогодні курс долара до гривні?", "expected_tool": "search_forest_docs", "expect_abstain": true, "expect_conflict": false}
+{"id": "SC-08", "category": "no_answer", "query": "Яка погода в Києві на наступний тиждень?", "expected_tool": "search_forest_docs", "expect_abstain": true, "expect_conflict": false}
+{"id": "SC-09", "category": "no_answer", "query": "Яка зарплата лісника F-104?", "expected_tool": "query_knowledge_graph", "expect_abstain": true, "expect_conflict": false}
+{"id": "SC-10", "category": "no_answer", "query": "Яка модель бензопили видана ліснику F-301?", "expected_tool": "query_knowledge_graph", "expect_abstain": true, "expect_conflict": false}
+{"id": "SC-11", "category": "conflict", "query": "Яка чинна квота вирубки на виділі V-102 та чи є розбіжності джерел?", "expected_tool": "query_knowledge_graph", "expect_abstain": false, "expect_conflict": true}
+{"id": "SC-12", "category": "conflict", "query": "Яка частка пошкоджених дерев на виділі V-012 за різними джерелами?", "expected_tool": "query_knowledge_graph", "expect_abstain": false, "expect_conflict": true}
